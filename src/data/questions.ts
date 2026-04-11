@@ -1,22 +1,14 @@
 export interface Ruby {
-  /** The kanji/text that gets ruby */
   text: string;
-  /** The ruby reading above */
   ruby: string;
-  /** Start index in the sentence */
   start: number;
-  /** End index (exclusive) */
   end: number;
 }
 
 export interface QuestionBlank {
-  /** The kanji text to be answered */
   kanji: string;
-  /** Hiragana reading of the kanji */
   reading: string;
-  /** Start index in the sentence */
   start: number;
-  /** End index (exclusive) */
   end: number;
 }
 
@@ -27,20 +19,17 @@ export interface Question {
   rubies: Ruby[];
 }
 
-// 画像準拠の問題（10問）
 export const questions: Question[] = [
   {
     id: 1,
     sentence: "海岸のペットボトルを拾う。",
     blank: { kanji: "拾", reading: "ひろ", start: 10, end: 11 },
-    rubies: [
-      { text: "海岸", ruby: "かいがん", start: 0, end: 2 },
-    ],
+    rubies: [{ text: "海岸", ruby: "かいがん", start: 0, end: 2 }],
   },
   {
     id: 2,
     sentence: "着られなくなった洋服を捨てる。",
-    blank: { kanji: "捨", reading: "す", start: 12, end: 13 },
+    blank: { kanji: "捨", reading: "す", start: 11, end: 12 },
     rubies: [
       { text: "着", ruby: "き", start: 0, end: 1 },
       { text: "洋服", ruby: "ようふく", start: 8, end: 10 },
@@ -49,10 +38,8 @@ export const questions: Question[] = [
   {
     id: 3,
     sentence: "火事でとなりのアパートが燃えた。",
-    blank: { kanji: "燃", reading: "も", start: 13, end: 14 },
-    rubies: [
-      { text: "火事", ruby: "かじ", start: 0, end: 2 },
-    ],
+    blank: { kanji: "燃", reading: "も", start: 12, end: 13 },
+    rubies: [{ text: "火事", ruby: "かじ", start: 0, end: 2 }],
   },
   {
     id: 4,
@@ -68,9 +55,7 @@ export const questions: Question[] = [
     id: 5,
     sentence: "雨にぬれて紙袋がやぶれそうだ。",
     blank: { kanji: "紙袋", reading: "かみぶくろ", start: 5, end: 7 },
-    rubies: [
-      { text: "雨", ruby: "あめ", start: 0, end: 1 },
-    ],
+    rubies: [{ text: "雨", ruby: "あめ", start: 0, end: 1 }],
   },
   {
     id: 6,
@@ -78,14 +63,14 @@ export const questions: Question[] = [
     blank: { kanji: "拾得物", reading: "しゅうとくぶつ", start: 3, end: 6 },
     rubies: [
       { text: "校内", ruby: "こうない", start: 0, end: 2 },
-      { text: "定期", ruby: "ていき", start: 12, end: 14 },
-      { text: "多", ruby: "おお", start: 15, end: 16 },
+      { text: "定期", ruby: "ていき", start: 11, end: 13 },
+      { text: "多", ruby: "おお", start: 14, end: 15 },
     ],
   },
   {
     id: 7,
     sentence: "小数点第一位を四捨五入する。",
-    blank: { kanji: "四捨五入", reading: "ししゃごにゅう", start: 6, end: 10 },
+    blank: { kanji: "四捨五入", reading: "ししゃごにゅう", start: 7, end: 11 },
     rubies: [
       { text: "小数点", ruby: "しょうすうてん", start: 0, end: 3 },
       { text: "第一位", ruby: "だいいちい", start: 3, end: 6 },
@@ -118,7 +103,7 @@ export const questions: Question[] = [
     rubies: [
       { text: "寒", ruby: "さむ", start: 0, end: 1 },
       { text: "日", ruby: "ひ", start: 2, end: 3 },
-      { text: "出", ruby: "で", start: 11, end: 12 },
+      { text: "出", ruby: "で", start: 10, end: 11 },
     ],
   },
 ];
