@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 import type { Question } from "@/data/questions";
+import SentenceDisplay from "./SentenceDisplay";
 
 interface Props {
   question: Question;
@@ -9,122 +10,71 @@ interface Props {
 }
 
 export default function KanjiMode({ question, onComplete }: Props) {
-  const [answers, setAnswers] = useState<string[]>(
-    question.blanks.map(() => "")
-  );
-  const [results, setResults] = useState<boolean[] | null>(null);
-  const inputRefs = useRef<(HTMLInputElement | null)[]>([]);
+  const [answer, setAnswer] = useState("");
+  const [result, setResult] = useState<boolean | null>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
 
   useEffect(() => {
-    setAnswers(question.blanks.map(() => ""));
-    setResults(null);
-    setTimeout(() => inputRefs.current[0]?.focus(), 100);
+    setAnswer("");
+    setResult(null);
+    setTimeout(() => inputRef.current?.focus(), 100);
   }, [question]);
 
   const handleSubmit = () => {
-    const checked = question.blanks.map(
-      (blank, i) => answers[i].trim() === blank.kanji
-    );
-    setResults(checked);
+    setResult(answer.trim() === question.blank.kanji);
   };
 
   const handleNext = () => {
-    if (!results) return;
-    const correct = results.filter(Boolean).length;
-    onComplete(correct, results.length);
-  };
-
-  const renderSentence = () => {
-    const parts: React.ReactNode[] = [];
-    let lastEnd = 0;
-
-    for (let i = 0; i < question.blanks.length; i++) {
-      const blank = question.blanks[i];
-      if (blank.start > lastEnd) {
-        parts.push(
-          <span key={`text-${i}`}>
-            {question.sentence.slice(lastEnd, blank.start)}
-          </span>
-        );
-      }
-      parts.push(
-        <span
-          key={`blank-${i}`}
-          className="inline-block px-1.5 py-0.5 bg-blue rounded-lg font-bold text-white mx-0.5 sticker-sm"
-        >
-          {blank.reading}
-        </span>
-      );
-      lastEnd = blank.end;
-    }
-    if (lastEnd < question.sentence.length) {
-      parts.push(
-        <span key="text-end">{question.sentence.slice(lastEnd)}</span>
-      );
-    }
-    return parts;
+    onComplete(result ? 1 : 0, 1);
   };
 
   return (
     <div className="w-full max-w-lg space-y-5 animate-pop-in">
       {/* Sentence card */}
       <div className="sticker rounded-2xl bg-white p-5">
-        <div className="text-xl leading-loose">{renderSentence()}</div>
+        <SentenceDisplay question={question} mode="kanji" />
       </div>
 
-      {/* Answer inputs */}
+      {/* Answer input */}
       <div className="space-y-3">
-        {question.blanks.map((blank, i) => (
-          <div key={i} className="flex items-center gap-2 animate-pop-in" style={{ animationDelay: `${i * 0.1}s` }}>
-            <span className="sticker-sm rounded-lg bg-blue px-2 py-1 text-sm font-bold text-white min-w-[90px] text-center">
-              {blank.reading}
+        <div className="flex items-center gap-2 animate-pop-in">
+          <span className="sticker-sm rounded-lg bg-blue px-3 py-1.5 text-base font-bold text-white text-center">
+            {question.blank.reading}
+          </span>
+          <span className="text-xl">→</span>
+          <input
+            ref={inputRef}
+            type="text"
+            value={answer}
+            onChange={(e) => setAnswer(e.target.value)}
+            onKeyDown={(e) => {
+              if (e.key === "Enter") {
+                if (result === null) handleSubmit();
+                else handleNext();
+              }
+            }}
+            disabled={result !== null}
+            placeholder="漢字で入力"
+            className={`flex-1 px-3 py-2 rounded-xl text-lg outline-none retro-input ${
+              result === null
+                ? "bg-white"
+                : result
+                  ? "bg-green/20 !border-green"
+                  : "bg-red/20 !border-red"
+            }`}
+          />
+          {result !== null && !result && (
+            <span className="sticker-sm rounded-lg bg-red px-2 py-1 text-sm font-bold text-white">
+              {question.blank.kanji}
             </span>
-            <span className="text-xl">→</span>
-            <input
-              ref={(el) => {
-                inputRefs.current[i] = el;
-              }}
-              type="text"
-              value={answers[i]}
-              onChange={(e) => {
-                const newAnswers = [...answers];
-                newAnswers[i] = e.target.value;
-                setAnswers(newAnswers);
-              }}
-              onKeyDown={(e) => {
-                if (e.key === "Enter") {
-                  if (i + 1 < question.blanks.length) {
-                    inputRefs.current[i + 1]?.focus();
-                  } else if (!results) {
-                    handleSubmit();
-                  } else {
-                    handleNext();
-                  }
-                }
-              }}
-              disabled={results !== null}
-              placeholder="漢字で入力"
-              className={`flex-1 px-3 py-2 rounded-xl text-lg outline-none retro-input ${
-                results === null
-                  ? "bg-white"
-                  : results[i]
-                    ? "bg-green/20 !border-green"
-                    : "bg-red/20 !border-red"
-              }`}
-            />
-            {results !== null && !results[i] && (
-              <span className="sticker-sm rounded-lg bg-red px-2 py-1 text-sm font-bold text-white">
-                {blank.kanji}
-              </span>
-            )}
-            {results !== null && results[i] && (
-              <span className="text-2xl">⭕</span>
-            )}
-          </div>
-        ))}
+          )}
+          {result !== null && result && (
+            <span className="text-2xl">⭕</span>
+          )}
+        </div>
       </div>
 
-      {results === null ? (
+      {result === null ? (
         <button
           onClick={handleSubmit}
           className="w-full retro-btn rounded-2xl py-3 bg-blue text-white text-xl cursor-pointer"
