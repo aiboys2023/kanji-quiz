@@ -1,6 +1,6 @@
 "use client";
 
-import type { ChapterStat } from "@/hooks/useQuiz";
+import type { ChapterStat } from "@/lib/quizSession";
 
 interface Props {
   byChapter: Record<number, ChapterStat>;

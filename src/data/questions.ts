@@ -74,33 +74,65 @@ function distinctWrongKanjiInChapter(
   return out;
 }
 
-/** 正解1 + 同章から誤答3の4択（不足時は他章から補完） */
+/**
+ * 紛らわしい漢字を優先した4択生成
+ * 優先順: 1) 同じ読みの別漢字 2) 同じトピックの漢字 3) 同じ章の漢字 4) 他章
+ */
 export function getChoicesForKanjiMode(
   question: Question,
   allQuestions: Question[],
   random: () => number = Math.random
 ): string[] {
   const correct = question.blank.kanji;
-  const selfKey = questionKey(question);
-  const pool = distinctWrongKanjiInChapter(question, allQuestions);
-  const wrong: string[] = [];
+  const correctReading = question.blank.reading;
   const seen = new Set<string>([correct]);
-  for (const k of shuffle(pool, random)) {
+  const wrong: string[] = [];
+
+  // Priority 1: 同じ読みの別漢字（最も紛らわしい）
+  const sameReading = allQuestions.filter(
+    (q) => q.blank.reading === correctReading && q.blank.kanji !== correct
+  );
+  for (const q of shuffle(sameReading, random)) {
     if (wrong.length >= 3) break;
-    if (!seen.has(k)) {
-      seen.add(k);
-      wrong.push(k);
+    if (!seen.has(q.blank.kanji)) {
+      seen.add(q.blank.kanji);
+      wrong.push(q.blank.kanji);
     }
   }
+
+  // Priority 2: 同じトピックの漢字
   if (wrong.length < 3) {
-    const rest = shuffle(
-      allQuestions.filter((q) => questionKey(q) !== selfKey),
-      random
+    const sameTopic = allQuestions.filter(
+      (q) => q.topic === question.topic && q.blank.kanji !== correct
     );
+    for (const q of shuffle(sameTopic, random)) {
+      if (wrong.length >= 3) break;
+      if (!seen.has(q.blank.kanji)) {
+        seen.add(q.blank.kanji);
+        wrong.push(q.blank.kanji);
+      }
+    }
+  }
+
+  // Priority 3: 同じ章の漢字
+  if (wrong.length < 3) {
+    const pool = distinctWrongKanjiInChapter(question, allQuestions);
+    for (const k of shuffle(pool, random)) {
+      if (wrong.length >= 3) break;
+      if (!seen.has(k)) {
+        seen.add(k);
+        wrong.push(k);
+      }
+    }
+  }
+
+  // Priority 4: 他章から補完
+  if (wrong.length < 3) {
+    const rest = shuffle(allQuestions, random);
     for (const q of rest) {
       if (wrong.length >= 3) break;
       const k = q.blank.kanji;
-      if (k === correct || seen.has(k)) continue;
+      if (seen.has(k)) continue;
       seen.add(k);
       wrong.push(k);
     }

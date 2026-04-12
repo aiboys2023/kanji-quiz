@@ -4,7 +4,7 @@ export interface ChapterStat {
 }
 
 export interface QuizSessionSummary {
-  mode: "reading" | "kanji";
+  mode: "reading" | "kanji" | "daily";
   total: number;
   correct: number;
   wrongQuestionKeys: string[];
@@ -14,6 +14,11 @@ export interface QuizSessionSummary {
 }
 
 export const QUIZ_RESULT_KEY = "kanji-quiz-result";
+
+/** Last played quiz URL for「もう一回」 */
+export const LAST_QUIZ_HREF_KEY = "kanji-quiz-last-href";
+
+export const REVIEW_KEYS_KEY = "kanji-quiz-review-keys";
 
 export function saveQuizResult(summary: QuizSessionSummary): void {
   if (typeof window === "undefined") return;

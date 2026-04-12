@@ -4,35 +4,37 @@ import { useState, useRef, useEffect } from "react";
 import type { Question } from "@/data/questions";
 import SentenceDisplay from "./SentenceDisplay";
 import ReadingInput from "./ReadingInput";
-import CatMascot, { type CatMood } from "./CatMascot";
-import Confetti from "./Confetti";
 
 interface Props {
   question: Question;
   onComplete: (correct: number, total: number) => void;
-  streak?: number;
+  /** タイムアップのたびに親がインクリメント → 不正解扱い */
+  timerPulse?: number;
 }
 
-export default function ReadingMode({ question, onComplete, streak = 0 }: Props) {
+export default function ReadingMode({
+  question,
+  onComplete,
+  timerPulse = 0,
+}: Props) {
   const [answer, setAnswer] = useState("");
   const [result, setResult] = useState<boolean | null>(null);
-  const [burst, setBurst] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
+  const lastPulseForQuestion = useRef<number | null>(null);
 
   useEffect(() => {
     setAnswer("");
     setResult(null);
-    setBurst(false);
+    lastPulseForQuestion.current = null;
     setTimeout(() => inputRef.current?.focus(), 100);
   }, [question.sentence, question.chapter, question.blank.kanji]);
 
   useEffect(() => {
-    if (result === true) {
-      setBurst(true);
-      const t = window.setTimeout(() => setBurst(false), 2200);
-      return () => window.clearTimeout(t);
-    }
-  }, [result]);
+    if (timerPulse <= 0 || result !== null) return;
+    if (lastPulseForQuestion.current === timerPulse) return;
+    lastPulseForQuestion.current = timerPulse;
+    setResult(false);
+  }, [timerPulse, result]);
 
   const handleSubmit = () => {
     setResult(answer.trim() === question.blank.reading);
@@ -42,18 +44,8 @@ export default function ReadingMode({ question, onComplete, streak = 0 }: Props)
     onComplete(result ? 1 : 0, 1);
   };
 
-  let mood: CatMood = "thinking";
-  if (streak >= 10) mood = "super";
-  else if (result === true) mood = "excited";
-  else if (result === false) mood = "encourage";
-
   return (
-    <div className="w-full max-w-lg space-y-5 animate-pop-in relative">
-      <Confetti active={burst} loop={false} />
-      <div className="flex justify-center">
-        <CatMascot mood={mood} size={160} className={mood === "excited" ? "animate-mascot-jump" : ""} />
-      </div>
-
+    <div className="w-full max-w-lg space-y-5 animate-pop-in">
       <div className="sticker rounded-2xl bg-white p-5">
         <SentenceDisplay question={question} mode="reading" />
       </div>

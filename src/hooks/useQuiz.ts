@@ -25,8 +25,13 @@ export function useQuiz(initialQuestions: Question[]) {
   const [byChapter, setByChapter] = useState<Record<number, ChapterStat>>(
     () => emptyChapterStats()
   );
-  const { streak, maxStreak, recordCorrect, recordWrong, reset: resetStreak } =
-    useStreak();
+  const {
+    streak,
+    maxStreak,
+    recordCorrect,
+    recordWrong,
+    reset: resetStreak,
+  } = useStreak();
 
   useEffect(() => {
     setQuestions(initialQuestions);
@@ -105,3 +110,4 @@ export function useQuiz(initialQuestions: Question[]) {
     wrongQuestionKeys,
   };
 }
+
