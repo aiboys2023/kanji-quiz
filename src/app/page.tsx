@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { questions } from "@/data/questions";
+import { ALL_QUESTIONS } from "@/data/questions";
+import { shuffle } from "@/lib/shuffle";
 import ReadingMode from "@/components/ReadingMode";
 import KanjiMode from "@/components/KanjiMode";
 
@@ -46,7 +47,7 @@ export default function Home() {
   const [finished, setFinished] = useState(false);
 
   const [shuffledQuestions] = useState(() =>
-    [...questions].sort(() => Math.random() - 0.5)
+    shuffle([...ALL_QUESTIONS]).slice(0, 10)
   );
 
   const handleAnswer = (correct: number, total: number) => {
@@ -166,7 +167,7 @@ export default function Home() {
           </div>
 
           <div className="sticker-sm rounded-xl bg-white px-4 py-2 inline-block text-sm font-bold">
-            全{questions.length}問 ⚡ ランダム出題
+            全{ALL_QUESTIONS.length}問 ⚡ ランダム出題
           </div>
         </div>
       </main>

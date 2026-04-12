@@ -1,20 +1,15 @@
 @import "tailwindcss";
 
-@font-face {
-  font-family: "DotGothic16";
-  src: url("https://fonts.googleapis.com/css2?family=DotGothic16&display=swap");
-}
-
 :root {
-  --background: #FFF5E1;
+  --background: #fff5e1;
   --foreground: #1a1a2e;
-  --pink: #FF6B9D;
-  --yellow: #FFD93D;
-  --green: #6BCB77;
-  --blue: #4D96FF;
-  --purple: #9B59B6;
-  --orange: #FF8C42;
-  --red: #FF4757;
+  --pink: #ff6b9d;
+  --yellow: #ffd93d;
+  --green: #6bcb77;
+  --blue: #4d96ff;
+  --purple: #9b59b6;
+  --orange: #ff8c42;
+  --red: #ff4757;
 }
 
 @theme inline {
@@ -27,15 +22,27 @@
   --color-purple: var(--purple);
   --color-orange: var(--orange);
   --color-red: var(--red);
-  --font-sans: var(--font-noto-sans-jp);
+  --font-sans: var(--font-noto-sans-jp), ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  min-height: 100%;
 }
 
 body {
-  background: var(--background);
+  min-height: 100%;
+  background-color: var(--background);
   color: var(--foreground);
+  background-image: radial-gradient(circle, #1a1a2e 1px, transparent 1px);
+  background-size: 22px 22px;
+  background-position: 0 0;
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
 }
 
-/* Sticker-style shadow */
+/* Sticker cards */
 .sticker {
   box-shadow: 4px 4px 0px #1a1a2e;
   border: 3px solid #1a1a2e;
@@ -46,59 +53,13 @@ body {
   border: 2px solid #1a1a2e;
 }
 
-/* Wiggle animation */
-@keyframes wiggle {
-  0%, 100% { transform: rotate(-2deg); }
-  50% { transform: rotate(2deg); }
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0px); }
-  50% { transform: translateY(-6px); }
-}
-
-@keyframes pop-in {
-  0% { transform: scale(0.8); opacity: 0; }
-  50% { transform: scale(1.05); }
-  100% { transform: scale(1); opacity: 1; }
-}
-
-.animate-wiggle {
-  animation: wiggle 2s ease-in-out infinite;
-}
-
-.animate-float {
-  animation: float 3s ease-in-out infinite;
-}
-
-.animate-pop-in {
-  animation: pop-in 0.4s ease-out forwards;
-}
-
-/* Pattern background */
-.bg-dots {
-  background-image: radial-gradient(circle, #1a1a2e 1px, transparent 1px);
-  background-size: 20px 20px;
-  opacity: 0.05;
-}
-
-/* Retro input */
-.retro-input {
-  border: 3px solid #1a1a2e;
-  box-shadow: 3px 3px 0px #1a1a2e;
-  transition: all 0.15s ease;
-}
-
-.retro-input:focus {
-  box-shadow: 5px 5px 0px #1a1a2e;
-  transform: translate(-1px, -1px);
-}
-
-/* Retro button */
+/* Retro controls */
 .retro-btn {
   border: 3px solid #1a1a2e;
   box-shadow: 4px 4px 0px #1a1a2e;
-  transition: all 0.1s ease;
+  transition:
+    box-shadow 0.1s ease,
+    transform 0.1s ease;
   font-weight: 700;
 }
 
@@ -110,4 +71,102 @@ body {
 .retro-btn:active {
   box-shadow: 1px 1px 0px #1a1a2e;
   transform: translate(3px, 3px);
+}
+
+.retro-input {
+  border: 3px solid #1a1a2e;
+  box-shadow: 3px 3px 0px #1a1a2e;
+  transition:
+    box-shadow 0.15s ease,
+    transform 0.15s ease;
+}
+
+.retro-input:focus {
+  box-shadow: 5px 5px 0px #1a1a2e;
+  transform: translate(-1px, -1px);
+}
+
+/* Animations */
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(-2deg);
+  }
+  50% {
+    transform: rotate(2deg);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.85);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.03);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20% {
+    transform: translateX(-6px);
+  }
+  40% {
+    transform: translateX(6px);
+  }
+  60% {
+    transform: translateX(-4px);
+  }
+  80% {
+    transform: translateX(4px);
+  }
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(110vh) rotate(720deg);
+    opacity: 0.3;
+  }
+}
+
+.animate-wiggle {
+  animation: wiggle 2.2s ease-in-out infinite;
+}
+
+.animate-float {
+  animation: float 3.2s ease-in-out infinite;
+}
+
+.animate-pop-in {
+  animation: pop-in 0.45s ease-out forwards;
+}
+
+.animate-shake {
+  animation: shake 0.45s ease-in-out;
+}
+
+.animate-confetti-fall {
+  animation: confetti-fall 2.4s linear forwards;
 }

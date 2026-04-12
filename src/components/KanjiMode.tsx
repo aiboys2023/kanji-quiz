@@ -1,90 +1,95 @@
 "use client";
 
-import { useState, useRef, useEffect } from "react";
-import type { Question } from "@/data/questions";
+import { useState, useEffect, useMemo } from "react";
+import {
+  ALL_QUESTIONS,
+  getChoicesForKanjiMode,
+  type Question,
+} from "@/data/questions";
 import SentenceDisplay from "./SentenceDisplay";
+import KanjiChoices from "./KanjiChoices";
+import CatMascot, { type CatMood } from "./CatMascot";
+import Confetti from "./Confetti";
 
 interface Props {
   question: Question;
   onComplete: (correct: number, total: number) => void;
+  streak?: number;
 }
 
-export default function KanjiMode({ question, onComplete }: Props) {
-  const [answer, setAnswer] = useState("");
-  const [result, setResult] = useState<boolean | null>(null);
-  const inputRef = useRef<HTMLInputElement>(null);
+export default function KanjiMode({ question, onComplete, streak = 0 }: Props) {
+  const choices = useMemo(
+    () => getChoicesForKanjiMode(question, ALL_QUESTIONS),
+    [question]
+  );
+  const [selected, setSelected] = useState<string | null>(null);
+  const [revealed, setRevealed] = useState(false);
+  const [burst, setBurst] = useState(false);
 
   useEffect(() => {
-    setAnswer("");
-    setResult(null);
-    setTimeout(() => inputRef.current?.focus(), 100);
-  }, [question]);
+    setSelected(null);
+    setRevealed(false);
+    setBurst(false);
+  }, [question.sentence, question.chapter, question.blank.kanji]);
 
-  const handleSubmit = () => {
-    setResult(answer.trim() === question.blank.kanji);
+  useEffect(() => {
+    if (revealed && selected === question.blank.kanji) {
+      setBurst(true);
+      const t = window.setTimeout(() => setBurst(false), 2200);
+      return () => window.clearTimeout(t);
+    }
+  }, [revealed, selected, question.blank.kanji]);
+
+  const handlePick = (kanji: string) => {
+    if (revealed) return;
+    setSelected(kanji);
+    setRevealed(true);
   };
 
   const handleNext = () => {
-    onComplete(result ? 1 : 0, 1);
+    const ok = selected === question.blank.kanji;
+    onComplete(ok ? 1 : 0, 1);
   };
 
+  const correct = selected === question.blank.kanji;
+  let mood: CatMood = "thinking";
+  if (streak >= 10) mood = "super";
+  else if (revealed && correct) mood = "excited";
+  else if (revealed && !correct) mood = "encourage";
+
   return (
-    <div className="w-full max-w-lg space-y-5 animate-pop-in">
-      {/* Sentence card */}
+    <div className="w-full max-w-lg space-y-5 animate-pop-in relative">
+      <Confetti active={burst} />
+      <div className="flex justify-center">
+        <CatMascot
+          mood={mood}
+          size={160}
+          className={mood === "excited" ? "animate-mascot-jump" : ""}
+        />
+      </div>
+
       <div className="sticker rounded-2xl bg-white p-5">
         <SentenceDisplay question={question} mode="kanji" />
       </div>
 
-      {/* Answer input */}
-      <div className="space-y-3">
-        <div className="flex items-center gap-2 animate-pop-in">
-          <span className="sticker-sm rounded-lg bg-blue px-3 py-1.5 text-base font-bold text-white text-center">
-            {question.blank.reading}
-          </span>
-          <span className="text-xl">→</span>
-          <input
-            ref={inputRef}
-            type="text"
-            value={answer}
-            onChange={(e) => setAnswer(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === "Enter") {
-                if (result === null) handleSubmit();
-                else handleNext();
-              }
-            }}
-            disabled={result !== null}
-            placeholder="漢字で入力"
-            className={`flex-1 px-3 py-2 rounded-xl text-lg outline-none retro-input ${
-              result === null
-                ? "bg-white"
-                : result
-                  ? "bg-green/20 !border-green"
-                  : "bg-red/20 !border-red"
-            }`}
-          />
-          {result !== null && !result && (
-            <span className="sticker-sm rounded-lg bg-red px-2 py-1 text-sm font-bold text-white">
-              {question.blank.kanji}
-            </span>
-          )}
-          {result !== null && result && (
-            <span className="text-2xl">⭕</span>
-          )}
-        </div>
-      </div>
+      <KanjiChoices
+        choices={choices}
+        correctKanji={question.blank.kanji}
+        onSelect={handlePick}
+        disabled={revealed}
+        selected={selected}
+        revealed={revealed}
+      />
 
-      {result === null ? (
-        <button
-          onClick={handleSubmit}
-          className="w-full retro-btn rounded-2xl py-3 bg-blue text-white text-xl cursor-pointer"
-        >
-          チェック！✓
-        </button>
+      {!revealed ? (
+        <p className="text-center text-sm font-bold opacity-70">
+          タップですぐチェック！
+        </p>
       ) : (
         <button
+          type="button"
           onClick={handleNext}
-          className="w-full retro-btn rounded-2xl py-3 bg-yellow text-xl cursor-pointer"
+          className="w-full min-h-12 retro-btn rounded-2xl py-3 bg-yellow text-[1.2rem] font-bold cursor-pointer"
         >
           つぎへ →
         </button>
