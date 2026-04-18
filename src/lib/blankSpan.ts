@@ -1,5 +1,31 @@
 import type { Question, Ruby } from "@/data/questions";
 
+/** ひらがな（互換用・接頭辞判定の補助） */
+function isHiraganaChar(ch: string): boolean {
+  if (ch.length !== 1) return false;
+  const cp = ch.codePointAt(0)!;
+  return cp >= 0x3041 && cp <= 0x3096;
+}
+
+/**
+ * 読み問題: 漢字ブロック直前の接頭ひらがな（お/ご など、最大2文字）をボックスに含める。
+ * 漢字に隣接する右端が お/ご のときだけ吸収し、を などは含めない。
+ */
+export function absorbHonorificPrefix(sentence: string, coreStart: number): number {
+  if (coreStart < 1) return coreStart;
+  const right = sentence[coreStart - 1]!;
+  if (!isHiraganaChar(right) || (right !== "お" && right !== "ご")) {
+    return coreStart;
+  }
+  if (coreStart >= 2) {
+    const left = sentence[coreStart - 2]!;
+    if (isHiraganaChar(left) && (left === "お" || left === "ご")) {
+      return coreStart - 2;
+    }
+  }
+  return coreStart - 1;
+}
+
 export function consumeRubiesInRange(
   sentence: string,
   rubies: Ruby[],
@@ -71,11 +97,15 @@ function enumerateBlankCandidates(question: Question): { start: number; end: num
 
   if (type === "reading") {
     const okurigana = blank.okurigana ?? "";
-    if (okurigana) {
-      // 送り仮名つき表層で位置を特定しつつ、blank範囲は漢字部分だけにする。
-      addMatches(`${blank.kanji}${okurigana}`, blank.kanji.length);
+    const needle = `${blank.kanji}${okurigana}`;
+    if (needle) {
+      for (let i = 0; i < sentence.length; i++) {
+        if (sentence.startsWith(needle, i)) {
+          const start = absorbHonorificPrefix(sentence, i);
+          push(start, i + needle.length);
+        }
+      }
     }
-    addMatches(blank.kanji);
   } else {
     addMatches(blank.reading);
     addMatches(blank.kanji);
@@ -101,4 +131,23 @@ export function resolveBlankSpan(question: Question): { start: number; end: numb
     );
   }
   return valid[0]!;
+}
+
+/**
+ * 読みモード採点用の期待読み（接頭ひらがな + reading + okurigana）
+ */
+export function getExpectedReadingAnswer(question: Question): string {
+  const { blank, sentence, type } = question;
+  const ok = blank.okurigana ?? "";
+  const needle = `${blank.kanji}${ok}`;
+  if (type !== "reading" || !needle) {
+    return `${blank.reading}${ok}`;
+  }
+  const span = resolveBlankSpan(question);
+  if (span.start < 0) {
+    return `${blank.reading}${ok}`;
+  }
+  const coreStart = span.end - needle.length;
+  const prefix = sentence.slice(span.start, coreStart);
+  return `${prefix}${blank.reading}${ok}`;
 }

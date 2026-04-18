@@ -3,6 +3,7 @@
 /* eslint-disable react-hooks/set-state-in-effect -- reset local state when question/timer changes */
 import { useState, useRef, useEffect } from "react";
 import type { Question } from "@/data/questions";
+import { getExpectedReadingAnswer, resolveBlankSpan } from "@/lib/blankSpan";
 import { BurstShape } from "@/components/pop/PopDeco";
 import SentenceDisplay from "./SentenceDisplay";
 import ReadingInput from "./ReadingInput";
@@ -27,8 +28,12 @@ export default function ReadingMode({
   const inputRef = useRef<HTMLInputElement>(null);
   const lastPulseForQuestion = useRef<number | null>(null);
   const okurigana = question.blank.okurigana ?? "";
-  const displayKanji = `${question.blank.kanji}${okurigana}`;
-  const displayReading = `${question.blank.reading}${okurigana}`;
+  const span = resolveBlankSpan(question);
+  const displayKanji =
+    span.start >= 0
+      ? question.sentence.slice(span.start, span.end)
+      : `${question.blank.kanji}${okurigana}`;
+  const expectedReading = getExpectedReadingAnswer(question);
 
   useEffect(() => {
     setAnswer("");
@@ -55,7 +60,7 @@ export default function ReadingMode({
   }, [result, onFeedback]);
 
   const handleSubmit = () => {
-    setResult(answer.trim() === question.blank.reading);
+    setResult(answer.trim() === expectedReading);
   };
 
   const handleNext = () => {
@@ -90,14 +95,9 @@ export default function ReadingMode({
           <div className="mt-1 text-[1.35rem] font-black text-black">
             {displayKanji}
             <span className="ml-3 text-sm font-bold opacity-80">
-              {displayReading}
+              {expectedReading}
             </span>
           </div>
-          {okurigana && (
-            <div className="mt-1 text-xs font-bold text-black/80">
-              入力する読み: {question.blank.reading}
-            </div>
-          )}
         </div>
       )}
 
@@ -115,13 +115,9 @@ export default function ReadingMode({
           onSubmit={result === null ? handleSubmit : handleNext}
           disabled={result !== null}
           result={result}
-          placeholder={
-            okurigana
-              ? `漢字部分の読みを入力（送り仮名: ${okurigana}）`
-              : "ひらがなで入力"
-          }
-          correctReading={question.blank.reading}
-          okuriganaHint={okurigana || undefined}
+          placeholder="ひらがなで入力"
+          correctReading={expectedReading}
+          okuriganaHint={undefined}
           inputRef={inputRef}
           showInlineAnswer={false}
           className="flex flex-wrap items-center gap-2"

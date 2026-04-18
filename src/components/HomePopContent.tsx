@@ -69,7 +69,7 @@ export default function HomePopContent() {
           JLPT KANJI QUIZ
         </div>
         <h1 className="text-[clamp(2.5rem,11vw,3.5rem)] font-black leading-[0.95] tracking-tight text-black [text-shadow:1px_0_0_#000]">
-          カンジ
+          漢字
           <br />
           <span className="text-[var(--pop-accent)]">クイズ</span>
         </h1>

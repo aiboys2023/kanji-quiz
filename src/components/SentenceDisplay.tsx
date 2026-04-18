@@ -2,7 +2,11 @@
 
 import type { ReactNode } from "react";
 import type { Question, Ruby } from "@/data/questions";
-import { consumeRubiesInRange, resolveBlankSpan } from "@/lib/blankSpan";
+import {
+  consumeRubiesInRange,
+  getExpectedReadingAnswer,
+  resolveBlankSpan,
+} from "@/lib/blankSpan";
 
 interface Props {
   question: Question;
@@ -89,6 +93,11 @@ export default function SentenceDisplay({
   const kanjiModePrompt = `${blank.reading}${blankOkurigana}`;
 
   const { start: blankStart, end: blankEnd } = resolveBlankSpan(question);
+  const blankSurface =
+    blankStart >= 0 && mode === "reading"
+      ? sentence.slice(blankStart, blankEnd)
+      : blank.kanji;
+  const readingRevealText = getExpectedReadingAnswer(question);
 
   const rubySegs = collectRubySegments(sentence, rubies, blankStart, blankEnd);
 
@@ -103,7 +112,7 @@ export default function SentenceDisplay({
   let cursor = 0;
 
   const blankBox =
-    "inline-block rounded-[10px] border-[2.5px] border-black px-2.5 py-0.5 font-black text-black shadow-[3px_3px_0_#000] align-baseline text-[1.625rem] font-bold transition-colors";
+    "inline-block rounded-[8px] border-[2px] border-black px-1.5 font-black text-black align-baseline text-[1.5rem] leading-tight";
 
   for (let i = 0; i < segments.length; i++) {
     const seg = segments[i];
@@ -126,11 +135,11 @@ export default function SentenceDisplay({
         parts.push(
           <ruby key={`b-${i}`}>
             <span className={`${blankBox} ${blankBgClass(mode, blankFeedback)}`}>
-              {blank.kanji}
+              {blankSurface}
             </span>
             <rp>(</rp>
             <rt className="pt-1 text-[11px] font-black text-black">
-              {showReadingReveal ? blank.reading : "？"}
+              {showReadingReveal ? readingRevealText : "？"}
             </rt>
             <rp>)</rp>
           </ruby>

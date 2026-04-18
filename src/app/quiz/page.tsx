@@ -383,12 +383,14 @@ function QuizInner() {
       <div className="relative z-10 flex-1">
         {current.type === "reading" ? (
           <ReadingMode
+            key={`r-${currentIndex}`}
             question={current}
             onComplete={onComplete}
             timerPulse={timerOn ? timerPulse : 0}
           />
         ) : (
           <KanjiMode
+            key={`k-${currentIndex}`}
             question={current}
             onComplete={onComplete}
             timerPulse={timerOn ? timerPulse : 0}
