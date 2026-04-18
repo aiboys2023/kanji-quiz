@@ -4,7 +4,7 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import CatMascot, { type CatMood } from "@/components/CatMascot";
+import { BurstShape, PopFlower, PopSquiggle } from "@/components/pop/PopDeco";
 import ResultChart from "@/components/ResultChart";
 import StickerDeco from "@/components/StickerDeco";
 import {
@@ -14,10 +14,15 @@ import {
   type QuizSessionSummary,
 } from "@/lib/quizSession";
 
-function moodForScore(pct: number): CatMood {
-  if (pct >= 80) return "result-high";
-  if (pct >= 60) return "result-mid";
-  return "result-low";
+function verdictFor(pct: number): {
+  label: string;
+  bg: string;
+  emoji: string;
+} {
+  if (pct >= 90) return { label: "PERFECT!", bg: "var(--pop-correct)", emoji: "🎉" };
+  if (pct >= 70) return { label: "GREAT!", bg: "var(--pop-accent)", emoji: "✨" };
+  if (pct >= 50) return { label: "OK!", bg: "var(--pop-streak)", emoji: "💪" };
+  return { label: "TRY AGAIN", bg: "var(--pop-wrong)", emoji: "📖" };
 }
 
 export default function ResultPage() {
@@ -37,6 +42,8 @@ export default function ResultPage() {
     return Math.round((data.correct / data.total) * 100);
   }, [data]);
 
+  const verdict = verdictFor(pct);
+
   const startReview = () => {
     if (!data?.wrongQuestionKeys.length) return;
     sessionStorage.setItem(
@@ -49,13 +56,13 @@ export default function ResultPage() {
   if (!data) {
     return (
       <main className="relative mx-auto flex min-h-full max-w-lg flex-col items-center gap-4 px-4 py-16 text-center">
-        <StickerDeco density={6} />
-        <p className="relative z-10 text-[1.2rem] font-bold">
+        <StickerDeco count={3} className="opacity-[0.18]" />
+        <p className="relative z-10 text-[1.2rem] font-black">
           けっかがみつかりません。
         </p>
         <Link
           href="/"
-          className="relative z-10 retro-btn rounded-2xl bg-yellow px-6 py-3 text-[1.2rem] font-bold"
+          className="relative z-10 pop-btn rounded-2xl bg-[var(--pop-streak)] px-6 py-3 text-[1.2rem] text-black"
         >
           ホームへ
         </Link>
@@ -71,57 +78,74 @@ export default function ResultPage() {
         : "読み方モード";
 
   return (
-    <main className="relative mx-auto flex min-h-full w-full max-w-2xl flex-1 flex-col items-center gap-8 px-4 py-10">
-      <StickerDeco density={10} />
-      <div className="relative z-10 flex w-full max-w-md flex-col items-center gap-6 text-center">
-        <CatMascot mood={moodForScore(pct)} size={180} />
-        <div className="sticker w-full rounded-3xl bg-white px-6 py-8">
-          <p className="text-[1rem] font-bold opacity-70">{modeLabel}</p>
-          <h1 className="mt-2 text-[1.5rem] font-black md:text-[1.75rem]">
-            おつかれさま！
-          </h1>
-          <div
-            className="sticker-sm mx-auto mt-4 inline-block rounded-2xl px-8 py-4 text-[3rem] font-black leading-none tabular-nums"
-            style={{
-              backgroundColor:
-                pct >= 80 ? "#6BCB77" : pct >= 60 ? "#FFD93D" : "#FF6B9D",
-              color: "#fff",
-            }}
-          >
-            {pct}%
+    <main className="relative mx-auto flex min-h-full w-full max-w-2xl flex-1 flex-col items-center gap-6 px-4 py-8">
+      <StickerDeco count={5} className="opacity-[0.22]" />
+      <div className="relative z-10 flex w-full max-w-md flex-col items-center gap-5 text-center">
+        <div className="relative w-full py-2">
+          <div className="absolute left-2 top-0">
+            <PopFlower size={32} color="var(--pop-pink)" center="var(--pop-accent)" rotate={-15} />
           </div>
-          <p className="mt-4 text-[1.3rem] font-bold">
-            {data.correct} / {data.total} せいかい
-          </p>
+          <div className="absolute right-4 top-1">
+            <BurstShape size={36} color="var(--pop-streak)" rotate={20} />
+          </div>
+          <div className="text-[11px] font-black tracking-[0.2em] text-black">
+            RESULT
+          </div>
+          <div className="mt-1 text-3xl font-black text-black">けっか</div>
         </div>
 
-        <div className="sticker w-full rounded-3xl bg-white px-4 py-6">
+        <div className="pop-card relative w-full overflow-hidden rounded-3xl p-5 text-center">
+          <p className="relative text-[0.95rem] font-black text-black/80">
+            {modeLabel}
+          </p>
+          <div
+            className="relative mt-3 rounded-[1.25rem] border-[3px] border-black px-5 py-6 shadow-[8px_8px_0_#000]"
+            style={{ background: verdict.bg }}
+          >
+            <div className="text-sm font-black tracking-wide text-black">
+              {verdict.emoji} {verdict.label}
+            </div>
+            <div className="mt-2 text-7xl font-black leading-none tracking-tight text-black tabular-nums md:text-[4.5rem]">
+              {pct}
+              <span className="align-top text-4xl">%</span>
+            </div>
+            <p className="mt-3 text-sm font-black text-black">
+              {data.correct} / {data.total} 問正解
+            </p>
+          </div>
+        </div>
+
+        <div className="pop-card w-full rounded-3xl bg-white p-4">
           <ResultChart byChapter={data.byChapter} />
         </div>
 
-        <div className="flex w-full max-w-md flex-col gap-4">
-          <Link
-            href={lastHref}
-            className="retro-btn w-full min-h-12 rounded-2xl bg-orange py-4 text-center text-[1.2rem] font-bold text-white"
-          >
-            もう一回
-          </Link>
+        <div className="flex w-full max-w-md flex-col gap-3">
           {data.wrongQuestionKeys.length > 0 && (
             <button
               type="button"
               onClick={startReview}
-              className="retro-btn w-full min-h-12 rounded-2xl bg-green py-4 text-[1.2rem] font-bold text-white"
+              className="pop-btn min-h-12 w-full rounded-2xl bg-[var(--pop-wrong)] py-4 text-[1.1rem] font-black text-white"
             >
-              まちがえた問題をふくしゅう
+              ✕ 間違えた{data.wrongQuestionKeys.length}問を復習
             </button>
           )}
-          <Link
-            href="/"
-            className="retro-btn w-full min-h-12 rounded-2xl bg-blue py-4 text-center text-[1.2rem] font-bold text-white"
-          >
-            ホームに戻る
-          </Link>
+          <div className="grid grid-cols-2 gap-3">
+            <Link
+              href={lastHref}
+              className="pop-btn-outline flex min-h-12 items-center justify-center rounded-2xl py-3.5 text-center text-[1.05rem] font-black no-underline"
+            >
+              ↻ もう一回
+            </Link>
+            <Link
+              href="/"
+              className="pop-btn-outline flex min-h-12 items-center justify-center rounded-2xl py-3.5 text-center text-[1.05rem] font-black no-underline"
+            >
+              🏠 ホーム
+            </Link>
+          </div>
         </div>
+
+        <PopSquiggle width={160} color="#000" className="opacity-40" />
       </div>
     </main>
   );

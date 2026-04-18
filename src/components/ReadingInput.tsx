@@ -13,7 +13,10 @@ interface ReadingInputProps {
   className?: string;
   inputClassName?: string;
   correctReading?: string;
+  okuriganaHint?: string;
   inputRef?: React.RefObject<HTMLInputElement | null>;
+  /** false のとき、行末の正解表示バッジを出さない（親がカード表示する場合） */
+  showInlineAnswer?: boolean;
 }
 
 /**
@@ -29,7 +32,9 @@ export default function ReadingInput({
   className,
   inputClassName,
   correctReading,
+  okuriganaHint,
   inputRef: inputRefProp,
+  showInlineAnswer = true,
 }: ReadingInputProps) {
   const [isComposing, setIsComposing] = useState(false);
   const ignoreEnterAfterCompositionRef = useRef(false);
@@ -50,8 +55,8 @@ export default function ReadingInput({
     result === null
       ? "bg-white"
       : result
-        ? "bg-green/20 border-green"
-        : "bg-red/20 border-red";
+        ? "bg-[var(--pop-correct-lt)]"
+        : "bg-[var(--pop-wrong-lt)]";
 
   const liveMessage =
     result === null
@@ -83,7 +88,7 @@ export default function ReadingInput({
         placeholder={placeholder}
         aria-label="読みを入力"
         className={cn(
-          "flex-1 min-h-12 min-w-0 px-3 py-2 rounded-xl text-[1.2rem] outline-none retro-input border-[#1a1a2e]",
+          "retro-input min-h-12 min-w-0 flex-1 rounded-2xl border-[3px] border-black px-4 py-3 text-[1.2rem] font-bold text-black outline-none",
           feedback,
           inputClassName
         )}
@@ -91,13 +96,18 @@ export default function ReadingInput({
       <span className="sr-only" aria-live="polite">
         {liveMessage}
       </span>
-      {result !== null && !result && correctReading !== undefined && (
-        <span className="sticker-sm rounded-lg bg-red px-2 py-1 text-sm font-bold text-white shrink-0">
+      {okuriganaHint && (
+        <span className="shrink-0 rounded-xl border-2 border-black bg-white px-2 py-1 text-xs font-bold text-black shadow-[2px_2px_0_#000]">
+          送り仮名: {okuriganaHint}
+        </span>
+      )}
+      {showInlineAnswer && result !== null && !result && correctReading !== undefined && (
+        <span className="shrink-0 rounded-xl border-2 border-black bg-black px-2 py-1 text-sm font-black text-white shadow-[2px_2px_0_#000]">
           {correctReading}
         </span>
       )}
-      {result !== null && result && (
-        <span className="text-3xl shrink-0" aria-label="正解">
+      {showInlineAnswer && result !== null && result && (
+        <span className="shrink-0 text-3xl" aria-label="正解">
           ⭕
         </span>
       )}

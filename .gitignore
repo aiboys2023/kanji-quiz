@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Design handoff bundles (reference only)
+/design-handoff/
+/design-handoff-v2/

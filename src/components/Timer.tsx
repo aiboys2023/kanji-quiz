@@ -5,67 +5,47 @@ import { cn } from "@/lib/cn";
 interface TimerProps {
   /** 残り秒 */
   remaining: number;
-  /** 1 問あたりの最大秒（円の全周） */
+  /** 1 問あたりの最大秒（全幅） */
   total: number;
   active?: boolean;
+  /** false のとき秒数テキストを隠す（レイアウト都合） */
+  showRemainingLabel?: boolean;
   className?: string;
 }
 
 /**
- * 円形プログレス付きカウントダウン表示
+ * 横型プログレス（Pop：タイマー帯が縮む）
  */
 export default function Timer({
   remaining,
   total,
   active = true,
+  showRemainingLabel = true,
   className,
 }: TimerProps) {
-  const r = 36;
-  const c = 2 * Math.PI * r;
   const t = total > 0 ? Math.max(0, Math.min(1, remaining / total)) : 0;
-  const offset = c * (1 - t);
+  const pct = t * 100;
+  const warn = t <= 0.25 && t > 0;
 
   return (
     <div
-      className={cn(
-        "relative flex flex-col items-center justify-center w-[5.5rem]",
-        !active && "opacity-40",
-        className
-      )}
-      role="timer"
-      aria-valuenow={Math.ceil(remaining)}
-      aria-valuemin={0}
-      aria-valuemax={total}
+      className={cn("w-full min-w-[8rem]", !active && "opacity-40", className)}
+      aria-label={`残り ${Math.max(0, Math.ceil(remaining))} 秒（${total} 秒制限）`}
     >
-      <svg
-        viewBox="0 0 88 88"
-        className="w-full -rotate-90"
-        aria-hidden
-      >
-        <circle
-          cx="44"
-          cy="44"
-          r={r}
-          fill="none"
-          stroke="#e8e0d5"
-          strokeWidth="8"
+      <div className="pop-timer-track">
+        <div
+          className="h-full rounded-sm transition-[width] duration-300 ease-linear"
+          style={{
+            width: `${pct}%`,
+            backgroundColor: warn ? "var(--pop-wrong)" : "var(--pop-accent)",
+          }}
         />
-        <circle
-          cx="44"
-          cy="44"
-          r={r}
-          fill="none"
-          stroke="#FF8C42"
-          strokeWidth="8"
-          strokeLinecap="round"
-          strokeDasharray={c}
-          strokeDashoffset={offset}
-          className="transition-[stroke-dashoffset] duration-700 ease-linear"
-        />
-      </svg>
-      <span className="absolute text-xl font-black tabular-nums text-[#1a1a2e]">
-        {Math.max(0, Math.ceil(remaining))}
-      </span>
+      </div>
+      {showRemainingLabel && (
+        <div className="mt-1 text-right text-xs font-black tabular-nums text-black">
+          {Math.max(0, Math.ceil(remaining))}s
+        </div>
+      )}
     </div>
   );
 }

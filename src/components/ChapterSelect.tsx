@@ -1,5 +1,7 @@
 "use client";
 
+import { CHAPTER_INFO } from "@/data/questions";
+
 interface Props {
   counts: Record<number, number>;
   selected: Set<number>;
@@ -17,37 +19,59 @@ export default function ChapterSelect({
 
   return (
     <div className="space-y-3">
-      <div className="flex flex-wrap items-center justify-between gap-2">
-        <h2 className="text-[1.2rem] font-black">章を選ぶ（複数可）</h2>
+      <div className="flex flex-wrap items-center justify-between gap-2 px-1">
+        <h2 className="whitespace-nowrap text-[11px] font-black tracking-[0.12em] text-black">
+          ● 章 CHAPTER
+        </h2>
         <button
           type="button"
           onClick={onToggleAll}
-          className="retro-btn rounded-xl px-4 py-2 min-h-12 bg-purple text-white text-[1rem] font-bold"
+          className="min-h-12 min-w-[4.875rem] shrink-0 whitespace-nowrap rounded-xl border-2 border-black px-3 py-1.5 text-[11px] font-black shadow-[2px_2px_0_#000]"
+          style={{
+            background: allSelected ? "var(--pop-streak)" : "#fff",
+          }}
         >
-          {allSelected ? "ぜんぶはずす" : "ぜんぶえらぶ"}
+          {allSelected ? "ALL OFF" : "ALL ON"}
         </button>
       </div>
-      <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2 max-h-[50vh] overflow-y-auto pr-1">
-        {Array.from({ length: 18 }, (_, i) => i + 1).map((ch) => {
-          const on = selected.has(ch);
-          const n = counts[ch] ?? 0;
-          return (
-            <li key={ch}>
-              <button
-                type="button"
-                onClick={() => onToggle(ch)}
-                aria-pressed={on}
-                className={`w-full text-left retro-btn rounded-xl px-4 py-3 min-h-12 flex justify-between items-center gap-2 text-[1.05rem] font-bold ${
-                  on ? "bg-green text-white" : "bg-white"
-                }`}
-              >
-                <span>第{ch}章</span>
-                <span className="text-[0.95rem] opacity-90">{n}問</span>
-              </button>
-            </li>
-          );
-        })}
-      </ul>
+      <div className="pop-card rounded-2xl bg-white p-1.5">
+        <ul className="grid max-h-[50vh] grid-cols-2 gap-1 overflow-y-auto pr-0.5">
+          {CHAPTER_INFO.map(({ chapter, name }) => {
+            const on = selected.has(chapter);
+            const n = counts[chapter] ?? 0;
+            return (
+              <li key={chapter}>
+                <button
+                  type="button"
+                  onClick={() => onToggle(chapter)}
+                  aria-pressed={on}
+                  className={`flex min-h-12 w-full items-center gap-2 rounded-xl border-2 px-2.5 py-2 text-left text-[0.95rem] font-bold transition-colors ${
+                    on
+                      ? "border-black bg-[var(--pop-streak)] text-black"
+                      : "border-transparent bg-transparent text-black hover:border-black/20"
+                  }`}
+                >
+                  <span
+                    className={`flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded border-2 border-black text-xs font-black ${
+                      on ? "bg-black text-[var(--pop-streak)]" : "bg-white"
+                    }`}
+                  >
+                    {on ? "✓" : ""}
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate font-black">
+                      {chapter}.{name}
+                    </span>
+                    <span className="text-[9px] font-bold opacity-70">
+                      {n}問
+                    </span>
+                  </span>
+                </button>
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     </div>
   );
 }

@@ -11,8 +11,6 @@ import {
 } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import CatMascot, { type CatMood } from "@/components/CatMascot";
-import Confetti from "@/components/Confetti";
 import KanjiMode from "@/components/KanjiMode";
 import ReadingMode from "@/components/ReadingMode";
 import StreakCounter from "@/components/StreakCounter";
@@ -38,6 +36,7 @@ import {
   type QuizSessionSummary,
 } from "@/lib/quizSession";
 import { shuffle } from "@/lib/shuffle";
+import { resolveBlankSpan } from "@/lib/blankSpan";
 
 function parseCount(raw: string | null): number | "all" {
   if (raw === "all") return "all";
@@ -79,10 +78,6 @@ function QuizInner() {
     null
   );
 
-  const [catMood, setCatMood] = useState<CatMood>("thinking");
-  const [confettiBurst, setConfettiBurst] = useState(false);
-  const confettiTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
-
   useEffect(() => {
     if (!isReview) {
       setReviewQuestions(null);
@@ -112,12 +107,12 @@ function QuizInner() {
 
   const selectedChapters = useMemo(() => {
     const raw = searchParams.get("chapters");
-    if (!raw) return Array.from({ length: 18 }, (_, i) => i + 1);
+    if (!raw) return [];
     const nums = raw
       .split(",")
       .map((s) => parseInt(s.trim(), 10))
       .filter((n) => !Number.isNaN(n) && n >= 1 && n <= 18);
-    return nums.length ? nums : Array.from({ length: 18 }, (_, i) => i + 1);
+    return nums.length ? Array.from(new Set(nums)) : [];
   }, [searchParams]);
 
   useEffect(() => {
@@ -135,6 +130,15 @@ function QuizInner() {
       const n = count === "all" ? pool.length : Math.min(count, pool.length);
       normal = pool.slice(0, n);
     }
+    const validNormal = normal.filter((q) => resolveBlankSpan(q).start >= 0);
+    if (validNormal.length !== normal.length) {
+      console.warn("[quiz] dropped questions with unresolved blank span", {
+        before: normal.length,
+        after: validNormal.length,
+        spec,
+      });
+    }
+    normal = validNormal;
 
     try {
       const prog = loadQuizProgress();
@@ -143,8 +147,16 @@ function QuizInner() {
         const recon = prog.questionKeys
           .map((k) => keyToQ.get(k))
           .filter(Boolean) as typeof ALL_QUESTIONS;
-        if (recon.length === prog.questionKeys.length) {
-          setQuizQuestions(recon);
+        const validRecon = recon.filter((q) => resolveBlankSpan(q).start >= 0);
+        const saneIndex =
+          prog.currentIndex >= 0 && prog.currentIndex <= validRecon.length;
+        const saneResults = prog.results.length <= validRecon.length;
+        if (
+          validRecon.length === prog.questionKeys.length &&
+          saneIndex &&
+          saneResults
+        ) {
+          setQuizQuestions(validRecon);
           setRestoreSnap(prog);
           return;
         }
@@ -183,15 +195,6 @@ function QuizInner() {
   } = useQuiz(stableQuestions, { restore: restoreSnap });
 
   useEffect(() => {
-    setCatMood("thinking");
-    setConfettiBurst(false);
-    if (confettiTimerRef.current) {
-      clearTimeout(confettiTimerRef.current);
-      confettiTimerRef.current = null;
-    }
-  }, [currentIndex]);
-
-  useEffect(() => {
     if (quizQuestions === null || finished || quizQuestions.length === 0) return;
     saveQuizProgress({
       spec,
@@ -215,18 +218,6 @@ function QuizInner() {
     maxStreak,
     byChapter,
   ]);
-
-  const handleQuizFeedback = useCallback((correct: boolean) => {
-    setCatMood(correct ? "excited" : "encourage");
-    if (correct) {
-      setConfettiBurst(true);
-      if (confettiTimerRef.current) clearTimeout(confettiTimerRef.current);
-      confettiTimerRef.current = setTimeout(() => {
-        setConfettiBurst(false);
-        confettiTimerRef.current = null;
-      }, 2400);
-    }
-  }, []);
 
   const current = questions[currentIndex];
   const total = questions.length;
@@ -312,7 +303,7 @@ function QuizInner() {
 
   if ((isReview && reviewQuestions === null) || (isDaily && dailyQuestions === null) || quizQuestions === null) {
     return (
-      <div className="flex min-h-[40vh] items-center justify-center text-[1.1rem] font-bold">
+      <div className="flex min-h-[40vh] items-center justify-center text-[1.1rem] font-black">
         よみこみ中…
       </div>
     );
@@ -321,10 +312,10 @@ function QuizInner() {
   if (quizQuestions.length === 0) {
     return (
       <main className="flex min-h-[50vh] flex-col items-center justify-center gap-4 p-6">
-        <p className="text-[1.1rem] font-bold">もんだいがありません</p>
+        <p className="text-[1.1rem] font-black">もんだいがありません</p>
         <Link
           href="/settings"
-          className="retro-btn rounded-xl bg-yellow px-6 py-3 text-[1.1rem] font-bold"
+          className="pop-btn rounded-2xl bg-[var(--pop-streak)] px-6 py-3 text-[1.1rem] text-black"
         >
           設定にもどる
         </Link>
@@ -334,74 +325,76 @@ function QuizInner() {
 
   if (finished || !current) {
     return (
-      <div className="flex min-h-[40vh] items-center justify-center text-[1.1rem] font-bold">
+      <div className="flex min-h-[40vh] items-center justify-center text-[1.1rem] font-black">
         けっかへ…
       </div>
     );
   }
 
-  return (
-    <main className="relative mx-auto flex min-h-full w-full max-w-2xl flex-1 flex-col px-4 py-6">
-      <Confetti active={confettiBurst} loop={false} />
-      <div className="pointer-events-none absolute right-2 top-4 z-20 md:right-6">
-        <CatMascot mood={catMood} size={120} className="drop-shadow-md" />
-      </div>
+  const accent =
+    current.type === "writing" ? "var(--pop-correct)" : "var(--pop-accent)";
 
-      <div className="relative z-10 mb-4 flex flex-wrap items-center gap-2">
-        <Link
-          href="/"
-          className="sticker-sm rounded-xl bg-white px-3 py-1.5 text-sm font-bold"
-        >
-          ← ホーム
-        </Link>
-        <Link
-          href={`/settings?mode=${mode}`}
-          className="sticker-sm rounded-xl bg-white px-3 py-1.5 text-sm font-bold"
-        >
-          設定
-        </Link>
-        <StreakCounter streak={streak} />
-        <div className="sticker-sm rounded-xl bg-purple px-3 py-1.5 text-sm font-bold text-white">
-          {currentIndex + 1}/{total}
-        </div>
-        <div className="sticker-sm rounded-xl bg-green px-3 py-1.5 text-sm font-bold">
-          ✓{score}/{total}
+  return (
+    <main className="relative mx-auto flex min-h-full w-full max-w-2xl flex-1 flex-col px-4 pb-8 pt-4">
+      <header className="relative z-10 mb-4 border-b-[3px] border-black bg-[var(--pop-bg)] px-0 pb-3 pt-3.5">
+        <div className="flex items-center gap-2.5 px-1">
+          <Link
+            href="/"
+            className="pop-icon-btn no-underline"
+            aria-label="ホームへ"
+          >
+            ×
+          </Link>
+          <div className="pop-progress-track min-h-[14px] flex-1">
+            <div
+              className="pop-progress-fill rounded-full"
+              style={{ width: `${progress}%`, background: accent }}
+            />
+          </div>
+          <StreakCounter streak={streak} />
         </div>
         {timerOn && (
-          <Timer
-            remaining={remaining}
-            total={timerTotal}
-            active={!finished}
+          <div className="mt-2 pl-11 pr-2">
+            <Timer
+              remaining={remaining}
+              total={timerTotal}
+              active={!finished}
+              showRemainingLabel={false}
+            />
+          </div>
+        )}
+        <div className="mt-1.5 flex items-center justify-between gap-2 pl-11 pr-2 text-xs font-black text-black">
+          <span className="tabular-nums">
+            Q.{currentIndex + 1} / {total}
+          </span>
+          <div className="flex flex-wrap items-center justify-end gap-2">
+            {timerOn && (
+              <span className="min-h-10 tabular-nums leading-none">
+                {Math.max(0, Math.ceil(remaining))}s
+              </span>
+            )}
+            <span className="sticker-sm min-h-10 rounded-full bg-[var(--pop-accent)] px-2.5 py-1.5 text-[11px] font-black text-white tabular-nums shadow-[2px_2px_0_#000]">
+              ✓{score}/{total}
+            </span>
+          </div>
+        </div>
+      </header>
+
+      <div className="relative z-10 flex-1">
+        {current.type === "reading" ? (
+          <ReadingMode
+            question={current}
+            onComplete={onComplete}
+            timerPulse={timerOn ? timerPulse : 0}
+          />
+        ) : (
+          <KanjiMode
+            question={current}
+            onComplete={onComplete}
+            timerPulse={timerOn ? timerPulse : 0}
           />
         )}
       </div>
-
-      <div className="sticker-sm mb-4 h-3 overflow-hidden rounded-full bg-white">
-        <div
-          className="h-full rounded-full transition-all duration-500"
-          style={{
-            width: `${progress}%`,
-            backgroundColor:
-              current.type === "writing" ? "#4D96FF" : "#FF8C42",
-          }}
-        />
-      </div>
-
-      {current.type === "reading" ? (
-        <ReadingMode
-          question={current}
-          onComplete={onComplete}
-          timerPulse={timerOn ? timerPulse : 0}
-          onFeedback={handleQuizFeedback}
-        />
-      ) : (
-        <KanjiMode
-          question={current}
-          onComplete={onComplete}
-          timerPulse={timerOn ? timerPulse : 0}
-          onFeedback={handleQuizFeedback}
-        />
-      )}
     </main>
   );
 }
@@ -410,7 +403,7 @@ export default function QuizPage() {
   return (
     <Suspense
       fallback={
-        <div className="flex min-h-[50vh] items-center justify-center text-[1.2rem] font-bold">
+        <div className="flex min-h-[50vh] items-center justify-center text-[1.2rem] font-black">
           読み込み中…
         </div>
       }

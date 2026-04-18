@@ -2,11 +2,15 @@
 
 import type { ReactNode } from "react";
 import type { Question, Ruby } from "@/data/questions";
-import { resolveBlankSpan } from "@/lib/blankSpan";
+import { consumeRubiesInRange, resolveBlankSpan } from "@/lib/blankSpan";
 
 interface Props {
   question: Question;
   mode: "reading" | "kanji";
+  /** 出題枠の正誤表示（見た目のみ） */
+  blankFeedback?: "correct" | "wrong" | null;
+  /** 読み方モード：答え合わせ後にルビを表示 */
+  showReadingReveal?: boolean;
 }
 
 function collectRubySegments(
@@ -26,6 +30,7 @@ function collectRubySegments(
   let r = 0;
   while (cursor < sentence.length) {
     if (cursor === blankStart) {
+      r = consumeRubiesInRange(sentence, rubies, r, blankStart, blankEnd);
       cursor = blankEnd;
       continue;
     }
@@ -61,8 +66,27 @@ type Segment =
   | { type: "ruby"; text: string; ruby: string; start: number; end: number }
   | { type: "blank"; start: number; end: number };
 
-export default function SentenceDisplay({ question, mode }: Props) {
+function blankBgClass(
+  mode: "reading" | "kanji",
+  blankFeedback: Props["blankFeedback"]
+): string {
+  if (blankFeedback === "correct") return "bg-[var(--pop-correct)]";
+  if (blankFeedback === "wrong") return "bg-[var(--pop-wrong)]";
+  /* Reading: yellow highlight blank; Kanji: pink tag for hiragana */
+  return mode === "reading"
+    ? "bg-[var(--pop-streak)]"
+    : "bg-[var(--pop-pink)]";
+}
+
+export default function SentenceDisplay({
+  question,
+  mode,
+  blankFeedback = null,
+  showReadingReveal = false,
+}: Props) {
   const { sentence, blank, rubies } = question;
+  const blankOkurigana = blank.okurigana ?? "";
+  const kanjiModePrompt = `${blank.reading}${blankOkurigana}`;
 
   const { start: blankStart, end: blankEnd } = resolveBlankSpan(question);
 
@@ -78,6 +102,9 @@ export default function SentenceDisplay({ question, mode }: Props) {
   const parts: ReactNode[] = [];
   let cursor = 0;
 
+  const blankBox =
+    "inline-block rounded-[10px] border-[2.5px] border-black px-2.5 py-0.5 font-black text-black shadow-[3px_3px_0_#000] align-baseline text-[1.625rem] font-bold transition-colors";
+
   for (let i = 0; i < segments.length; i++) {
     const seg = segments[i];
     if (seg.start > cursor) {
@@ -88,22 +115,36 @@ export default function SentenceDisplay({ question, mode }: Props) {
         <ruby key={`r-${i}`} className="text-inherit">
           {seg.text}
           <rp>(</rp>
-          <rt className="text-[0.65em] text-stone-600 font-normal leading-tight">{seg.ruby}</rt>
+          <rt className="text-[11px] font-bold leading-tight text-black opacity-70">
+            {seg.ruby}
+          </rt>
           <rp>)</rp>
         </ruby>
       );
     } else {
-      const highlight =
-        mode === "reading" ? "bg-orange text-white" : "bg-blue text-white";
-      const label = mode === "reading" ? blank.kanji : blank.reading;
-      parts.push(
-        <span
-          key={`b-${i}`}
-          className={`inline-block px-1.5 py-0.5 ${highlight} rounded-lg font-bold mx-0.5 sticker-sm align-baseline text-[1.2rem]`}
-        >
-          {label}
-        </span>
-      );
+      if (mode === "reading") {
+        parts.push(
+          <ruby key={`b-${i}`}>
+            <span className={`${blankBox} ${blankBgClass(mode, blankFeedback)}`}>
+              {blank.kanji}
+            </span>
+            <rp>(</rp>
+            <rt className="pt-1 text-[11px] font-black text-black">
+              {showReadingReveal ? blank.reading : "？"}
+            </rt>
+            <rp>)</rp>
+          </ruby>
+        );
+      } else {
+        parts.push(
+          <span
+            key={`b-${i}`}
+            className={`${blankBox} mx-1 ${blankBgClass(mode, blankFeedback)}`}
+          >
+            {kanjiModePrompt}
+          </span>
+        );
+      }
     }
     cursor = seg.end;
   }
@@ -113,7 +154,7 @@ export default function SentenceDisplay({ question, mode }: Props) {
   }
 
   return (
-    <div className="text-[1.2rem] md:text-[1.25rem] leading-[2.2] tracking-wide">
+    <div className="text-[1.625rem] font-bold leading-[2.6] tracking-[0.02em] text-black">
       {parts}
     </div>
   );

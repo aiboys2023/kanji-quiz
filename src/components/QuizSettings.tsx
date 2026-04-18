@@ -11,10 +11,10 @@ interface Props {
 }
 
 const OPTIONS: { value: QuizCount; label: string }[] = [
-  { value: 10, label: "10問" },
-  { value: 20, label: "20問" },
-  { value: 50, label: "50問" },
-  { value: "all", label: "全問" },
+  { value: 10, label: "10" },
+  { value: 20, label: "20" },
+  { value: 50, label: "50" },
+  { value: "all", label: "ALL" },
 ];
 
 export default function QuizSettings({
@@ -25,66 +25,62 @@ export default function QuizSettings({
   maxAvailable,
 }: Props) {
   return (
-    <div className="space-y-4">
-      <fieldset>
-        <legend className="text-[1.2rem] font-black mb-2">もんだいすう</legend>
-        <div className="flex flex-wrap gap-2">
-          {OPTIONS.map((o) => (
-            <label
-              key={String(o.value)}
-              className={`retro-btn rounded-xl px-4 py-3 min-h-12 cursor-pointer flex items-center gap-2 ${
-                count === o.value ? "bg-yellow" : "bg-white"
-              }`}
-            >
-              <input
-                type="radio"
-                name="quiz-count"
-                className="sr-only"
-                checked={count === o.value}
-                onChange={() => onCount(o.value)}
-              />
-              <span className="text-[1.05rem] font-bold">{o.label}</span>
-            </label>
-          ))}
+    <div className="space-y-5">
+      <div>
+        <div className="mb-2 flex items-center justify-between px-1">
+          <span className="text-[11px] font-black tracking-[0.12em] text-black">
+            ● 問題数 COUNT
+          </span>
+          <span className="text-[10px] font-bold text-black">
+            合計 {maxAvailable}問
+          </span>
         </div>
-        <p className="text-[0.9rem] mt-2 opacity-80">
-          えらんだ章のもんだい：最大 {maxAvailable} 問
-        </p>
-      </fieldset>
+        <div className="grid grid-cols-4 gap-2">
+          {OPTIONS.map((o) => {
+            const on = count === o.value;
+            return (
+              <button
+                key={String(o.value)}
+                type="button"
+                onClick={() => onCount(o.value)}
+                className={`min-h-14 rounded-2xl border-[3px] border-black text-lg font-black text-black transition-transform ${
+                  on
+                    ? "translate-x-0.5 translate-y-0.5 bg-[var(--pop-accent)] text-white shadow-[2px_2px_0_#000]"
+                    : "bg-white shadow-[4px_4px_0_#000] active:translate-x-0.5 active:translate-y-0.5"
+                }`}
+              >
+                {o.label}
+              </button>
+            );
+          })}
+        </div>
+      </div>
 
-      <fieldset>
-        <legend className="text-[1.2rem] font-black mb-2">タイマー（1問15秒）</legend>
-        <div className="flex gap-2">
-          <label
-            className={`retro-btn rounded-xl px-4 py-3 min-h-12 cursor-pointer font-bold ${
-              timerOn ? "bg-orange text-white" : "bg-white"
-            }`}
-          >
-            <input
-              type="radio"
-              name="quiz-timer"
-              className="sr-only"
-              checked={timerOn}
-              onChange={() => onTimer(true)}
-            />
-            ON
-          </label>
-          <label
-            className={`retro-btn rounded-xl px-4 py-3 min-h-12 cursor-pointer font-bold ${
-              !timerOn ? "bg-blue text-white" : "bg-white"
-            }`}
-          >
-            <input
-              type="radio"
-              name="quiz-timer"
-              className="sr-only"
-              checked={!timerOn}
-              onChange={() => onTimer(false)}
-            />
-            OFF
-          </label>
+      <div
+        className={`pop-card flex items-center gap-3 rounded-2xl p-3.5 ${
+          timerOn ? "bg-[var(--pop-pink)]" : "bg-white"
+        }`}
+      >
+        <div className="min-w-0 flex-1">
+          <div className="text-sm font-black text-black">⏱ 制限時間 15s</div>
+          <div className="mt-0.5 text-[10px] font-bold text-black/70">
+            時間切れは不正解
+          </div>
         </div>
-      </fieldset>
+        <button
+          type="button"
+          role="switch"
+          aria-checked={timerOn}
+          onClick={() => onTimer(!timerOn)}
+          className="relative h-8 w-14 shrink-0 rounded-2xl border-[2.5px] border-black shadow-[2px_2px_0_#000]"
+          style={{ background: timerOn ? "var(--pop-correct)" : "#fff" }}
+        >
+          <span
+            className="absolute left-0.5 top-0.5 h-6 w-6 rounded-full bg-black transition-[left]"
+            style={{ left: timerOn ? "1.55rem" : "0.125rem" }}
+          />
+        </button>
+      </div>
     </div>
   );
 }

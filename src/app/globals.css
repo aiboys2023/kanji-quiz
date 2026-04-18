@@ -1,15 +1,55 @@
 @import "tailwindcss";
 
+/* Pop theme — RESET (pink) default. Optional: data-theme on <html> */
 :root {
-  --background: #fff5e1;
-  --foreground: #1a1a2e;
-  --pink: #ff6b9d;
-  --yellow: #ffd93d;
-  --green: #6bcb77;
-  --blue: #4d96ff;
+  --pop-bg: #ffb7cf;
+  --pop-bg-panel: #ffffff;
+  --pop-bg-subtle: #ffd9e5;
+  --pop-text: #1a1a1a;
+  --pop-text-muted: #3a2a33;
+  --pop-accent: #1f8fd9;
+  --pop-accent-dk: #000000;
+  --pop-accent-lt: #c8e5f8;
+  --pop-correct: #2bae5c;
+  --pop-correct-lt: #c8f0d0;
+  --pop-wrong: #e63946;
+  --pop-wrong-lt: #ffd7dc;
+  --pop-streak: #ffc629;
+  --pop-sky: #ffd9e5;
+  --pop-pink: #ffe0ec;
+  --pop-border: #000000;
+
+  --background: var(--pop-bg);
+  --foreground: var(--pop-text);
+  --pink: var(--pop-pink);
+  --yellow: var(--pop-streak);
+  --green: var(--pop-correct);
+  --blue: var(--pop-accent);
   --purple: #9b59b6;
-  --orange: #ff8c42;
-  --red: #ff4757;
+  --orange: var(--pop-streak);
+  --red: var(--pop-wrong);
+}
+
+html[data-theme="bloom"] {
+  --pop-bg: #fdf1b8;
+  --pop-bg-subtle: #ffe876;
+  --pop-text-muted: #5a4a3a;
+  --pop-accent: #e63946;
+  --pop-accent-lt: #ffd7dc;
+  --pop-streak: #ff8a1f;
+  --pop-sky: #7dd8e0;
+  --pop-pink: #ffb1c8;
+}
+
+html[data-theme="saltrain"] {
+  --pop-bg: #7dd8e0;
+  --pop-bg-subtle: #a6e5ea;
+  --pop-text-muted: #1a3a40;
+  --pop-accent: #ff4d8b;
+  --pop-accent-lt: #ffd0e0;
+  --pop-streak: #ffc629;
+  --pop-sky: #a6e5ea;
+  --pop-pink: #ffb7cf;
 }
 
 @theme inline {
@@ -31,59 +71,123 @@ html {
 
 body {
   min-height: 100%;
-  background-color: var(--background);
-  color: var(--foreground);
-  background-image: radial-gradient(circle, #1a1a2e 1px, transparent 1px);
-  background-size: 22px 22px;
-  background-position: 0 0;
+  background-color: var(--pop-bg);
+  color: var(--pop-text);
   padding-top: env(safe-area-inset-top);
   padding-bottom: env(safe-area-inset-bottom);
   padding-left: env(safe-area-inset-left);
   padding-right: env(safe-area-inset-right);
 }
 
-/* Sticker cards */
+ruby rt {
+  user-select: none;
+}
+
+/* Sticker surfaces */
 .sticker {
-  box-shadow: 4px 4px 0px #1a1a2e;
-  border: 3px solid #1a1a2e;
+  box-shadow: 6px 6px 0 #000;
+  border: 3px solid #000;
 }
 
 .sticker-sm {
-  box-shadow: 2px 2px 0px #1a1a2e;
-  border: 2px solid #1a1a2e;
+  box-shadow: 3px 3px 0 #000;
+  border: 2.5px solid #000;
 }
 
-/* Retro controls */
-.retro-btn {
-  border: 3px solid #1a1a2e;
-  box-shadow: 4px 4px 0px #1a1a2e;
+.pop-card {
+  background: var(--pop-bg-panel);
+  border: 3px solid #000;
+  border-radius: 1.125rem;
+  box-shadow: 5px 5px 0 #000;
+}
+
+.pop-pill {
+  display: inline-block;
+  border-radius: 999px;
+  border: 2px solid #000;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  box-shadow: 2px 2px 0 #000;
+}
+
+/* Primary sticker button (filled) */
+.pop-btn {
+  border: 3px solid #000;
+  border-radius: 1.125rem;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  box-shadow: 5px 5px 0 #000;
   transition:
-    box-shadow 0.1s ease,
-    transform 0.1s ease;
-  font-weight: 700;
+    box-shadow 0.08s ease,
+    transform 0.08s ease;
 }
 
-.retro-btn:hover {
-  box-shadow: 6px 6px 0px #1a1a2e;
-  transform: translate(-2px, -2px);
+.pop-btn:hover:not(:disabled) {
+  box-shadow: 6px 6px 0 #000;
+  transform: translate(-1px, -1px);
 }
 
-.retro-btn:active {
-  box-shadow: 1px 1px 0px #1a1a2e;
-  transform: translate(3px, 3px);
+.pop-btn:active:not(:disabled) {
+  box-shadow: 0 0 0 #000;
+  transform: translate(5px, 5px);
+}
+
+.pop-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Outline / light sticker button */
+.pop-btn-outline {
+  border: 3px solid #000;
+  border-radius: 1rem;
+  font-weight: 900;
+  background: #fff;
+  color: #000;
+  box-shadow: 4px 4px 0 #000;
+  transition:
+    box-shadow 0.08s ease,
+    transform 0.08s ease;
+}
+
+.pop-btn-outline:active:not(:disabled) {
+  box-shadow: 0 0 0 #000;
+  transform: translate(4px, 4px);
+}
+
+.retro-btn {
+  border: 3px solid #000;
+  box-shadow: 5px 5px 0 #000;
+  transition:
+    box-shadow 0.08s ease,
+    transform 0.08s ease;
+  font-weight: 900;
+}
+
+.retro-btn:hover:not(:disabled) {
+  box-shadow: 6px 6px 0 #000;
+  transform: translate(-1px, -1px);
+}
+
+.retro-btn:active:not(:disabled) {
+  box-shadow: 0 0 0 #000;
+  transform: translate(5px, 5px);
 }
 
 .retro-input {
-  border: 3px solid #1a1a2e;
-  box-shadow: 3px 3px 0px #1a1a2e;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 0 #000;
   transition:
-    box-shadow 0.15s ease,
-    transform 0.15s ease;
+    box-shadow 0.12s ease,
+    transform 0.12s ease;
 }
 
 .retro-input:focus {
-  box-shadow: 5px 5px 0px #1a1a2e;
+  box-shadow: 5px 5px 0 #000;
   transform: translate(-1px, -1px);
+  outline: none;
 }
 
 /* Animations */
@@ -151,6 +255,41 @@ body {
   }
 }
 
+@keyframes pop-burst {
+  0% {
+    transform: scale(0.2) rotate(-15deg);
+    opacity: 0;
+  }
+  30% {
+    transform: scale(1.2) rotate(5deg);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1) rotate(-2deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.1) translateY(-40px);
+    opacity: 0;
+  }
+}
+
+@keyframes sticker-fly {
+  0% {
+    transform: translate(0, 0) rotate(0deg) scale(0);
+    opacity: 1;
+  }
+  20% {
+    transform: translate(calc(var(--tx) * 0.3), calc(var(--ty) * 0.3))
+      rotate(calc(var(--rot) * 0.3)) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(var(--tx), var(--ty)) rotate(var(--rot)) scale(0.6);
+    opacity: 0;
+  }
+}
+
 .animate-wiggle {
   animation: wiggle 2.2s ease-in-out infinite;
 }
@@ -201,4 +340,43 @@ body {
 
 .animate-streak-particle {
   animation: streak-spark 0.9s ease-out infinite;
+}
+
+.pop-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  border: 2.5px solid #000;
+  border-radius: 999px;
+  background: #fff;
+  font-size: 1.125rem;
+  font-weight: 900;
+  box-shadow: 2px 2px 0 #000;
+}
+
+.pop-progress-track {
+  height: 0.875rem;
+  border-radius: 999px;
+  border: 2.5px solid #000;
+  background: #fff;
+  overflow: hidden;
+}
+
+.pop-progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.3s ease;
+  background: var(--pop-accent);
+}
+
+.pop-timer-track {
+  height: 5px;
+  border-radius: 3px;
+  border: 2px solid #000;
+  background: #fff;
+  overflow: hidden;
 }

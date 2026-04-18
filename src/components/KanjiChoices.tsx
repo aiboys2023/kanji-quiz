@@ -12,8 +12,15 @@ interface KanjiChoicesProps {
   className?: string;
 }
 
+const ACCENT_BG = [
+  "bg-[var(--pop-pink)]",
+  "bg-[var(--pop-sky)]",
+  "bg-[var(--pop-streak)]",
+  "bg-white",
+];
+
 /**
- * 4択。モバイル 2x2 / md+ 1x4。ステッカー風（太枠 + シャドウ）。
+ * 4択。モバイル 2x2 / md+ 1x4。Pop ステッカー風。
  */
 export default function KanjiChoices({
   choices,
@@ -36,7 +43,7 @@ export default function KanjiChoices({
   return (
     <div
       className={cn(
-        "grid grid-cols-2 md:grid-cols-4 gap-3 w-full",
+        "grid w-full grid-cols-2 gap-3 md:grid-cols-4",
         className
       )}
       role="group"
@@ -49,6 +56,8 @@ export default function KanjiChoices({
         const isCorrect = kanji === correctKanji;
         const isWrongPick = revealed && selected === kanji && !isCorrect;
         const showCorrect = revealed && isCorrect;
+        const showWrong = revealed && isWrongPick;
+        const base = ACCENT_BG[i % ACCENT_BG.length];
 
         return (
           <button
@@ -57,14 +66,33 @@ export default function KanjiChoices({
             disabled={disabled || !kanji}
             onClick={() => kanji && onSelect(kanji)}
             className={cn(
-              "retro-btn min-h-12 rounded-2xl py-3 text-[1.2rem] font-bold transition-colors",
-              !revealed && "bg-blue text-white",
-              showCorrect && "bg-green text-white ring-2 ring-green",
-              isWrongPick && "bg-red text-white",
-              revealed && !showCorrect && !isWrongPick && "opacity-45"
+              "relative min-h-24 rounded-2xl border-[3px] border-black py-5 text-[2.35rem] font-black text-black transition-colors md:min-h-[5.5rem]",
+              !revealed && base,
+              showCorrect && "bg-[var(--pop-correct)] text-black",
+              showWrong && "bg-[var(--pop-wrong)] text-black",
+              revealed && !showCorrect && !showWrong && "opacity-45",
+              revealed && !showCorrect && !showWrong
+                ? "shadow-[3px_3px_0_#000]"
+                : "shadow-[5px_5px_0_#000] active:translate-x-0.5 active:translate-y-0.5 active:shadow-[2px_2px_0_#000]"
             )}
           >
             {kanji || "—"}
+            {showCorrect && (
+              <span
+                className="absolute right-2 top-2 flex h-7 w-7 items-center justify-center rounded-full border-2 border-black bg-[var(--pop-streak)] text-sm font-black text-black"
+                aria-hidden
+              >
+                ✓
+              </span>
+            )}
+            {showWrong && (
+              <span
+                className="absolute right-2 top-2 flex h-7 w-7 items-center justify-center rounded-full bg-black text-sm font-black text-white"
+                aria-hidden
+              >
+                ✕
+              </span>
+            )}
           </button>
         );
       })}

@@ -7,10 +7,16 @@ interface ConfettiProps {
   className?: string;
 }
 
-const COLORS = ["#FF6B9D", "#FFD93D", "#6BCB77", "#4D96FF", "#9B59B6", "#FF8C42"];
+const COLORS = [
+  "var(--pop-streak)",
+  "var(--pop-accent)",
+  "var(--pop-correct)",
+  "var(--pop-sky)",
+  "var(--pop-pink)",
+];
 
 /**
- * 紙吹雪（globals の confetti-fall / 任意で無限ループ）
+ * Pop 風ミックス紙吹雪（丸・角・短冊）
  */
 export default function Confetti({
   active,
@@ -24,29 +30,83 @@ export default function Confetti({
       className={`pointer-events-none fixed inset-0 z-50 overflow-hidden ${className}`}
       aria-hidden
     >
-      {Array.from({ length: 32 }).map((_, i) => (
-        <span
-          key={i}
-          className={
-            loop
-              ? "absolute w-2 h-3 rounded-sm opacity-90"
-              : "absolute w-2 h-3 rounded-sm opacity-90 animate-confetti-fall"
-          }
-          style={{
-            left: `${(i * 37) % 100}%`,
-            top: "-12px",
-            backgroundColor: COLORS[i % COLORS.length],
-            animationDelay: `${(i % 8) * 0.08}s`,
-            transform: `rotate(${i * 17}deg)`,
-            ...(loop
-              ? {
-                  animation: "confetti-fall 2.4s linear infinite",
-                  animationDelay: `${(i % 8) * 0.08}s`,
-                }
-              : {}),
-          }}
-        />
-      ))}
+      {Array.from({ length: 36 }).map((_, i) => {
+        const kind = i % 4;
+        const bg = COLORS[i % COLORS.length];
+        const base = {
+          left: `${(i * 37) % 100}%`,
+          top: "-12px",
+          animationDelay: `${(i % 8) * 0.08}s`,
+        } as const;
+        if (kind === 0) {
+          return (
+            <span
+              key={i}
+              className={
+                loop
+                  ? "absolute h-3 w-3 rounded-full border-2 border-black opacity-95"
+                  : "absolute h-3 w-3 animate-confetti-fall rounded-full border-2 border-black opacity-95"
+              }
+              style={{
+                ...base,
+                background: bg,
+                ...(loop
+                  ? {
+                      animation: "confetti-fall 2.4s linear infinite",
+                      animationDelay: `${(i % 8) * 0.08}s`,
+                    }
+                  : {}),
+              }}
+            />
+          );
+        }
+        if (kind === 1) {
+          return (
+            <span
+              key={i}
+              className={
+                loop
+                  ? "absolute h-2.5 w-4 rounded-sm border-2 border-black opacity-95"
+                  : "absolute h-2.5 w-4 animate-confetti-fall rounded-sm border-2 border-black opacity-95"
+              }
+              style={{
+                ...base,
+                background: bg,
+                transform: `rotate(${i * 17}deg)`,
+                ...(loop
+                  ? {
+                      animation: "confetti-fall 2.4s linear infinite",
+                      animationDelay: `${(i % 8) * 0.08}s`,
+                    }
+                  : {}),
+              }}
+            />
+          );
+        }
+        return (
+          <span
+            key={i}
+            className={
+              loop
+                ? "absolute h-3 w-3 opacity-95"
+                : "absolute h-3 w-3 animate-confetti-fall opacity-95"
+            }
+            style={{
+              ...base,
+              background: bg,
+              border: "2px solid #000",
+              borderRadius: kind === 2 ? "4px" : "50%",
+              transform: `rotate(${i * 23}deg)`,
+              ...(loop
+                ? {
+                    animation: "confetti-fall 2.4s linear infinite",
+                    animationDelay: `${(i % 8) * 0.08}s`,
+                  }
+                : {}),
+            }}
+          />
+        );
+      })}
     </div>
   );
 }

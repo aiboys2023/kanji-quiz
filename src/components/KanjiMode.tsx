@@ -61,10 +61,26 @@ export default function KanjiMode({
     onComplete(ok ? 1 : 0, 1);
   };
 
+  const blankFb = !revealed
+    ? null
+    : selected === question.blank.kanji
+      ? ("correct" as const)
+      : ("wrong" as const);
+
   return (
     <div className="w-full max-w-lg space-y-5 animate-pop-in">
-      <div className="sticker rounded-2xl bg-white p-5">
-        <SentenceDisplay question={question} mode="kanji" />
+      <div className="pop-pill bg-[var(--pop-correct)] text-black">
+        第{question.chapter}章 · {question.topic}
+      </div>
+      <p className="text-[11px] font-black tracking-[0.15em] text-black">
+        ● 正しい漢字を選んでください
+      </p>
+      <div className="pop-card rounded-2xl bg-white p-5">
+        <SentenceDisplay
+          question={question}
+          mode="kanji"
+          blankFeedback={blankFb}
+        />
       </div>
 
       <KanjiChoices
@@ -77,17 +93,36 @@ export default function KanjiMode({
       />
 
       {!revealed ? (
-        <p className="text-center text-sm font-bold opacity-70">
+        <p className="text-center text-sm font-bold text-black/70">
           タップですぐチェック！
         </p>
       ) : (
-        <button
-          type="button"
-          onClick={handleNext}
-          className="w-full min-h-12 retro-btn rounded-2xl py-3 bg-yellow text-[1.2rem] font-bold cursor-pointer"
-        >
-          つぎへ →
-        </button>
+        <>
+          {selected !== question.blank.kanji && (
+            <div className="pop-card rounded-2xl border-[3px] border-black bg-[var(--pop-wrong)] p-3 shadow-[5px_5px_0_#000]">
+              <div className="text-[11px] font-black tracking-wide text-black">
+                ANSWER
+              </div>
+              <div className="mt-1 text-xl font-black text-black">
+                {question.blank.kanji}
+                <span className="ml-2 text-sm font-bold opacity-80">
+                  {question.blank.reading}
+                </span>
+              </div>
+            </div>
+          )}
+          <button
+            type="button"
+            onClick={handleNext}
+            className={`pop-btn min-h-12 w-full rounded-2xl py-3.5 text-[1.2rem] text-white ${
+              selected === question.blank.kanji
+                ? "bg-[var(--pop-correct)]"
+                : "bg-[var(--pop-wrong)]"
+            }`}
+          >
+            ツギへ →
+          </button>
+        </>
       )}
     </div>
   );

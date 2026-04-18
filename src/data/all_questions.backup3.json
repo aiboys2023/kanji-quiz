@@ -5,9 +5,8 @@
     "type": "reading",
     "sentence": "休日はいつもより遅く起きる。",
     "blank": {
-      "kanji": "起",
-      "reading": "お",
-      "okurigana": "きる"
+      "kanji": "起きる",
+      "reading": "おきる"
     },
     "rubies": [
       {
@@ -26,9 +25,8 @@
     "type": "reading",
     "sentence": "毎朝、母に起こしてもらっている。",
     "blank": {
-      "kanji": "起",
-      "reading": "お",
-      "okurigana": "こして"
+      "kanji": "起こして",
+      "reading": "おこして"
     },
     "rubies": [
       {
@@ -48,8 +46,7 @@
     "sentence": "寝ながらスマホを見るのはよくない。",
     "blank": {
       "kanji": "寝",
-      "reading": "ね",
-      "okurigana": ""
+      "reading": "ね"
     },
     "rubies": [
       {
@@ -65,8 +62,7 @@
     "sentence": "寝室の電気を消して寝てしまった。",
     "blank": {
       "kanji": "寝",
-      "reading": "ね",
-      "okurigana": ""
+      "reading": "ね"
     },
     "rubies": [
       {
@@ -90,8 +86,7 @@
     "sentence": "かぜのときは入浴しないほうがいい。",
     "blank": {
       "kanji": "入浴",
-      "reading": "にゅうよく",
-      "okurigana": ""
+      "reading": "にゅうよく"
     },
     "rubies": []
   },
@@ -101,9 +96,8 @@
     "type": "reading",
     "sentence": "地震が起きたら机の下に入る。",
     "blank": {
-      "kanji": "起",
-      "reading": "お",
-      "okurigana": "きたら"
+      "kanji": "起きたら",
+      "reading": "おきたら"
     },
     "rubies": [
       {
@@ -130,9 +124,8 @@
     "type": "reading",
     "sentence": "明日は試験だから早く起きようとした。",
     "blank": {
-      "kanji": "起",
-      "reading": "お",
-      "okurigana": "きよう"
+      "kanji": "起きよう",
+      "reading": "おきよう"
     },
     "rubies": [
       {
@@ -155,9 +148,8 @@
     "type": "reading",
     "sentence": "もう9時、子どもを起こす時間だ。",
     "blank": {
-      "kanji": "起",
-      "reading": "お",
-      "okurigana": "こす"
+      "kanji": "起こす",
+      "reading": "おこす"
     },
     "rubies": [
       {
@@ -180,9 +172,8 @@
     "type": "reading",
     "sentence": "汗をかいたからシャワーを浴びる。",
     "blank": {
-      "kanji": "浴",
-      "reading": "あ",
-      "okurigana": "びる"
+      "kanji": "浴びる",
+      "reading": "あびる"
     },
     "rubies": [
       {
@@ -198,8 +189,7 @@
     "sentence": "お湯をわかしてコーヒーを入れる。",
     "blank": {
       "kanji": "湯",
-      "reading": "ゆ",
-      "okurigana": ""
+      "reading": "ゆ"
     },
     "rubies": [
       {
@@ -360,9 +350,8 @@
     "type": "reading",
     "sentence": "食器をきれいに洗う。",
     "blank": {
-      "kanji": "洗",
-      "reading": "あら",
-      "okurigana": "う"
+      "kanji": "洗う",
+      "reading": "あらう"
     },
     "rubies": [
       {
@@ -378,8 +367,7 @@
     "sentence": "洗濯機の使い方を教えてください。",
     "blank": {
       "kanji": "洗濯",
-      "reading": "せんたく",
-      "okurigana": ""
+      "reading": "せんたく"
     },
     "rubies": [
       {
@@ -402,9 +390,8 @@
     "type": "reading",
     "sentence": "天気がいい日は外にふとんを干す。",
     "blank": {
-      "kanji": "干",
-      "reading": "ほ",
-      "okurigana": "す"
+      "kanji": "干す",
+      "reading": "ほす"
     },
     "rubies": [
       {
@@ -428,8 +415,7 @@
     "sentence": "母は私の行動が友人関係に干渉する。",
     "blank": {
       "kanji": "干渉",
-      "reading": "かんしょう",
-      "okurigana": ""
+      "reading": "かんしょう"
     },
     "rubies": [
       {
@@ -461,8 +447,7 @@
     "sentence": "アルバイトで生活費を稼ぐ。",
     "blank": {
       "kanji": "生活",
-      "reading": "せいかつ",
-      "okurigana": ""
+      "reading": "せいかつ"
     },
     "rubies": [
       {
@@ -481,9 +466,8 @@
     "type": "reading",
     "sentence": "毎日の手洗い・うがいが大切だ。",
     "blank": {
-      "kanji": "手洗",
-      "reading": "てあら",
-      "okurigana": "い"
+      "kanji": "手洗い",
+      "reading": "てあらい"
     },
     "rubies": [
       {
@@ -503,8 +487,7 @@
     "sentence": "ドラッグストアで洗剤を買った。",
     "blank": {
       "kanji": "洗剤",
-      "reading": "せんざい",
-      "okurigana": ""
+      "reading": "せんざい"
     },
     "rubies": [
       {
@@ -519,9 +502,8 @@
     "type": "reading",
     "sentence": "釣った魚を干して保存する。",
     "blank": {
-      "kanji": "干",
-      "reading": "ほ",
-      "okurigana": "して"
+      "kanji": "干して",
+      "reading": "ほして"
     },
     "rubies": [
       {
@@ -545,8 +527,7 @@
     "sentence": "4月から新しい生活が始まる。",
     "blank": {
       "kanji": "生活",
-      "reading": "せいかつ",
-      "okurigana": ""
+      "reading": "せいかつ"
     },
     "rubies": [
       {
@@ -570,8 +551,7 @@
     "sentence": "姉は活発だが、妹はおとなしい。",
     "blank": {
       "kanji": "活発",
-      "reading": "かっぱつ",
-      "okurigana": ""
+      "reading": "かっぱつ"
     },
     "rubies": [
       {
@@ -708,9 +688,8 @@
     "type": "reading",
     "sentence": "海岸のペットボトルを拾う。",
     "blank": {
-      "kanji": "拾",
-      "reading": "ひろ",
-      "okurigana": "う"
+      "kanji": "拾う",
+      "reading": "ひろう"
     },
     "rubies": [
       {
@@ -725,9 +704,8 @@
     "type": "reading",
     "sentence": "着られなくなった洋服を捨てる。",
     "blank": {
-      "kanji": "捨",
-      "reading": "す",
-      "okurigana": "てる"
+      "kanji": "捨てる",
+      "reading": "すてる"
     },
     "rubies": [
       {
@@ -746,9 +724,8 @@
     "type": "reading",
     "sentence": "火事でとなりのアパートが燃えた。",
     "blank": {
-      "kanji": "燃",
-      "reading": "も",
-      "okurigana": "えた"
+      "kanji": "燃えた",
+      "reading": "もえた"
     },
     "rubies": [
       {
@@ -764,8 +741,7 @@
     "sentence": "可燃ゴミの日は火曜と木曜だ。",
     "blank": {
       "kanji": "可燃",
-      "reading": "かねん",
-      "okurigana": ""
+      "reading": "かねん"
     },
     "rubies": [
       {
@@ -789,8 +765,7 @@
     "sentence": "雨にぬれて紙袋がやぶれそうだ。",
     "blank": {
       "kanji": "袋",
-      "reading": "ふくろ",
-      "okurigana": ""
+      "reading": "ふくろ"
     },
     "rubies": [
       {
@@ -806,8 +781,7 @@
     "sentence": "校内の拾得物はスマホや定期が多い。",
     "blank": {
       "kanji": "拾得物",
-      "reading": "しゅうとくぶつ",
-      "okurigana": ""
+      "reading": "しゅうとくぶつ"
     },
     "rubies": [
       {
@@ -831,8 +805,7 @@
     "sentence": "小数点第一位を四捨五入する。",
     "blank": {
       "kanji": "四捨五入",
-      "reading": "ししゃごにゅう",
-      "okurigana": ""
+      "reading": "ししゃごにゅう"
     },
     "rubies": [
       {
@@ -859,9 +832,8 @@
     "type": "reading",
     "sentence": "落ち葉を集めて焚き火をして燃やす。",
     "blank": {
-      "kanji": "燃",
-      "reading": "も",
-      "okurigana": "やす"
+      "kanji": "燃やす",
+      "reading": "もやす"
     },
     "rubies": [
       {
@@ -885,8 +857,7 @@
     "sentence": "買った食料品を袋に入れる。",
     "blank": {
       "kanji": "袋",
-      "reading": "ふくろ",
-      "okurigana": ""
+      "reading": "ふくろ"
     },
     "rubies": [
       {
@@ -914,8 +885,7 @@
     "sentence": "寒い日は手袋をはめて出かける。",
     "blank": {
       "kanji": "手袋",
-      "reading": "てぶくろ",
-      "okurigana": ""
+      "reading": "てぶくろ"
     },
     "rubies": [
       {
@@ -1068,8 +1038,7 @@
     "sentence": "毎週水曜日が休みだ。",
     "blank": {
       "kanji": "水曜日",
-      "reading": "すいようび",
-      "okurigana": ""
+      "reading": "すいようび"
     },
     "rubies": [
       {
@@ -1089,8 +1058,7 @@
     "sentence": "この橋は19世紀の末ごろに作られた。",
     "blank": {
       "kanji": "末",
-      "reading": "まつ",
-      "okurigana": ""
+      "reading": "まつ"
     },
     "rubies": [
       {
@@ -1114,8 +1082,7 @@
     "sentence": "明日、期末テストが行われる。",
     "blank": {
       "kanji": "期末",
-      "reading": "きまつ",
-      "okurigana": ""
+      "reading": "きまつ"
     },
     "rubies": [
       {
@@ -1135,8 +1102,7 @@
     "sentence": "昨晩、友達と長時間ゲームした。",
     "blank": {
       "kanji": "昨晩",
-      "reading": "さくばん",
-      "okurigana": ""
+      "reading": "さくばん"
     },
     "rubies": [
       {
@@ -1156,8 +1122,7 @@
     "sentence": "翌朝のプレゼンの準備をする。",
     "blank": {
       "kanji": "翌朝",
-      "reading": "よくあさ",
-      "okurigana": ""
+      "reading": "よくあさ"
     },
     "rubies": [
       {
@@ -1173,8 +1138,7 @@
     "sentence": "都合がいいのは火曜日だ。",
     "blank": {
       "kanji": "火曜日",
-      "reading": "かようび",
-      "okurigana": ""
+      "reading": "かようび"
     },
     "rubies": [
       {
@@ -1190,8 +1154,7 @@
     "sentence": "今週の末に、友達と映画を見に行く。",
     "blank": {
       "kanji": "末",
-      "reading": "まつ",
-      "okurigana": ""
+      "reading": "まつ"
     },
     "rubies": [
       {
@@ -1223,8 +1186,7 @@
     "sentence": "3月末までの短期アルバイトをする。",
     "blank": {
       "kanji": "末",
-      "reading": "まつ",
-      "okurigana": ""
+      "reading": "まつ"
     },
     "rubies": [
       {
@@ -1244,8 +1206,7 @@
     "sentence": "昨年の夏はハワイへ旅行に行った。",
     "blank": {
       "kanji": "昨年",
-      "reading": "さくねん",
-      "okurigana": ""
+      "reading": "さくねん"
     },
     "rubies": [
       {
@@ -1269,8 +1230,7 @@
     "sentence": "台風の翌日はいい天気だった。",
     "blank": {
       "kanji": "翌日",
-      "reading": "よくじつ",
-      "okurigana": ""
+      "reading": "よくじつ"
     },
     "rubies": [
       {
@@ -1478,8 +1438,7 @@
     "sentence": "来月、国へ帰る予定だ。",
     "blank": {
       "kanji": "予定",
-      "reading": "よてい",
-      "okurigana": ""
+      "reading": "よてい"
     },
     "rubies": [
       {
@@ -1503,8 +1462,7 @@
     "sentence": "学校の規則を守る。",
     "blank": {
       "kanji": "規則",
-      "reading": "きそく",
-      "okurigana": ""
+      "reading": "きそく"
     },
     "rubies": [
       {
@@ -1524,8 +1482,7 @@
     "sentence": "定規で線を引く。",
     "blank": {
       "kanji": "定規",
-      "reading": "じょうぎ",
-      "okurigana": ""
+      "reading": "じょうぎ"
     },
     "rubies": [
       {
@@ -1545,8 +1502,7 @@
     "sentence": "来週、子ども用の自転車を買う。",
     "blank": {
       "kanji": "用",
-      "reading": "よう",
-      "okurigana": ""
+      "reading": "よう"
     },
     "rubies": [
       {
@@ -1574,8 +1530,7 @@
     "sentence": "くわしい事は明日話す。",
     "blank": {
       "kanji": "事",
-      "reading": "こと",
-      "okurigana": ""
+      "reading": "こと"
     },
     "rubies": [
       {
@@ -1595,8 +1550,7 @@
     "sentence": "天気予報を見て、着る服を決める。",
     "blank": {
       "kanji": "予報",
-      "reading": "よほう",
-      "okurigana": ""
+      "reading": "よほう"
     },
     "rubies": [
       {
@@ -1627,9 +1581,8 @@
     "type": "reading",
     "sentence": "彼が来るか、定かでない。",
     "blank": {
-      "kanji": "定",
-      "reading": "さだ",
-      "okurigana": "か"
+      "kanji": "定か",
+      "reading": "さだか"
     },
     "rubies": [
       {
@@ -1648,9 +1601,8 @@
     "type": "reading",
     "sentence": "次の会議は議長を定めて行われる。",
     "blank": {
-      "kanji": "定",
-      "reading": "さだ",
-      "okurigana": "めて"
+      "kanji": "定めて",
+      "reading": "さだめて"
     },
     "rubies": [
       {
@@ -1678,8 +1630,7 @@
     "sentence": "毎日バスを利用して通学している。",
     "blank": {
       "kanji": "利用",
-      "reading": "りよう",
-      "okurigana": ""
+      "reading": "りよう"
     },
     "rubies": [
       {
@@ -1699,8 +1650,7 @@
     "sentence": "今日は大事な試験がある。",
     "blank": {
       "kanji": "大事",
-      "reading": "だいじ",
-      "okurigana": ""
+      "reading": "だいじ"
     },
     "rubies": [
       {
@@ -1870,9 +1820,8 @@
     "type": "reading",
     "sentence": "熱いラーメンを食べて汗をかいた。",
     "blank": {
-      "kanji": "熱",
-      "reading": "あつ",
-      "okurigana": "い"
+      "kanji": "熱い",
+      "reading": "あつい"
     },
     "rubies": [
       {
@@ -1891,9 +1840,8 @@
     "type": "reading",
     "sentence": "ビールを冷やしておく。",
     "blank": {
-      "kanji": "冷",
-      "reading": "ひ",
-      "okurigana": "やして"
+      "kanji": "冷やして",
+      "reading": "ひやして"
     },
     "rubies": []
   },
@@ -1903,9 +1851,8 @@
     "type": "reading",
     "sentence": "冷たいジュースを一気に飲んだ。",
     "blank": {
-      "kanji": "冷",
-      "reading": "つめ",
-      "okurigana": "たい"
+      "kanji": "冷たい",
+      "reading": "つめたい"
     },
     "rubies": [
       {
@@ -1924,9 +1871,8 @@
     "type": "reading",
     "sentence": "スープを飲んだら、体が温まった。",
     "blank": {
-      "kanji": "温",
-      "reading": "あたた",
-      "okurigana": "まった"
+      "kanji": "温まった",
+      "reading": "あたたまった"
     },
     "rubies": [
       {
@@ -1946,8 +1892,7 @@
     "sentence": "オーブンの温度を250℃にする。",
     "blank": {
       "kanji": "温度",
-      "reading": "おんど",
-      "okurigana": ""
+      "reading": "おんど"
     },
     "rubies": []
   },
@@ -1958,8 +1903,7 @@
     "sentence": "インフルエンザで高い熱が出た。",
     "blank": {
       "kanji": "熱",
-      "reading": "ねつ",
-      "okurigana": ""
+      "reading": "ねつ"
     },
     "rubies": [
       {
@@ -1978,9 +1922,8 @@
     "type": "reading",
     "sentence": "このご飯は冷えてもおいしい。",
     "blank": {
-      "kanji": "冷",
-      "reading": "ひ",
-      "okurigana": "えて"
+      "kanji": "冷えて",
+      "reading": "ひえて"
     },
     "rubies": [
       {
@@ -1995,9 +1938,8 @@
     "type": "reading",
     "sentence": "日本酒を冷やして飲む。",
     "blank": {
-      "kanji": "冷",
-      "reading": "ひ",
-      "okurigana": "やして"
+      "kanji": "冷やして",
+      "reading": "ひやして"
     },
     "rubies": [
       {
@@ -2020,9 +1962,8 @@
     "type": "reading",
     "sentence": "温かいみそ汁が飲みたい。",
     "blank": {
-      "kanji": "温",
-      "reading": "あたた",
-      "okurigana": "かい"
+      "kanji": "温かい",
+      "reading": "あたたかい"
     },
     "rubies": [
       {
@@ -2042,8 +1983,7 @@
     "sentence": "今日は気温が高くなるそうだ。",
     "blank": {
       "kanji": "気温",
-      "reading": "きおん",
-      "okurigana": ""
+      "reading": "きおん"
     },
     "rubies": [
       {
@@ -2222,8 +2162,7 @@
     "sentence": "チーズケーキの材料を買う。",
     "blank": {
       "kanji": "材料",
-      "reading": "ざいりょう",
-      "okurigana": ""
+      "reading": "ざいりょう"
     },
     "rubies": [
       {
@@ -2239,8 +2178,7 @@
     "sentence": "チョコレートを型から静かに出す。",
     "blank": {
       "kanji": "型",
-      "reading": "かた",
-      "okurigana": ""
+      "reading": "かた"
     },
     "rubies": [
       {
@@ -2260,8 +2198,7 @@
     "sentence": "新しい文型をひとつ覚えた。",
     "blank": {
       "kanji": "文型",
-      "reading": "ぶんけい",
-      "okurigana": ""
+      "reading": "ぶんけい"
     },
     "rubies": [
       {
@@ -2281,8 +2218,7 @@
     "sentence": "日焼けで体中が真っ赤になった。",
     "blank": {
       "kanji": "焼",
-      "reading": "や",
-      "okurigana": ""
+      "reading": "や"
     },
     "rubies": [
       {
@@ -2306,8 +2242,7 @@
     "sentence": "料理にあわせて器を選ぶ。",
     "blank": {
       "kanji": "器",
-      "reading": "うつわ",
-      "okurigana": ""
+      "reading": "うつわ"
     },
     "rubies": [
       {
@@ -2327,8 +2262,7 @@
     "sentence": "古い木材を再利用していすを作る。",
     "blank": {
       "kanji": "木材",
-      "reading": "もくざい",
-      "okurigana": ""
+      "reading": "もくざい"
     },
     "rubies": [
       {
@@ -2356,8 +2290,7 @@
     "sentence": "最新型のスマホは高くて買えない。",
     "blank": {
       "kanji": "型",
-      "reading": "がた",
-      "okurigana": ""
+      "reading": "がた"
     },
     "rubies": [
       {
@@ -2380,9 +2313,8 @@
     "type": "reading",
     "sentence": "焼いたパンとコーヒーが毎朝の食事だ。",
     "blank": {
-      "kanji": "焼",
-      "reading": "や",
-      "okurigana": "いた"
+      "kanji": "焼いた",
+      "reading": "やいた"
     },
     "rubies": [
       {
@@ -2402,8 +2334,7 @@
     "sentence": "理科の授業で燃焼の実験をする。",
     "blank": {
       "kanji": "燃焼",
-      "reading": "ねんしょう",
-      "okurigana": ""
+      "reading": "ねんしょう"
     },
     "rubies": [
       {
@@ -2427,8 +2358,7 @@
     "sentence": "夕食に使った食器を洗う。",
     "blank": {
       "kanji": "器",
-      "reading": "き",
-      "okurigana": ""
+      "reading": "き"
     },
     "rubies": [
       {
@@ -2590,8 +2520,7 @@
     "sentence": "卵をわってボールに入れる。",
     "blank": {
       "kanji": "卵",
-      "reading": "たまご",
-      "okurigana": ""
+      "reading": "たまご"
     },
     "rubies": [
       {
@@ -2607,8 +2536,7 @@
     "sentence": "やぎの乳を使ったチーズはおいしい。",
     "blank": {
       "kanji": "乳",
-      "reading": "ちち",
-      "okurigana": ""
+      "reading": "ちち"
     },
     "rubies": [
       {
@@ -2624,8 +2552,7 @@
     "sentence": "動物図鑑で海の哺乳類を調べる。",
     "blank": {
       "kanji": "哺乳類",
-      "reading": "ほにゅうるい",
-      "okurigana": ""
+      "reading": "ほにゅうるい"
     },
     "rubies": [
       {
@@ -2653,8 +2580,7 @@
     "sentence": "粉末スープにお湯を入れる。",
     "blank": {
       "kanji": "粉末",
-      "reading": "ふんまつ",
-      "okurigana": ""
+      "reading": "ふんまつ"
     },
     "rubies": [
       {
@@ -2674,8 +2600,7 @@
     "sentence": "塩味のラーメンを注文する。",
     "blank": {
       "kanji": "塩味",
-      "reading": "しおあじ",
-      "okurigana": ""
+      "reading": "しおあじ"
     },
     "rubies": [
       {
@@ -2691,8 +2616,7 @@
     "sentence": "卵白にさとうを入れてよくあわ立てる。",
     "blank": {
       "kanji": "卵白",
-      "reading": "らんぱく",
-      "okurigana": ""
+      "reading": "らんぱく"
     },
     "rubies": [
       {
@@ -2712,8 +2636,7 @@
     "sentence": "バターは牛乳から作られる。",
     "blank": {
       "kanji": "牛乳",
-      "reading": "ぎゅうにゅう",
-      "okurigana": ""
+      "reading": "ぎゅうにゅう"
     },
     "rubies": [
       {
@@ -2729,8 +2652,7 @@
     "sentence": "小麦粉でたこ焼きを作る。",
     "blank": {
       "kanji": "小麦粉",
-      "reading": "こむぎこ",
-      "okurigana": ""
+      "reading": "こむぎこ"
     },
     "rubies": [
       {
@@ -2750,8 +2672,7 @@
     "sentence": "毎日、食後に2種類の粉薬を飲む。",
     "blank": {
       "kanji": "粉薬",
-      "reading": "こなぐすり",
-      "okurigana": ""
+      "reading": "こなぐすり"
     },
     "rubies": [
       {
@@ -2779,8 +2700,7 @@
     "sentence": "塩とひとつまみ入れると味が変わる。",
     "blank": {
       "kanji": "塩",
-      "reading": "しお",
-      "okurigana": ""
+      "reading": "しお"
     },
     "rubies": [
       {
@@ -2948,8 +2868,7 @@
     "sentence": "緑黄色野菜をたくさん食べる。",
     "blank": {
       "kanji": "野菜",
-      "reading": "やさい",
-      "okurigana": ""
+      "reading": "やさい"
     },
     "rubies": [
       {
@@ -2968,9 +2887,8 @@
     "type": "reading",
     "sentence": "何があっても彼女との約束を果たす。",
     "blank": {
-      "kanji": "果",
-      "reading": "は",
-      "okurigana": "たす"
+      "kanji": "果たす",
+      "reading": "はたす"
     },
     "rubies": [
       {
@@ -2993,9 +2911,8 @@
     "type": "reading",
     "sentence": "世界の果てまで旅をしたい。",
     "blank": {
-      "kanji": "果",
-      "reading": "は",
-      "okurigana": "て"
+      "kanji": "果て",
+      "reading": "はて"
     },
     "rubies": [
       {
@@ -3015,8 +2932,7 @@
     "sentence": "2月の節分の日に豆をまく。",
     "blank": {
       "kanji": "豆",
-      "reading": "まめ",
-      "okurigana": ""
+      "reading": "まめ"
     },
     "rubies": [
       {
@@ -3040,8 +2956,7 @@
     "sentence": "低カロリーの豆腐でダイエットする。",
     "blank": {
       "kanji": "豆腐",
-      "reading": "とうふ",
-      "okurigana": ""
+      "reading": "とうふ"
     },
     "rubies": [
       {
@@ -3057,8 +2972,7 @@
     "sentence": "春になると菜の花で一面黄色になる。",
     "blank": {
       "kanji": "菜の花",
-      "reading": "なのはな",
-      "okurigana": ""
+      "reading": "なのはな"
     },
     "rubies": [
       {
@@ -3085,9 +2999,8 @@
     "type": "reading",
     "sentence": "働きすぎてつかれ果てた。",
     "blank": {
-      "kanji": "つかれ果",
-      "reading": "つかれは",
-      "okurigana": "てた"
+      "kanji": "つかれ果てた",
+      "reading": "つかれはてた"
     },
     "rubies": [
       {
@@ -3103,8 +3016,7 @@
     "sentence": "いろいろな果実酒を作る。",
     "blank": {
       "kanji": "果実酒",
-      "reading": "かじつしゅ",
-      "okurigana": ""
+      "reading": "かじつしゅ"
     },
     "rubies": [
       {
@@ -3120,8 +3032,7 @@
     "sentence": "大豆からしょう油やみそが作られる。",
     "blank": {
       "kanji": "豆",
-      "reading": "まめ",
-      "okurigana": ""
+      "reading": "まめ"
     },
     "rubies": [
       {
@@ -3141,8 +3052,7 @@
     "sentence": "缶コーヒーを飲んで一休みする。",
     "blank": {
       "kanji": "缶",
-      "reading": "かん",
-      "okurigana": ""
+      "reading": "かん"
     },
     "rubies": [
       {
@@ -3305,8 +3215,7 @@
     "sentence": "杯にお酒をなみなみと注ぐ。",
     "blank": {
       "kanji": "杯",
-      "reading": "はい",
-      "okurigana": ""
+      "reading": "はい"
     },
     "rubies": [
       {
@@ -3326,8 +3235,7 @@
     "sentence": "一杯飲んでから帰ることにする。",
     "blank": {
       "kanji": "杯",
-      "reading": "はい",
-      "okurigana": ""
+      "reading": "はい"
     },
     "rubies": [
       {
@@ -3347,8 +3255,7 @@
     "sentence": "コピーの枚数を数える。",
     "blank": {
       "kanji": "枚数",
-      "reading": "まいすう",
-      "okurigana": ""
+      "reading": "まいすう"
     },
     "rubies": [
       {
@@ -3364,8 +3271,7 @@
     "sentence": "彼の料理はプロに匹敵する。",
     "blank": {
       "kanji": "匹敵",
-      "reading": "ひってき",
-      "okurigana": ""
+      "reading": "ひってき"
     },
     "rubies": [
       {
@@ -3385,8 +3291,7 @@
     "sentence": "軽量の折りたたみ自転車を買った。",
     "blank": {
       "kanji": "軽量",
-      "reading": "けいりょう",
-      "okurigana": ""
+      "reading": "けいりょう"
     },
     "rubies": [
       {
@@ -3410,8 +3315,7 @@
     "sentence": "カップ二杯の水をなべに入れる。",
     "blank": {
       "kanji": "杯",
-      "reading": "はい",
-      "okurigana": ""
+      "reading": "はい"
     },
     "rubies": [
       {
@@ -3435,8 +3339,7 @@
     "sentence": "二人の合せを聞いて乾杯した。",
     "blank": {
       "kanji": "乾杯",
-      "reading": "かんぱい",
-      "okurigana": ""
+      "reading": "かんぱい"
     },
     "rubies": [
       {
@@ -3464,8 +3367,7 @@
     "sentence": "魚を一匹値付けた料理を作る。",
     "blank": {
       "kanji": "匹",
-      "reading": "ひき",
-      "okurigana": ""
+      "reading": "ひき"
     },
     "rubies": [
       {
@@ -3501,8 +3403,7 @@
     "sentence": "体重を量って少し減っていた。",
     "blank": {
       "kanji": "量",
-      "reading": "はか",
-      "okurigana": ""
+      "reading": "はか"
     },
     "rubies": [
       {
@@ -3526,8 +3427,7 @@
     "sentence": "おかし作りは計量がポイントだ。",
     "blank": {
       "kanji": "計量",
-      "reading": "けいりょう",
-      "okurigana": ""
+      "reading": "けいりょう"
     },
     "rubies": [
       {
@@ -3714,8 +3614,7 @@
     "sentence": "頭をドアにぶつけた。",
     "blank": {
       "kanji": "頭",
-      "reading": "あたま",
-      "okurigana": ""
+      "reading": "あたま"
     },
     "rubies": []
   },
@@ -3726,8 +3625,7 @@
     "sentence": "グループの先頭に立って歩く。",
     "blank": {
       "kanji": "先頭",
-      "reading": "せんとう",
-      "okurigana": ""
+      "reading": "せんとう"
     },
     "rubies": [
       {
@@ -3747,8 +3645,7 @@
     "sentence": "社長が先頭のあいさつをした。",
     "blank": {
       "kanji": "先頭",
-      "reading": "せんとう",
-      "okurigana": ""
+      "reading": "せんとう"
     },
     "rubies": [
       {
@@ -3764,8 +3661,7 @@
     "sentence": "教頭先生にあいさつする。",
     "blank": {
       "kanji": "教頭",
-      "reading": "きょうとう",
-      "okurigana": ""
+      "reading": "きょうとう"
     },
     "rubies": [
       {
@@ -3781,8 +3677,7 @@
     "sentence": "朝起きてすぐに顔を洗う。",
     "blank": {
       "kanji": "顔",
-      "reading": "かお",
-      "okurigana": ""
+      "reading": "かお"
     },
     "rubies": [
       {
@@ -3806,8 +3701,7 @@
     "sentence": "寝ちがえて首が動かない。",
     "blank": {
       "kanji": "首",
-      "reading": "くび",
-      "okurigana": ""
+      "reading": "くび"
     },
     "rubies": [
       {
@@ -3827,8 +3721,7 @@
     "sentence": "漢字の筋首を覚える。",
     "blank": {
       "kanji": "筋首",
-      "reading": "きんしゅ",
-      "okurigana": ""
+      "reading": "きんしゅ"
     },
     "rubies": [
       {
@@ -3848,8 +3741,7 @@
     "sentence": "かぜをひいて鼻水が出る。",
     "blank": {
       "kanji": "鼻水",
-      "reading": "はなみず",
-      "okurigana": ""
+      "reading": "はなみず"
     },
     "rubies": [
       {
@@ -3865,8 +3757,7 @@
     "sentence": "鼻がつまって、においがわからない。",
     "blank": {
       "kanji": "鼻",
-      "reading": "はな",
-      "okurigana": ""
+      "reading": "はな"
     },
     "rubies": []
   },
@@ -3877,8 +3768,7 @@
     "sentence": "耳の調子が悪く、耳鼻科へ行く。",
     "blank": {
       "kanji": "耳鼻科",
-      "reading": "じびか",
-      "okurigana": ""
+      "reading": "じびか"
     },
     "rubies": [
       {
@@ -4044,9 +3934,8 @@
     "type": "reading",
     "sentence": "名前を呼んだら返事をしてください。",
     "blank": {
-      "kanji": "呼",
-      "reading": "よ",
-      "okurigana": "ん"
+      "kanji": "呼ん",
+      "reading": "よん"
     },
     "rubies": [
       {
@@ -4065,9 +3954,8 @@
     "type": "reading",
     "sentence": "火事に気づいて大声で助けを呼ぶ。",
     "blank": {
-      "kanji": "呼",
-      "reading": "よ",
-      "okurigana": "ぶ"
+      "kanji": "呼ぶ",
+      "reading": "よぶ"
     },
     "rubies": [
       {
@@ -4094,9 +3982,8 @@
     "type": "reading",
     "sentence": "ここでタバコを吸わないでください。",
     "blank": {
-      "kanji": "吸",
-      "reading": "す",
-      "okurigana": "わ"
+      "kanji": "吸わ",
+      "reading": "すわ"
     },
     "rubies": []
   },
@@ -4107,8 +3994,7 @@
     "sentence": "深呼吸すると気持ちが落ち着く。",
     "blank": {
       "kanji": "深呼吸",
-      "reading": "しんこきゅう",
-      "okurigana": ""
+      "reading": "しんこきゅう"
     },
     "rubies": [
       {
@@ -4127,9 +4013,8 @@
     "type": "reading",
     "sentence": "新鮮な空気を吸う。",
     "blank": {
-      "kanji": "吸",
-      "reading": "す",
-      "okurigana": "う"
+      "kanji": "吸う",
+      "reading": "すう"
     },
     "rubies": [
       {
@@ -4149,8 +4034,7 @@
     "sentence": "休息の時間をたっぷり取る。",
     "blank": {
       "kanji": "休息",
-      "reading": "きゅうそく",
-      "okurigana": ""
+      "reading": "きゅうそく"
     },
     "rubies": [
       {
@@ -4170,8 +4054,7 @@
     "sentence": "急に走ったので息が切れた。",
     "blank": {
       "kanji": "息",
-      "reading": "いき",
-      "okurigana": ""
+      "reading": "いき"
     },
     "rubies": [
       {
@@ -4195,8 +4078,7 @@
     "sentence": "びっくりして息が止まるかと思った。",
     "blank": {
       "kanji": "息",
-      "reading": "いき",
-      "okurigana": ""
+      "reading": "いき"
     },
     "rubies": [
       {
@@ -4216,8 +4098,7 @@
     "sentence": "借りたお金の利息をはらう。",
     "blank": {
       "kanji": "利息",
-      "reading": "りそく",
-      "okurigana": ""
+      "reading": "りそく"
     },
     "rubies": [
       {
@@ -4237,8 +4118,7 @@
     "sentence": "たくさん運動して汗をかいた。",
     "blank": {
       "kanji": "汗",
-      "reading": "あせ",
-      "okurigana": ""
+      "reading": "あせ"
     },
     "rubies": [
       {
@@ -4376,8 +4256,7 @@
     "sentence": "出かける前にガスを検査する。",
     "blank": {
       "kanji": "検査",
-      "reading": "けんさ",
-      "okurigana": ""
+      "reading": "けんさ"
     },
     "rubies": [
       {
@@ -4397,8 +4276,7 @@
     "sentence": "病気を調べるために検査する。",
     "blank": {
       "kanji": "検査",
-      "reading": "けんさ",
-      "okurigana": ""
+      "reading": "けんさ"
     },
     "rubies": [
       {
@@ -4418,8 +4296,7 @@
     "sentence": "１さいをすぎてから歯が生えてきた。",
     "blank": {
       "kanji": "歯",
-      "reading": "は",
-      "okurigana": ""
+      "reading": "は"
     },
     "rubies": [
       {
@@ -4435,8 +4312,7 @@
     "sentence": "永久歯に生え変わる。",
     "blank": {
       "kanji": "永久歯",
-      "reading": "えいきゅうし",
-      "okurigana": ""
+      "reading": "えいきゅうし"
     },
     "rubies": [
       {
@@ -4455,9 +4331,8 @@
     "type": "reading",
     "sentence": "おなかが痛くて病院へ行く。",
     "blank": {
-      "kanji": "痛",
-      "reading": "いた",
-      "okurigana": "く"
+      "kanji": "痛く",
+      "reading": "いたく"
     },
     "rubies": [
       {
@@ -4477,8 +4352,7 @@
     "sentence": "子どものころ山の中を探検した。",
     "blank": {
       "kanji": "探検",
-      "reading": "たんけん",
-      "okurigana": ""
+      "reading": "たんけん"
     },
     "rubies": [
       {
@@ -4502,8 +4376,7 @@
     "sentence": "審査員にスピーチを読まれた。",
     "blank": {
       "kanji": "審査",
-      "reading": "しんさ",
-      "okurigana": ""
+      "reading": "しんさ"
     },
     "rubies": [
       {
@@ -4523,8 +4396,7 @@
     "sentence": "出歯で顔がはれた。",
     "blank": {
       "kanji": "出歯",
-      "reading": "でば",
-      "okurigana": ""
+      "reading": "でば"
     },
     "rubies": [
       {
@@ -4540,8 +4412,7 @@
     "sentence": "クリニックで薬石をとってもらう。",
     "blank": {
       "kanji": "薬石",
-      "reading": "やくせき",
-      "okurigana": ""
+      "reading": "やくせき"
     },
     "rubies": []
   },
@@ -4552,8 +4423,7 @@
     "sentence": "頭から頭痛で薬を飲んだ。",
     "blank": {
       "kanji": "頭痛",
-      "reading": "ずつう",
-      "okurigana": ""
+      "reading": "ずつう"
     },
     "rubies": [
       {
@@ -4733,8 +4603,7 @@
     "sentence": "道で転んで、ひざから血が出た。",
     "blank": {
       "kanji": "血",
-      "reading": "ち",
-      "okurigana": ""
+      "reading": "ち"
     },
     "rubies": [
       {
@@ -4758,8 +4627,7 @@
     "sentence": "ハンカチで強くおさえて止血する。",
     "blank": {
       "kanji": "止血",
-      "reading": "しけつ",
-      "okurigana": ""
+      "reading": "しけつ"
     },
     "rubies": [
       {
@@ -4775,8 +4643,7 @@
     "sentence": "病院で血液検査を受けた。",
     "blank": {
       "kanji": "血液",
-      "reading": "けつえき",
-      "okurigana": ""
+      "reading": "けつえき"
     },
     "rubies": [
       {
@@ -4799,9 +4666,8 @@
     "type": "reading",
     "sentence": "プレゼントを包んでもらう。",
     "blank": {
-      "kanji": "包",
-      "reading": "つつ",
-      "okurigana": "ん"
+      "kanji": "包ん",
+      "reading": "つつん"
     },
     "rubies": []
   },
@@ -4812,8 +4678,7 @@
     "sentence": "東北地方一帯に大雨が降った。",
     "blank": {
       "kanji": "一帯",
-      "reading": "いったい",
-      "okurigana": ""
+      "reading": "いったい"
     },
     "rubies": [
       {
@@ -4841,8 +4706,7 @@
     "sentence": "血管がつまる病気になる。",
     "blank": {
       "kanji": "血管",
-      "reading": "けっかん",
-      "okurigana": ""
+      "reading": "けっかん"
     },
     "rubies": [
       {
@@ -4858,8 +4722,7 @@
     "sentence": "赤血球の量を調べる。",
     "blank": {
       "kanji": "赤血球",
-      "reading": "せっけっきゅう",
-      "okurigana": ""
+      "reading": "せっけっきゅう"
     },
     "rubies": [
       {
@@ -4879,8 +4742,7 @@
     "sentence": "液体は飛行機に持ちこめない。",
     "blank": {
       "kanji": "液体",
-      "reading": "えきたい",
-      "okurigana": ""
+      "reading": "えきたい"
     },
     "rubies": [
       {
@@ -4900,8 +4762,7 @@
     "sentence": "けがをしたところを包帯でまく。",
     "blank": {
       "kanji": "包帯",
-      "reading": "ほうたい",
-      "okurigana": ""
+      "reading": "ほうたい"
     },
     "rubies": []
   },
@@ -4912,8 +4773,7 @@
     "sentence": "着物に合わせた帯をしめる。",
     "blank": {
       "kanji": "帯",
-      "reading": "おび",
-      "okurigana": ""
+      "reading": "おび"
     },
     "rubies": [
       {
@@ -5096,9 +4956,8 @@
     "type": "reading",
     "sentence": "燃える火の中から人を救う。",
     "blank": {
-      "kanji": "救",
-      "reading": "すく",
-      "okurigana": "う"
+      "kanji": "救う",
+      "reading": "すくう"
     },
     "rubies": [
       {
@@ -5126,8 +4985,7 @@
     "sentence": "池に落ちた子どもが救出された。",
     "blank": {
       "kanji": "救出",
-      "reading": "きゅうしゅつ",
-      "okurigana": ""
+      "reading": "きゅうしゅつ"
     },
     "rubies": [
       {
@@ -5150,9 +5008,8 @@
     "type": "reading",
     "sentence": "困っている人を助ける。",
     "blank": {
-      "kanji": "助",
-      "reading": "たす",
-      "okurigana": "ける"
+      "kanji": "助ける",
+      "reading": "たすける"
     },
     "rubies": [
       {
@@ -5172,8 +5029,7 @@
     "sentence": "道でたおれている人を救助する。",
     "blank": {
       "kanji": "救助",
-      "reading": "きゅうじょ",
-      "okurigana": ""
+      "reading": "きゅうじょ"
     },
     "rubies": [
       {
@@ -5192,9 +5048,8 @@
     "type": "reading",
     "sentence": "友達が交通事故で亡くなった。",
     "blank": {
-      "kanji": "亡",
-      "reading": "な",
-      "okurigana": "くなった"
+      "kanji": "亡くなった",
+      "reading": "なくなった"
     },
     "rubies": [
       {
@@ -5218,8 +5073,7 @@
     "sentence": "救急車で病院に運ばれる。",
     "blank": {
       "kanji": "救急車",
-      "reading": "きゅうきゅうしゃ",
-      "okurigana": ""
+      "reading": "きゅうきゅうしゃ"
     },
     "rubies": [
       {
@@ -5238,9 +5092,8 @@
     "type": "reading",
     "sentence": "この病気は手術をすれば助かる。",
     "blank": {
-      "kanji": "助",
-      "reading": "たす",
-      "okurigana": "かる"
+      "kanji": "助かる",
+      "reading": "たすかる"
     },
     "rubies": [
       {
@@ -5260,8 +5113,7 @@
     "sentence": "仕事について先ぱいに助言をもらう。",
     "blank": {
       "kanji": "助言",
-      "reading": "じょげん",
-      "okurigana": ""
+      "reading": "じょげん"
     },
     "rubies": [
       {
@@ -5280,9 +5132,8 @@
     "type": "reading",
     "sentence": "川でおぼれて死にそうになった。",
     "blank": {
-      "kanji": "死",
-      "reading": "し",
-      "okurigana": "に"
+      "kanji": "死に",
+      "reading": "しに"
     },
     "rubies": [
       {
@@ -5298,8 +5149,7 @@
     "sentence": "父は３年前、病死した。",
     "blank": {
       "kanji": "病死",
-      "reading": "びょうし",
-      "okurigana": ""
+      "reading": "びょうし"
     },
     "rubies": [
       {
@@ -5483,8 +5333,7 @@
     "sentence": "次の角を曲がってください。",
     "blank": {
       "kanji": "角",
-      "reading": "かど",
-      "okurigana": ""
+      "reading": "かど"
     },
     "rubies": [
       {
@@ -5504,8 +5353,7 @@
     "sentence": "分度器をつかって角度をはかる。",
     "blank": {
       "kanji": "角度",
-      "reading": "かくど",
-      "okurigana": ""
+      "reading": "かくど"
     },
     "rubies": [
       {
@@ -5520,9 +5368,8 @@
     "type": "reading",
     "sentence": "こしが痛くて曲がらない。",
     "blank": {
-      "kanji": "曲",
-      "reading": "ま",
-      "okurigana": "がらない"
+      "kanji": "曲がらない",
+      "reading": "まがらない"
     },
     "rubies": [
       {
@@ -5538,8 +5385,7 @@
     "sentence": "ふとんを三つ折にする。",
     "blank": {
       "kanji": "折",
-      "reading": "お",
-      "okurigana": ""
+      "reading": "お"
     },
     "rubies": [
       {
@@ -5555,8 +5401,7 @@
     "sentence": "この水路は今でも使われている。",
     "blank": {
       "kanji": "路",
-      "reading": "ろ",
-      "okurigana": ""
+      "reading": "ろ"
     },
     "rubies": [
       {
@@ -5576,8 +5421,7 @@
     "sentence": "この牛は大きな角を持っている。",
     "blank": {
       "kanji": "角",
-      "reading": "つの",
-      "okurigana": ""
+      "reading": "つの"
     },
     "rubies": [
       {
@@ -5601,8 +5445,7 @@
     "sentence": "名曲を集めたCDを買った。",
     "blank": {
       "kanji": "名曲",
-      "reading": "めいきょく",
-      "okurigana": ""
+      "reading": "めいきょく"
     },
     "rubies": [
       {
@@ -5622,8 +5465,7 @@
     "sentence": "あそこの信号を左折する。",
     "blank": {
       "kanji": "左折",
-      "reading": "させつ",
-      "okurigana": ""
+      "reading": "させつ"
     },
     "rubies": [
       {
@@ -5638,9 +5480,8 @@
     "type": "reading",
     "sentence": "転んで肩骨を折った。",
     "blank": {
-      "kanji": "折",
-      "reading": "お",
-      "okurigana": "った"
+      "kanji": "折った",
+      "reading": "おった"
     },
     "rubies": [
       {
@@ -5664,8 +5505,7 @@
     "sentence": "仕事が終わって家路につく。",
     "blank": {
       "kanji": "家路",
-      "reading": "いえじ",
-      "okurigana": ""
+      "reading": "いえじ"
     },
     "rubies": [
       {
@@ -5822,9 +5662,8 @@
     "type": "reading",
     "sentence": "ねこがねずみを追う。",
     "blank": {
-      "kanji": "追",
-      "reading": "お",
-      "okurigana": "う"
+      "kanji": "追う",
+      "reading": "おう"
     },
     "rubies": []
   },
@@ -5835,8 +5674,7 @@
     "sentence": "前の車に追突した。",
     "blank": {
       "kanji": "追突",
-      "reading": "ついとつ",
-      "okurigana": ""
+      "reading": "ついとつ"
     },
     "rubies": [
       {
@@ -5856,8 +5694,7 @@
     "sentence": "突然、子どもが車の前に飛び出した。",
     "blank": {
       "kanji": "突然",
-      "reading": "とつぜん",
-      "okurigana": ""
+      "reading": "とつぜん"
     },
     "rubies": [
       {
@@ -5884,9 +5721,8 @@
     "type": "reading",
     "sentence": "足がすべって階段から転び落ちた。",
     "blank": {
-      "kanji": "転び落",
-      "reading": "ころびお",
-      "okurigana": "ちた"
+      "kanji": "転び落ちた",
+      "reading": "ころびおちた"
     },
     "rubies": [
       {
@@ -5906,8 +5742,7 @@
     "sentence": "竜巻で倒壊してけがをした。",
     "blank": {
       "kanji": "倒壊",
-      "reading": "とうかい",
-      "okurigana": ""
+      "reading": "とうかい"
     },
     "rubies": [
       {
@@ -5922,9 +5757,8 @@
     "type": "reading",
     "sentence": "毎日、仕事に追われている。",
     "blank": {
-      "kanji": "追",
-      "reading": "お",
-      "okurigana": "われている"
+      "kanji": "追われている",
+      "reading": "おわれている"
     },
     "rubies": [
       {
@@ -5943,9 +5777,8 @@
     "type": "reading",
     "sentence": "大きなもりで魚を突く。",
     "blank": {
-      "kanji": "突",
-      "reading": "つ",
-      "okurigana": "く"
+      "kanji": "突く",
+      "reading": "つく"
     },
     "rubies": [
       {
@@ -5964,9 +5797,8 @@
     "type": "reading",
     "sentence": "ボールが坂道を転がる。",
     "blank": {
-      "kanji": "転",
-      "reading": "ころ",
-      "okurigana": "がる"
+      "kanji": "転がる",
+      "reading": "ころがる"
     },
     "rubies": [
       {
@@ -5981,9 +5813,8 @@
     "type": "reading",
     "sentence": "石につまずいて転ぶ。",
     "blank": {
-      "kanji": "転",
-      "reading": "ころ",
-      "okurigana": "ぶ"
+      "kanji": "転ぶ",
+      "reading": "ころぶ"
     },
     "rubies": [
       {
@@ -5998,9 +5829,8 @@
     "type": "reading",
     "sentence": "グラスを倒してワインがこぼれた。",
     "blank": {
-      "kanji": "倒",
-      "reading": "たお",
-      "okurigana": "して"
+      "kanji": "倒して",
+      "reading": "たおして"
     },
     "rubies": []
   },
@@ -6154,8 +5984,7 @@
     "sentence": "北海道は日本の北部に位置している。",
     "blank": {
       "kanji": "位置",
-      "reading": "いち",
-      "okurigana": ""
+      "reading": "いち"
     },
     "rubies": [
       {
@@ -6179,8 +6008,7 @@
     "sentence": "国王の位をゆずる。",
     "blank": {
       "kanji": "位",
-      "reading": "くらい",
-      "okurigana": ""
+      "reading": "くらい"
     },
     "rubies": [
       {
@@ -6195,9 +6023,8 @@
     "type": "reading",
     "sentence": "電車にかばんを置き忘れた。",
     "blank": {
-      "kanji": "置き忘",
-      "reading": "おきわす",
-      "okurigana": "れた"
+      "kanji": "置き忘れた",
+      "reading": "おきわすれた"
     },
     "rubies": [
       {
@@ -6213,8 +6040,7 @@
     "sentence": "強風でトラックが横転した。",
     "blank": {
       "kanji": "横転",
-      "reading": "おうてん",
-      "okurigana": ""
+      "reading": "おうてん"
     },
     "rubies": [
       {
@@ -6229,9 +6055,8 @@
     "type": "reading",
     "sentence": "手紙を横書きで書いた。",
     "blank": {
-      "kanji": "横書",
-      "reading": "よこが",
-      "okurigana": "き"
+      "kanji": "横書き",
+      "reading": "よこがき"
     },
     "rubies": [
       {
@@ -6251,8 +6076,7 @@
     "sentence": "マラソンで日本選手が上位をしめる。",
     "blank": {
       "kanji": "上位",
-      "reading": "じょうい",
-      "okurigana": ""
+      "reading": "じょうい"
     },
     "rubies": [
       {
@@ -6271,9 +6095,8 @@
     "type": "reading",
     "sentence": "部屋にソファーを置く。",
     "blank": {
-      "kanji": "置",
-      "reading": "お",
-      "okurigana": "く"
+      "kanji": "置く",
+      "reading": "おく"
     },
     "rubies": [
       {
@@ -6289,8 +6112,7 @@
     "sentence": "駅の自転車置き場を利用する。",
     "blank": {
       "kanji": "置き場",
-      "reading": "おきば",
-      "okurigana": ""
+      "reading": "おきば"
     },
     "rubies": [
       {
@@ -6314,8 +6136,7 @@
     "sentence": "彼女の横顔はとてもきれいだ。",
     "blank": {
       "kanji": "横顔",
-      "reading": "よこがお",
-      "okurigana": ""
+      "reading": "よこがお"
     },
     "rubies": [
       {
@@ -6331,8 +6152,7 @@
     "sentence": "町の中央に大きな公園がある。",
     "blank": {
       "kanji": "中央",
-      "reading": "ちゅうおう",
-      "okurigana": ""
+      "reading": "ちゅうおう"
     },
     "rubies": [
       {
@@ -6507,9 +6327,8 @@
     "type": "reading",
     "sentence": "自転車のパンクを直す。",
     "blank": {
-      "kanji": "直",
-      "reading": "なお",
-      "okurigana": "す"
+      "kanji": "直す",
+      "reading": "なおす"
     },
     "rubies": [
       {
@@ -6525,8 +6344,7 @@
     "sentence": "彼は正直な人だ。",
     "blank": {
       "kanji": "正直",
-      "reading": "しょうじき",
-      "okurigana": ""
+      "reading": "しょうじき"
     },
     "rubies": [
       {
@@ -6546,8 +6364,7 @@
     "sentence": "東京の地下鉄の路線図はふくざつだ。",
     "blank": {
       "kanji": "路線",
-      "reading": "ろせん",
-      "okurigana": ""
+      "reading": "ろせん"
     },
     "rubies": [
       {
@@ -6570,9 +6387,8 @@
     "type": "reading",
     "sentence": "先生の言うことに逆らう。",
     "blank": {
-      "kanji": "逆",
-      "reading": "さか",
-      "okurigana": "らう"
+      "kanji": "逆らう",
+      "reading": "さからう"
     },
     "rubies": [
       {
@@ -6592,8 +6408,7 @@
     "sentence": "立場が逆になる。",
     "blank": {
       "kanji": "逆",
-      "reading": "ぎゃく",
-      "okurigana": ""
+      "reading": "ぎゃく"
     },
     "rubies": [
       {
@@ -6609,8 +6424,7 @@
     "sentence": "寝る前にマッサージする。",
     "blank": {
       "kanji": "前",
-      "reading": "まえ",
-      "okurigana": ""
+      "reading": "まえ"
     },
     "rubies": [
       {
@@ -6625,9 +6439,8 @@
     "type": "reading",
     "sentence": "直ちに現場に向かってください。",
     "blank": {
-      "kanji": "直",
-      "reading": "ただ",
-      "okurigana": "ちに"
+      "kanji": "直ちに",
+      "reading": "ただちに"
     },
     "rubies": [
       {
@@ -6647,8 +6460,7 @@
     "sentence": "教科書に線を引く。",
     "blank": {
       "kanji": "線",
-      "reading": "せん",
-      "okurigana": ""
+      "reading": "せん"
     },
     "rubies": [
       {
@@ -6668,8 +6480,7 @@
     "sentence": "逆子で生まれる。",
     "blank": {
       "kanji": "逆子",
-      "reading": "さかご",
-      "okurigana": ""
+      "reading": "さかご"
     },
     "rubies": [
       {
@@ -6685,8 +6496,7 @@
     "sentence": "川の向こう側にわたる。",
     "blank": {
       "kanji": "向こう側",
-      "reading": "むこうがわ",
-      "okurigana": ""
+      "reading": "むこうがわ"
     },
     "rubies": [
       {
@@ -6873,9 +6683,8 @@
     "type": "reading",
     "sentence": "コップに水を注いで飲む。",
     "blank": {
-      "kanji": "注",
-      "reading": "そそ",
-      "okurigana": "いで"
+      "kanji": "注いで",
+      "reading": "そそいで"
     },
     "rubies": [
       {
@@ -6895,8 +6704,7 @@
     "sentence": "新人作家に注目する。",
     "blank": {
       "kanji": "注目",
-      "reading": "ちゅうもく",
-      "okurigana": ""
+      "reading": "ちゅうもく"
     },
     "rubies": [
       {
@@ -6916,8 +6724,7 @@
     "sentence": "留学を決意する。",
     "blank": {
       "kanji": "決意",
-      "reading": "けつい",
-      "okurigana": ""
+      "reading": "けつい"
     },
     "rubies": [
       {
@@ -6933,8 +6740,7 @@
     "sentence": "石橋をたたいてわたる。",
     "blank": {
       "kanji": "石橋",
-      "reading": "いしばし",
-      "okurigana": ""
+      "reading": "いしばし"
     },
     "rubies": []
   },
@@ -6945,8 +6751,7 @@
     "sentence": "来年大学院に進学するつもりだ。",
     "blank": {
       "kanji": "進学",
-      "reading": "しんがく",
-      "okurigana": ""
+      "reading": "しんがく"
     },
     "rubies": [
       {
@@ -6966,8 +6771,7 @@
     "sentence": "車に注意して道をわたる。",
     "blank": {
       "kanji": "注意",
-      "reading": "ちゅうい",
-      "okurigana": ""
+      "reading": "ちゅうい"
     },
     "rubies": [
       {
@@ -6987,8 +6791,7 @@
     "sentence": "漢字の意味を調べる。",
     "blank": {
       "kanji": "意味",
-      "reading": "いみ",
-      "okurigana": ""
+      "reading": "いみ"
     },
     "rubies": [
       {
@@ -7008,8 +6811,7 @@
     "sentence": "大雨で橋が流された。",
     "blank": {
       "kanji": "橋",
-      "reading": "はし",
-      "okurigana": ""
+      "reading": "はし"
     },
     "rubies": [
       {
@@ -7028,9 +6830,8 @@
     "type": "reading",
     "sentence": "建設工場を進める。",
     "blank": {
-      "kanji": "進",
-      "reading": "すす",
-      "okurigana": "める"
+      "kanji": "進める",
+      "reading": "すすめる"
     },
     "rubies": [
       {
@@ -7050,8 +6851,7 @@
     "sentence": "科学技術は進歩している。",
     "blank": {
       "kanji": "進歩",
-      "reading": "しんぽ",
-      "okurigana": ""
+      "reading": "しんぽ"
     },
     "rubies": [
       {
@@ -7230,9 +7030,8 @@
     "type": "reading",
     "sentence": "次の試合でライバルと戦う。",
     "blank": {
-      "kanji": "戦",
-      "reading": "たたか",
-      "okurigana": "う"
+      "kanji": "戦う",
+      "reading": "たたかう"
     },
     "rubies": [
       {
@@ -7252,8 +7051,7 @@
     "sentence": "プレゼンがうまくいくように、作戦を立てる。",
     "blank": {
       "kanji": "作戦",
-      "reading": "さくせん",
-      "okurigana": ""
+      "reading": "さくせん"
     },
     "rubies": [
       {
@@ -7269,8 +7067,7 @@
     "sentence": "会社を辞める決断をかためた。",
     "blank": {
       "kanji": "決断",
-      "reading": "けつだん",
-      "okurigana": ""
+      "reading": "けつだん"
     },
     "rubies": [
       {
@@ -7289,9 +7086,8 @@
     "type": "reading",
     "sentence": "実力は田中より木村が勝っている。",
     "blank": {
-      "kanji": "勝",
-      "reading": "まさ",
-      "okurigana": "っている"
+      "kanji": "勝っている",
+      "reading": "まさっている"
     },
     "rubies": [
       {
@@ -7315,8 +7111,7 @@
     "sentence": "交通費は自分で負担してください。",
     "blank": {
       "kanji": "負担",
-      "reading": "ふたん",
-      "okurigana": ""
+      "reading": "ふたん"
     },
     "rubies": [
       {
@@ -7340,8 +7135,7 @@
     "sentence": "負け戦でも最後までがんばる。",
     "blank": {
       "kanji": "負け戦",
-      "reading": "まけいくさ",
-      "okurigana": ""
+      "reading": "まけいくさ"
     },
     "rubies": [
       {
@@ -7357,8 +7151,7 @@
     "sentence": "優勝決定は多数決で行われる。",
     "blank": {
       "kanji": "優勝決定",
-      "reading": "ゆうしょうけってい",
-      "okurigana": ""
+      "reading": "ゆうしょうけってい"
     },
     "rubies": [
       {
@@ -7378,8 +7171,7 @@
     "sentence": "試合は私たちのチームの圧勝だった。",
     "blank": {
       "kanji": "圧勝",
-      "reading": "あっしょう",
-      "okurigana": ""
+      "reading": "あっしょう"
     },
     "rubies": [
       {
@@ -7399,8 +7191,7 @@
     "sentence": "あっという間に勝負が決まった。",
     "blank": {
       "kanji": "勝負",
-      "reading": "しょうぶ",
-      "okurigana": ""
+      "reading": "しょうぶ"
     },
     "rubies": [
       {
@@ -7419,9 +7210,8 @@
     "type": "reading",
     "sentence": "彼は大きな責任を負っている。",
     "blank": {
-      "kanji": "負",
-      "reading": "お",
-      "okurigana": "って"
+      "kanji": "負って",
+      "reading": "おって"
     },
     "rubies": [
       {
@@ -7583,9 +7373,8 @@
     "type": "reading",
     "sentence": "父に代わって式に出た。",
     "blank": {
-      "kanji": "代",
-      "reading": "か",
-      "okurigana": "わって"
+      "kanji": "代わって",
+      "reading": "かわって"
     },
     "rubies": [
       {
@@ -7609,8 +7398,7 @@
     "sentence": "デートの費事代は私がはらった。",
     "blank": {
       "kanji": "費事代",
-      "reading": "しょくじだい",
-      "okurigana": ""
+      "reading": "しょくじだい"
     },
     "rubies": [
       {
@@ -7626,8 +7414,7 @@
     "sentence": "犯人に身の代金をわたした。",
     "blank": {
       "kanji": "代金",
-      "reading": "だいきん",
-      "okurigana": ""
+      "reading": "だいきん"
     },
     "rubies": [
       {
@@ -7642,9 +7429,8 @@
     "type": "reading",
     "sentence": "言葉で表せないくらい感動した。",
     "blank": {
-      "kanji": "表",
-      "reading": "あらわ",
-      "okurigana": "せない"
+      "kanji": "表せない",
+      "reading": "あらわせない"
     },
     "rubies": [
       {
@@ -7664,8 +7450,7 @@
     "sentence": "バスの回数券を買った。",
     "blank": {
       "kanji": "回数券",
-      "reading": "かいすうけん",
-      "okurigana": ""
+      "reading": "かいすうけん"
     },
     "rubies": [
       {
@@ -7680,9 +7465,8 @@
     "type": "reading",
     "sentence": "不調のAに代えてBを出場させた。",
     "blank": {
-      "kanji": "代",
-      "reading": "か",
-      "okurigana": "えて"
+      "kanji": "代えて",
+      "reading": "かえて"
     },
     "rubies": [
       {
@@ -7702,8 +7486,7 @@
     "sentence": "からようの代理で会議に出る。",
     "blank": {
       "kanji": "代理",
-      "reading": "だいり",
-      "okurigana": ""
+      "reading": "だいり"
     },
     "rubies": [
       {
@@ -7723,8 +7506,7 @@
     "sentence": "アンケートの結果を表にまとめる。",
     "blank": {
       "kanji": "表",
-      "reading": "ひょう",
-      "okurigana": ""
+      "reading": "ひょう"
     },
     "rubies": [
       {
@@ -7740,8 +7522,7 @@
     "sentence": "服の表示を確認してから、洗濯する。",
     "blank": {
       "kanji": "表示",
-      "reading": "ひょうじ",
-      "okurigana": ""
+      "reading": "ひょうじ"
     },
     "rubies": [
       {
@@ -7764,9 +7545,8 @@
     "type": "reading",
     "sentence": "地球のまわりを月が回っている。",
     "blank": {
-      "kanji": "回",
-      "reading": "まわ",
-      "okurigana": "っている"
+      "kanji": "回っている",
+      "reading": "まわっている"
     },
     "rubies": [
       {
@@ -7931,9 +7711,8 @@
     "type": "reading",
     "sentence": "１日の出来事をノートに記す。",
     "blank": {
-      "kanji": "記",
-      "reading": "しる",
-      "okurigana": "す"
+      "kanji": "記す",
+      "reading": "しるす"
     },
     "rubies": [
       {
@@ -7953,8 +7732,7 @@
     "sentence": "書類に必要なことを記入する。",
     "blank": {
       "kanji": "記入",
-      "reading": "きにゅう",
-      "okurigana": ""
+      "reading": "きにゅう"
     },
     "rubies": [
       {
@@ -7974,8 +7752,7 @@
     "sentence": "コンサート中、録画をしてはいけない。",
     "blank": {
       "kanji": "録画",
-      "reading": "ろくが",
-      "okurigana": ""
+      "reading": "ろくが"
     },
     "rubies": [
       {
@@ -7990,9 +7767,8 @@
     "type": "reading",
     "sentence": "数学で優れた成績をとる。",
     "blank": {
-      "kanji": "優",
-      "reading": "すぐ",
-      "okurigana": "れた"
+      "kanji": "優れた",
+      "reading": "すぐれた"
     },
     "rubies": [
       {
@@ -8012,8 +7788,7 @@
     "sentence": "仕事の優先順位をつける。",
     "blank": {
       "kanji": "優先順位",
-      "reading": "ゆうせんじゅんい",
-      "okurigana": ""
+      "reading": "ゆうせんじゅんい"
     },
     "rubies": [
       {
@@ -8029,8 +7804,7 @@
     "sentence": "漢字を暗記する。",
     "blank": {
       "kanji": "暗記",
-      "reading": "あんき",
-      "okurigana": ""
+      "reading": "あんき"
     },
     "rubies": [
       {
@@ -8046,8 +7820,7 @@
     "sentence": "英語のクラスに登録する。",
     "blank": {
       "kanji": "登録",
-      "reading": "とうろく",
-      "okurigana": ""
+      "reading": "とうろく"
     },
     "rubies": [
       {
@@ -8063,8 +7836,7 @@
     "sentence": "好きなドラマをDVDに録画する。",
     "blank": {
       "kanji": "録画",
-      "reading": "ろくが",
-      "okurigana": ""
+      "reading": "ろくが"
     },
     "rubies": [
       {
@@ -8080,8 +7852,7 @@
     "sentence": "初出場のチームが優勝した。",
     "blank": {
       "kanji": "優勝",
-      "reading": "ゆうしょう",
-      "okurigana": ""
+      "reading": "ゆうしょう"
     },
     "rubies": [
       {
@@ -8101,8 +7872,7 @@
     "sentence": "大会で1位になり、賞状をもらった。",
     "blank": {
       "kanji": "賞状",
-      "reading": "しょうじょう",
-      "okurigana": ""
+      "reading": "しょうじょう"
     },
     "rubies": [
       {
@@ -8290,8 +8060,7 @@
     "sentence": "台風が毎秒30メートルで進む。",
     "blank": {
       "kanji": "毎秒",
-      "reading": "まいびょう",
-      "okurigana": ""
+      "reading": "まいびょう"
     },
     "rubies": [
       {
@@ -8310,9 +8079,8 @@
     "type": "reading",
     "sentence": "夏は日差しが強い。",
     "blank": {
-      "kanji": "日差",
-      "reading": "ひざ",
-      "okurigana": "し"
+      "kanji": "日差し",
+      "reading": "ひざし"
     },
     "rubies": [
       {
@@ -8332,8 +8100,7 @@
     "sentence": "大人と子どもは体力に大きな差がある。",
     "blank": {
       "kanji": "差",
-      "reading": "さ",
-      "okurigana": ""
+      "reading": "さ"
     },
     "rubies": [
       {
@@ -8361,8 +8128,7 @@
     "sentence": "来週はどんな天気になるか測定する。",
     "blank": {
       "kanji": "測定",
-      "reading": "そくてい",
-      "okurigana": ""
+      "reading": "そくてい"
     },
     "rubies": [
       {
@@ -8382,8 +8148,7 @@
     "sentence": "数式を順序立て説明する。",
     "blank": {
       "kanji": "順序",
-      "reading": "じゅんじょ",
-      "okurigana": ""
+      "reading": "じゅんじょ"
     },
     "rubies": [
       {
@@ -8406,9 +8171,8 @@
     "type": "reading",
     "sentence": "ビルの何階まで秒読みに入った。",
     "blank": {
-      "kanji": "秒読",
-      "reading": "びょうよ",
-      "okurigana": "み"
+      "kanji": "秒読み",
+      "reading": "びょうよみ"
     },
     "rubies": [
       {
@@ -8432,8 +8196,7 @@
     "sentence": "中国と日本の時差は１時間だ。",
     "blank": {
       "kanji": "時差",
-      "reading": "じさ",
-      "okurigana": ""
+      "reading": "じさ"
     },
     "rubies": [
       {
@@ -8457,8 +8220,7 @@
     "sentence": "人を年齢別に分類してはいけない。",
     "blank": {
       "kanji": "年齢別",
-      "reading": "ねんれいべつ",
-      "okurigana": ""
+      "reading": "ねんれいべつ"
     },
     "rubies": [
       {
@@ -8478,8 +8240,7 @@
     "sentence": "来週、学校で体重測定がある。",
     "blank": {
       "kanji": "体重測定",
-      "reading": "たいじゅうそくてい",
-      "okurigana": ""
+      "reading": "たいじゅうそくてい"
     },
     "rubies": [
       {
@@ -8499,8 +8260,7 @@
     "sentence": "自分の順番が来るまで待合室で待つ。",
     "blank": {
       "kanji": "順番",
-      "reading": "じゅんばん",
-      "okurigana": ""
+      "reading": "じゅんばん"
     },
     "rubies": [
       {
@@ -8676,8 +8436,7 @@
     "sentence": "父に地球儀をもらってきた。",
     "blank": {
       "kanji": "地球儀",
-      "reading": "ちきゅうぎ",
-      "okurigana": ""
+      "reading": "ちきゅうぎ"
     },
     "rubies": [
       {
@@ -8693,8 +8452,7 @@
     "sentence": "打球技はなかでもとくいだ。",
     "blank": {
       "kanji": "球技",
-      "reading": "きゅうぎ",
-      "okurigana": ""
+      "reading": "きゅうぎ"
     },
     "rubies": []
   },
@@ -8705,8 +8463,7 @@
     "sentence": "打球は遠くまで飛んだ。",
     "blank": {
       "kanji": "打球",
-      "reading": "だきゅう",
-      "okurigana": ""
+      "reading": "だきゅう"
     },
     "rubies": [
       {
@@ -8725,11 +8482,14 @@
     "type": "reading",
     "sentence": "代打の選手がホームランを打った。",
     "blank": {
-      "kanji": "打",
-      "reading": "う",
-      "okurigana": "った"
+      "kanji": "打った",
+      "reading": "うった"
     },
     "rubies": [
+      {
+        "text": "代打",
+        "ruby": "だいだ"
+      },
       {
         "text": "選手",
         "ruby": "せんしゅ"
@@ -8743,8 +8503,7 @@
     "sentence": "新聞社に投書を送る。",
     "blank": {
       "kanji": "投書",
-      "reading": "とうしょ",
-      "okurigana": ""
+      "reading": "とうしょ"
     },
     "rubies": [
       {
@@ -8768,8 +8527,7 @@
     "sentence": "勉強をがんばって試験で点数を取った。",
     "blank": {
       "kanji": "点数",
-      "reading": "てんすう",
-      "okurigana": ""
+      "reading": "てんすう"
     },
     "rubies": [
       {
@@ -8793,8 +8551,7 @@
     "sentence": "転んで膝を強打した。",
     "blank": {
       "kanji": "強打",
-      "reading": "きょうだ",
-      "okurigana": ""
+      "reading": "きょうだ"
     },
     "rubies": [
       {
@@ -8814,8 +8571,7 @@
     "sentence": "このチームは投打ともに優れている。",
     "blank": {
       "kanji": "投打",
-      "reading": "とうだ",
-      "okurigana": ""
+      "reading": "とうだ"
     },
     "rubies": [
       {
@@ -8831,8 +8587,7 @@
     "sentence": "苦手な英語に重点を置いて勉強する。",
     "blank": {
       "kanji": "重点",
-      "reading": "じゅうてん",
-      "okurigana": ""
+      "reading": "じゅうてん"
     },
     "rubies": [
       {
@@ -8860,8 +8615,7 @@
     "sentence": "その試合で彼は5打点をあげた。",
     "blank": {
       "kanji": "打点",
-      "reading": "だてん",
-      "okurigana": ""
+      "reading": "だてん"
     },
     "rubies": [
       {
@@ -9049,8 +8803,7 @@
     "sentence": "感情的に話してはいけない。",
     "blank": {
       "kanji": "感情",
-      "reading": "かんじょう",
-      "okurigana": ""
+      "reading": "かんじょう"
     },
     "rubies": [
       {
@@ -9070,8 +8823,7 @@
     "sentence": "ドキュメンタリー映画を見て感動した。",
     "blank": {
       "kanji": "感動",
-      "reading": "かんどう",
-      "okurigana": ""
+      "reading": "かんどう"
     },
     "rubies": [
       {
@@ -9091,8 +8843,7 @@
     "sentence": "この辺りには古い町の風情が残っている。",
     "blank": {
       "kanji": "風情",
-      "reading": "ふぜい",
-      "okurigana": ""
+      "reading": "ふぜい"
     },
     "rubies": [
       {
@@ -9119,9 +8870,8 @@
     "type": "reading",
     "sentence": "亡くなった妻を恋う。",
     "blank": {
-      "kanji": "恋",
-      "reading": "こ",
-      "okurigana": "う"
+      "kanji": "恋う",
+      "reading": "こう"
     },
     "rubies": [
       {
@@ -9141,8 +8891,7 @@
     "sentence": "彼は恋愛表現が下手だ。",
     "blank": {
       "kanji": "恋愛表現",
-      "reading": "れんあいひょうげん",
-      "okurigana": ""
+      "reading": "れんあいひょうげん"
     },
     "rubies": [
       {
@@ -9162,8 +8911,7 @@
     "sentence": "子どもをだきしめて安心感をあたえる。",
     "blank": {
       "kanji": "安心感",
-      "reading": "あんしんかん",
-      "okurigana": ""
+      "reading": "あんしんかん"
     },
     "rubies": [
       {
@@ -9178,9 +8926,8 @@
     "type": "reading",
     "sentence": "彼は情け深い人だ。",
     "blank": {
-      "kanji": "情け深",
-      "reading": "なさけぶか",
-      "okurigana": "い"
+      "kanji": "情け深い",
+      "reading": "なさけぶかい"
     },
     "rubies": [
       {
@@ -9199,9 +8946,8 @@
     "type": "reading",
     "sentence": "父が作る料理が恋しい。",
     "blank": {
-      "kanji": "恋",
-      "reading": "こい",
-      "okurigana": "しい"
+      "kanji": "恋しい",
+      "reading": "こいしい"
     },
     "rubies": [
       {
@@ -9225,8 +8971,7 @@
     "sentence": "父にもらったペンを愛用している。",
     "blank": {
       "kanji": "愛用",
-      "reading": "あいよう",
-      "okurigana": ""
+      "reading": "あいよう"
     },
     "rubies": [
       {
@@ -9242,8 +8987,7 @@
     "sentence": "二人は大恋愛の末、結婚した。",
     "blank": {
       "kanji": "大恋愛",
-      "reading": "だいれんあい",
-      "okurigana": ""
+      "reading": "だいれんあい"
     },
     "rubies": [
       {
@@ -9435,8 +9179,7 @@
     "sentence": "私は親を信頼している。",
     "blank": {
       "kanji": "信頼",
-      "reading": "しんらい",
-      "okurigana": ""
+      "reading": "しんらい"
     },
     "rubies": [
       {
@@ -9456,8 +9199,7 @@
     "sentence": "未来の生活を空想する。",
     "blank": {
       "kanji": "空想",
-      "reading": "くうそう",
-      "okurigana": ""
+      "reading": "くうそう"
     },
     "rubies": [
       {
@@ -9476,9 +9218,8 @@
     "type": "reading",
     "sentence": "電話で先けんを伝える。",
     "blank": {
-      "kanji": "伝",
-      "reading": "つた",
-      "okurigana": "える"
+      "kanji": "伝える",
+      "reading": "つたえる"
     },
     "rubies": [
       {
@@ -9498,8 +9239,7 @@
     "sentence": "この村には昔から多くの伝説がある。",
     "blank": {
       "kanji": "伝説",
-      "reading": "でんせつ",
-      "okurigana": ""
+      "reading": "でんせつ"
     },
     "rubies": [
       {
@@ -9523,8 +9263,7 @@
     "sentence": "日本の伝統文化にきょうみがある。",
     "blank": {
       "kanji": "伝統文化",
-      "reading": "でんとうぶんか",
-      "okurigana": ""
+      "reading": "でんとうぶんか"
     },
     "rubies": [
       {
@@ -9540,8 +9279,7 @@
     "sentence": "信号をよく見て横断歩道をわたる。",
     "blank": {
       "kanji": "信号",
-      "reading": "しんごう",
-      "okurigana": ""
+      "reading": "しんごう"
     },
     "rubies": [
       {
@@ -9565,8 +9303,7 @@
     "sentence": "彼女はだれに対しても愛想がいい。",
     "blank": {
       "kanji": "愛想",
-      "reading": "あいそ",
-      "okurigana": ""
+      "reading": "あいそ"
     },
     "rubies": [
       {
@@ -9585,9 +9322,8 @@
     "type": "reading",
     "sentence": "階段の手すりを伝って上る。",
     "blank": {
-      "kanji": "伝",
-      "reading": "つた",
-      "okurigana": "って"
+      "kanji": "伝って",
+      "reading": "つたって"
     },
     "rubies": [
       {
@@ -9611,8 +9347,7 @@
     "sentence": "友人に先生への伝言をたのんだ。",
     "blank": {
       "kanji": "伝言",
-      "reading": "でんごん",
-      "okurigana": ""
+      "reading": "でんごん"
     },
     "rubies": [
       {
@@ -9631,9 +9366,8 @@
     "type": "reading",
     "sentence": "心の欲するままに行動する。",
     "blank": {
-      "kanji": "欲",
-      "reading": "ほっ",
-      "okurigana": "する"
+      "kanji": "欲する",
+      "reading": "ほっする"
     },
     "rubies": [
       {
@@ -9804,9 +9538,8 @@
     "type": "reading",
     "sentence": "重い病気で長い間苦しんでいる。",
     "blank": {
-      "kanji": "苦",
-      "reading": "くる",
-      "okurigana": "しんでいる"
+      "kanji": "苦しんでいる",
+      "reading": "くるしんでいる"
     },
     "rubies": [
       {
@@ -9833,9 +9566,8 @@
     "type": "reading",
     "sentence": "このコーヒーは少し苦みがある。",
     "blank": {
-      "kanji": "苦",
-      "reading": "にが",
-      "okurigana": "み"
+      "kanji": "苦み",
+      "reading": "にがみ"
     },
     "rubies": [
       {
@@ -9851,8 +9583,7 @@
     "sentence": "テレビの音がうるさくて苦情を言った。",
     "blank": {
       "kanji": "苦情",
-      "reading": "くじょう",
-      "okurigana": ""
+      "reading": "くじょう"
     },
     "rubies": [
       {
@@ -9871,9 +9602,8 @@
     "type": "reading",
     "sentence": "虫歯がうずいて困った。",
     "blank": {
-      "kanji": "困",
-      "reading": "こま",
-      "okurigana": "った"
+      "kanji": "困った",
+      "reading": "こまった"
     },
     "rubies": [
       {
@@ -9888,9 +9618,8 @@
     "type": "reading",
     "sentence": "耐え難い痛みで病院へ運ばれた。",
     "blank": {
-      "kanji": "耐え難",
-      "reading": "たえがた",
-      "okurigana": "い"
+      "kanji": "耐え難い",
+      "reading": "たえがたい"
     },
     "rubies": [
       {
@@ -9913,9 +9642,8 @@
     "type": "reading",
     "sentence": "借金が両親を苦しめている。",
     "blank": {
-      "kanji": "苦",
-      "reading": "くる",
-      "okurigana": "しめている"
+      "kanji": "苦しめている",
+      "reading": "くるしめている"
     },
     "rubies": [
       {
@@ -9935,8 +9663,7 @@
     "sentence": "苦痛を和らげる薬を飲んでいる。",
     "blank": {
       "kanji": "苦痛",
-      "reading": "くつう",
-      "okurigana": ""
+      "reading": "くつう"
     },
     "rubies": [
       {
@@ -9959,9 +9686,8 @@
     "type": "reading",
     "sentence": "数学前から試験に悩まされている。",
     "blank": {
-      "kanji": "悩",
-      "reading": "なや",
-      "okurigana": "まされている"
+      "kanji": "悩まされている",
+      "reading": "なやまされている"
     },
     "rubies": [
       {
@@ -9985,8 +9711,7 @@
     "sentence": "彼はどんな困難にも立ち向かう人だ。",
     "blank": {
       "kanji": "困難",
-      "reading": "こんなん",
-      "okurigana": ""
+      "reading": "こんなん"
     },
     "rubies": [
       {
@@ -10010,8 +9735,7 @@
     "sentence": "工事は最大の難所にかかっている。",
     "blank": {
       "kanji": "難所",
-      "reading": "なんしょ",
-      "okurigana": ""
+      "reading": "なんしょ"
     },
     "rubies": [
       {
@@ -10165,9 +9889,8 @@
     "type": "reading",
     "sentence": "成績が下がって親に怒られた。",
     "blank": {
-      "kanji": "怒",
-      "reading": "おこ",
-      "okurigana": "られた"
+      "kanji": "怒られた",
+      "reading": "おこられた"
     },
     "rubies": [
       {
@@ -10190,9 +9913,8 @@
     "type": "reading",
     "sentence": "大好きだった愛犬が死んで悲しい。",
     "blank": {
-      "kanji": "悲",
-      "reading": "かな",
-      "okurigana": "しい"
+      "kanji": "悲しい",
+      "reading": "かなしい"
     },
     "rubies": [
       {
@@ -10215,9 +9937,8 @@
     "type": "reading",
     "sentence": "笑うを笑ってはいけない。",
     "blank": {
-      "kanji": "笑",
-      "reading": "わら",
-      "okurigana": "って"
+      "kanji": "笑って",
+      "reading": "わらって"
     },
     "rubies": [
       {
@@ -10232,9 +9953,8 @@
     "type": "reading",
     "sentence": "お笑い番組を見て腹を抱えた。",
     "blank": {
-      "kanji": "お笑",
-      "reading": "おわら",
-      "okurigana": "い"
+      "kanji": "お笑い",
+      "reading": "おわらい"
     },
     "rubies": [
       {
@@ -10261,9 +9981,8 @@
     "type": "reading",
     "sentence": "ジュースを差し入れして喜ばれた。",
     "blank": {
-      "kanji": "喜",
-      "reading": "よろこ",
-      "okurigana": "ばれた"
+      "kanji": "喜ばれた",
+      "reading": "よろこばれた"
     },
     "rubies": [
       {
@@ -10279,8 +9998,7 @@
     "sentence": "相手の失礼ないどに激怒する。",
     "blank": {
       "kanji": "激怒",
-      "reading": "げきど",
-      "okurigana": ""
+      "reading": "げきど"
     },
     "rubies": [
       {
@@ -10300,8 +10018,7 @@
     "sentence": "二人の結婚は悲劇に終わった。",
     "blank": {
       "kanji": "悲劇",
-      "reading": "ひげき",
-      "okurigana": ""
+      "reading": "ひげき"
     },
     "rubies": [
       {
@@ -10329,8 +10046,7 @@
     "sentence": "面白い話に笑声をあげて笑った。",
     "blank": {
       "kanji": "笑声",
-      "reading": "わらいごえ",
-      "okurigana": ""
+      "reading": "わらいごえ"
     },
     "rubies": [
       {
@@ -10353,9 +10069,8 @@
     "type": "reading",
     "sentence": "赤ちゃんを見て、思わず笑んだ。",
     "blank": {
-      "kanji": "笑",
-      "reading": "え",
-      "okurigana": "んだ"
+      "kanji": "笑んだ",
+      "reading": "えんだ"
     },
     "rubies": [
       {
@@ -10379,8 +10094,7 @@
     "sentence": "彼女は最初表情がはずがしい。",
     "blank": {
       "kanji": "最初表情",
-      "reading": "さいしょひょうじょう",
-      "okurigana": ""
+      "reading": "さいしょひょうじょう"
     },
     "rubies": [
       {
@@ -10555,9 +10269,8 @@
     "type": "reading",
     "sentence": "注文した料理を失くしてしまった。",
     "blank": {
-      "kanji": "失",
-      "reading": "な",
-      "okurigana": "くして"
+      "kanji": "失くして",
+      "reading": "なくして"
     },
     "rubies": [
       {
@@ -10577,8 +10290,7 @@
     "sentence": "山には残雪があるのが見える。",
     "blank": {
       "kanji": "残雪",
-      "reading": "ざんせつ",
-      "okurigana": ""
+      "reading": "ざんせつ"
     },
     "rubies": [
       {
@@ -10597,9 +10309,8 @@
     "type": "reading",
     "sentence": "念のため、連絡先を教えてもらう。",
     "blank": {
-      "kanji": "念",
-      "reading": "ねん",
-      "okurigana": "のため"
+      "kanji": "念のため",
+      "reading": "ねんのため"
     },
     "rubies": [
       {
@@ -10622,9 +10333,8 @@
     "type": "reading",
     "sentence": "彼は泣き落とすことで許してもらった。",
     "blank": {
-      "kanji": "泣き落",
-      "reading": "なきお",
-      "okurigana": "とす"
+      "kanji": "泣き落とす",
+      "reading": "なきおとす"
     },
     "rubies": [
       {
@@ -10643,9 +10353,8 @@
     "type": "reading",
     "sentence": "映画のラストシーンに泣いた。",
     "blank": {
-      "kanji": "泣",
-      "reading": "な",
-      "okurigana": "いた"
+      "kanji": "泣いた",
+      "reading": "ないた"
     },
     "rubies": [
       {
@@ -10661,8 +10370,7 @@
     "sentence": "昨日は夜遅くまで残業した。",
     "blank": {
       "kanji": "残業",
-      "reading": "ざんぎょう",
-      "okurigana": ""
+      "reading": "ざんぎょう"
     },
     "rubies": [
       {
@@ -10686,8 +10394,7 @@
     "sentence": "アルバイトを辞めて勉強に専念する。",
     "blank": {
       "kanji": "専念",
-      "reading": "せんねん",
-      "okurigana": ""
+      "reading": "せんねん"
     },
     "rubies": [
       {
@@ -10707,8 +10414,7 @@
     "sentence": "彼は信念を曲げない人だ。",
     "blank": {
       "kanji": "信念",
-      "reading": "しんねん",
-      "okurigana": ""
+      "reading": "しんねん"
     },
     "rubies": [
       {
@@ -10732,8 +10438,7 @@
     "sentence": "話の途中で突然涙が出た。",
     "blank": {
       "kanji": "涙",
-      "reading": "なみだ",
-      "okurigana": ""
+      "reading": "なみだ"
     },
     "rubies": [
       {
@@ -10932,9 +10637,8 @@
     "type": "reading",
     "sentence": "くつのひもを結ぶ。",
     "blank": {
-      "kanji": "結",
-      "reading": "むす",
-      "okurigana": "ぶ"
+      "kanji": "結ぶ",
+      "reading": "むすぶ"
     },
     "rubies": []
   },
@@ -10944,9 +10648,8 @@
     "type": "reading",
     "sentence": "かみを一つに結わえる。",
     "blank": {
-      "kanji": "結",
-      "reading": "ゆ",
-      "okurigana": "わえる"
+      "kanji": "結わえる",
+      "reading": "ゆわえる"
     },
     "rubies": [
       {
@@ -10961,9 +10664,8 @@
     "type": "reading",
     "sentence": "自分で毎日かみを結う。",
     "blank": {
-      "kanji": "結",
-      "reading": "ゆ",
-      "okurigana": "う"
+      "kanji": "結う",
+      "reading": "ゆう"
     },
     "rubies": [
       {
@@ -10982,9 +10684,8 @@
     "type": "reading",
     "sentence": "成人式のためにかみを結ってもらった。",
     "blank": {
-      "kanji": "結",
-      "reading": "むす",
-      "okurigana": "って"
+      "kanji": "結って",
+      "reading": "むすって"
     },
     "rubies": [
       {
@@ -11004,8 +10705,7 @@
     "sentence": "来年結婚することになった。",
     "blank": {
       "kanji": "結婚",
-      "reading": "けっこん",
-      "okurigana": ""
+      "reading": "けっこん"
     },
     "rubies": [
       {
@@ -11021,8 +10721,7 @@
     "sentence": "試験の結果が出た。",
     "blank": {
       "kanji": "結果",
-      "reading": "けっか",
-      "okurigana": ""
+      "reading": "けっか"
     },
     "rubies": [
       {
@@ -11042,8 +10741,7 @@
     "sentence": "金婚式のお祝いをする。",
     "blank": {
       "kanji": "金婚式",
-      "reading": "きんこんしき",
-      "okurigana": ""
+      "reading": "きんこんしき"
     },
     "rubies": [
       {
@@ -11059,8 +10757,7 @@
     "sentence": "新婚旅行でヨーロッパへ行く。",
     "blank": {
       "kanji": "新婚旅行",
-      "reading": "しんこんりょこう",
-      "okurigana": ""
+      "reading": "しんこんりょこう"
     },
     "rubies": [
       {
@@ -11076,8 +10773,7 @@
     "sentence": "友人の紹介で彼に出会った。",
     "blank": {
       "kanji": "紹介",
-      "reading": "しょうかい",
-      "okurigana": ""
+      "reading": "しょうかい"
     },
     "rubies": [
       {
@@ -11101,8 +10797,7 @@
     "sentence": "不動産会社に仲介料をはらう。",
     "blank": {
       "kanji": "仲介料",
-      "reading": "ちゅうかいりょう",
-      "okurigana": ""
+      "reading": "ちゅうかいりょう"
     },
     "rubies": [
       {
@@ -11264,8 +10959,7 @@
     "sentence": "彼は独身だそうだ。",
     "blank": {
       "kanji": "独身",
-      "reading": "どくしん",
-      "okurigana": ""
+      "reading": "どくしん"
     },
     "rubies": [
       {
@@ -11281,8 +10975,7 @@
     "sentence": "会社を辞めて独立した。",
     "blank": {
       "kanji": "独立",
-      "reading": "どくりつ",
-      "okurigana": ""
+      "reading": "どくりつ"
     },
     "rubies": [
       {
@@ -11302,8 +10995,7 @@
     "sentence": "彼は独り言が多い。",
     "blank": {
       "kanji": "独り言",
-      "reading": "ひとりごと",
-      "okurigana": ""
+      "reading": "ひとりごと"
     },
     "rubies": [
       {
@@ -11323,8 +11015,7 @@
     "sentence": "身近な人に相談する。",
     "blank": {
       "kanji": "身近",
-      "reading": "みぢか",
-      "okurigana": ""
+      "reading": "みぢか"
     },
     "rubies": [
       {
@@ -11344,8 +11035,7 @@
     "sentence": "好きなネックレスを身につける。",
     "blank": {
       "kanji": "身",
-      "reading": "み",
-      "okurigana": ""
+      "reading": "み"
     },
     "rubies": [
       {
@@ -11361,8 +11051,7 @@
     "sentence": "あの選手は身長が190センチもある。",
     "blank": {
       "kanji": "身長",
-      "reading": "しんちょう",
-      "okurigana": ""
+      "reading": "しんちょう"
     },
     "rubies": [
       {
@@ -11378,8 +11067,7 @@
     "sentence": "毎月5万円を貯金している。",
     "blank": {
       "kanji": "貯金",
-      "reading": "ちょきん",
-      "okurigana": ""
+      "reading": "ちょきん"
     },
     "rubies": [
       {
@@ -11403,8 +11091,7 @@
     "sentence": "期末テストの点数が高かった。",
     "blank": {
       "kanji": "期末",
-      "reading": "きまつ",
-      "okurigana": ""
+      "reading": "きまつ"
     },
     "rubies": [
       {
@@ -11424,8 +11111,7 @@
     "sentence": "親の期待にこたえるためにがんばった。",
     "blank": {
       "kanji": "期待",
-      "reading": "きたい",
-      "okurigana": ""
+      "reading": "きたい"
     },
     "rubies": [
       {
@@ -11441,8 +11127,7 @@
     "sentence": "祖父と最後のおわかれをする。",
     "blank": {
       "kanji": "最後",
-      "reading": "さいご",
-      "okurigana": ""
+      "reading": "さいご"
     },
     "rubies": [
       {
@@ -11622,8 +11307,7 @@
     "sentence": "駅の近くのホテルを予約する。",
     "blank": {
       "kanji": "予約",
-      "reading": "よやく",
-      "okurigana": ""
+      "reading": "よやく"
     },
     "rubies": [
       {
@@ -11643,8 +11327,7 @@
     "sentence": "銀行口座を解約した。",
     "blank": {
       "kanji": "解約",
-      "reading": "かいやく",
-      "okurigana": ""
+      "reading": "かいやく"
     },
     "rubies": [
       {
@@ -11664,8 +11347,7 @@
     "sentence": "恋人に花束をプレゼントする。",
     "blank": {
       "kanji": "花束",
-      "reading": "はなたば",
-      "okurigana": ""
+      "reading": "はなたば"
     },
     "rubies": [
       {
@@ -11681,8 +11363,7 @@
     "sentence": "約束の時間に遅れてしまった。",
     "blank": {
       "kanji": "約束",
-      "reading": "やくそく",
-      "okurigana": ""
+      "reading": "やくそく"
     },
     "rubies": [
       {
@@ -11701,9 +11382,8 @@
     "type": "reading",
     "sentence": "必ず帰還を出さなくてはいけない。",
     "blank": {
-      "kanji": "必",
-      "reading": "かなら",
-      "okurigana": "ず"
+      "kanji": "必ず",
+      "reading": "かならず"
     },
     "rubies": [
       {
@@ -11723,8 +11403,7 @@
     "sentence": "応援を勝ってお祝えました。",
     "blank": {
       "kanji": "応援",
-      "reading": "おうえん",
-      "okurigana": ""
+      "reading": "おうえん"
     },
     "rubies": [
       {
@@ -11743,9 +11422,8 @@
     "type": "reading",
     "sentence": "父との約束を守る。",
     "blank": {
-      "kanji": "守",
-      "reading": "まも",
-      "okurigana": "る"
+      "kanji": "守る",
+      "reading": "まもる"
     },
     "rubies": [
       {
@@ -11765,8 +11443,7 @@
     "sentence": "彼女が子どもに子守歌を聞かせる。",
     "blank": {
       "kanji": "子守歌",
-      "reading": "こもりうた",
-      "okurigana": ""
+      "reading": "こもりうた"
     },
     "rubies": [
       {
@@ -11790,8 +11467,7 @@
     "sentence": "九段者の守備につく。",
     "blank": {
       "kanji": "守備",
-      "reading": "しゅび",
-      "okurigana": ""
+      "reading": "しゅび"
     },
     "rubies": [
       {
@@ -11815,8 +11491,7 @@
     "sentence": "旅行で１週間を留守にする。",
     "blank": {
       "kanji": "留守",
-      "reading": "るす",
-      "okurigana": ""
+      "reading": "るす"
     },
     "rubies": [
       {
@@ -11963,8 +11638,7 @@
     "sentence": "結婚を正式に発表する。",
     "blank": {
       "kanji": "正式",
-      "reading": "せいしき",
-      "okurigana": ""
+      "reading": "せいしき"
     },
     "rubies": [
       {
@@ -11984,8 +11658,7 @@
     "sentence": "友達の結婚式に出席する。",
     "blank": {
       "kanji": "結婚式",
-      "reading": "けっこんしき",
-      "okurigana": ""
+      "reading": "けっこんしき"
     },
     "rubies": [
       {
@@ -12005,8 +11678,7 @@
     "sentence": "書式にしたがって願書を書く。",
     "blank": {
       "kanji": "書式",
-      "reading": "しょしき",
-      "okurigana": ""
+      "reading": "しょしき"
     },
     "rubies": [
       {
@@ -12026,8 +11698,7 @@
     "sentence": "ここはいつも行列ができる人気店だ。",
     "blank": {
       "kanji": "行列",
-      "reading": "ぎょうれつ",
-      "okurigana": ""
+      "reading": "ぎょうれつ"
     },
     "rubies": [
       {
@@ -12047,8 +11718,7 @@
     "sentence": "自転車で日本列島を旅する。",
     "blank": {
       "kanji": "列島",
-      "reading": "れっとう",
-      "okurigana": ""
+      "reading": "れっとう"
     },
     "rubies": [
       {
@@ -12071,9 +11741,8 @@
     "type": "reading",
     "sentence": "祖母のたん生日を家族で祝う。",
     "blank": {
-      "kanji": "祝",
-      "reading": "いわ",
-      "okurigana": "う"
+      "kanji": "祝う",
+      "reading": "いわう"
     },
     "rubies": [
       {
@@ -12101,8 +11770,7 @@
     "sentence": "婚姻祝賀パーティーにさんかした。",
     "blank": {
       "kanji": "祝賀",
-      "reading": "しゅくが",
-      "okurigana": ""
+      "reading": "しゅくが"
     },
     "rubies": [
       {
@@ -12118,8 +11786,7 @@
     "sentence": "受付でご祝儀をすませた。",
     "blank": {
       "kanji": "祝儀",
-      "reading": "しゅうぎ",
-      "okurigana": ""
+      "reading": "しゅうぎ"
     },
     "rubies": [
       {
@@ -12134,9 +11801,8 @@
     "type": "reading",
     "sentence": "三日酔いで気持ちが悪い。",
     "blank": {
-      "kanji": "酔",
-      "reading": "よ",
-      "okurigana": "い"
+      "kanji": "酔い",
+      "reading": "よい"
     },
     "rubies": [
       {
@@ -12163,9 +11829,8 @@
     "type": "reading",
     "sentence": "深酔いするまで飲む。",
     "blank": {
-      "kanji": "深酔",
-      "reading": "ふかよ",
-      "okurigana": "い"
+      "kanji": "深酔い",
+      "reading": "ふかよい"
     },
     "rubies": [
       {
@@ -12325,8 +11990,7 @@
     "sentence": "結婚式で永遠の愛をちかう。",
     "blank": {
       "kanji": "永遠",
-      "reading": "えいえん",
-      "okurigana": ""
+      "reading": "えいえん"
     },
     "rubies": [
       {
@@ -12346,8 +12010,7 @@
     "sentence": "結婚して外国に永住する。",
     "blank": {
       "kanji": "永住",
-      "reading": "えいじゅう",
-      "okurigana": ""
+      "reading": "えいじゅう"
     },
     "rubies": [
       {
@@ -12366,9 +12029,8 @@
     "type": "reading",
     "sentence": "親が子の成長を願う。",
     "blank": {
-      "kanji": "願",
-      "reading": "ねが",
-      "okurigana": "う"
+      "kanji": "願う",
+      "reading": "ねがう"
     },
     "rubies": [
       {
@@ -12392,8 +12054,7 @@
     "sentence": "メールで入学願書を取りよせる。",
     "blank": {
       "kanji": "願書",
-      "reading": "がんしょ",
-      "okurigana": ""
+      "reading": "がんしょ"
     },
     "rubies": [
       {
@@ -12412,9 +12073,8 @@
     "type": "reading",
     "sentence": "幸いなことに、けがはなかった。",
     "blank": {
-      "kanji": "幸",
-      "reading": "さいわ",
-      "okurigana": "い"
+      "kanji": "幸い",
+      "reading": "さいわい"
     },
     "rubies": []
   },
@@ -12425,8 +12085,7 @@
     "sentence": "きのこや山菜などの山の幸を食べた。",
     "blank": {
       "kanji": "山の幸",
-      "reading": "やまのさち",
-      "okurigana": ""
+      "reading": "やまのさち"
     },
     "rubies": [
       {
@@ -12445,9 +12104,8 @@
     "type": "reading",
     "sentence": "お金がなくても幸せだ。",
     "blank": {
-      "kanji": "幸",
-      "reading": "しあわ",
-      "okurigana": "せ"
+      "kanji": "幸せ",
+      "reading": "しあわせ"
     },
     "rubies": [
       {
@@ -12463,8 +12121,7 @@
     "sentence": "幸運にめぐまれた。",
     "blank": {
       "kanji": "幸運",
-      "reading": "こううん",
-      "okurigana": ""
+      "reading": "こううん"
     },
     "rubies": []
   },
@@ -12475,8 +12132,7 @@
     "sentence": "笑う門には福来る。",
     "blank": {
       "kanji": "福",
-      "reading": "ふく",
-      "okurigana": ""
+      "reading": "ふく"
     },
     "rubies": [
       {
@@ -12500,8 +12156,7 @@
     "sentence": "大学で福祉について学びたい。",
     "blank": {
       "kanji": "福祉",
-      "reading": "ふくし",
-      "okurigana": ""
+      "reading": "ふくし"
     },
     "rubies": [
       {
@@ -12635,8 +12290,7 @@
     "sentence": "人間関係で悩んだときは、先生に相談する。",
     "blank": {
       "kanji": "関係",
-      "reading": "かんけい",
-      "okurigana": ""
+      "reading": "かんけい"
     },
     "rubies": [
       {
@@ -12663,9 +12317,8 @@
     "type": "reading",
     "sentence": "リーダーとしてプロジェクトに関わる。",
     "blank": {
-      "kanji": "関",
-      "reading": "かか",
-      "okurigana": "わる"
+      "kanji": "関わる",
+      "reading": "かかわる"
     },
     "rubies": []
   },
@@ -12676,8 +12329,7 @@
     "sentence": "玄関でくつをぬいでそろえる。",
     "blank": {
       "kanji": "玄関",
-      "reading": "げんかん",
-      "okurigana": ""
+      "reading": "げんかん"
     },
     "rubies": []
   },
@@ -12688,8 +12340,7 @@
     "sentence": "コンサート会場で係員に注意された。",
     "blank": {
       "kanji": "係員",
-      "reading": "かかりいん",
-      "okurigana": ""
+      "reading": "かかりいん"
     },
     "rubies": [
       {
@@ -12709,8 +12360,7 @@
     "sentence": "授業に関係のない話はしないように。",
     "blank": {
       "kanji": "関係",
-      "reading": "かんけい",
-      "okurigana": ""
+      "reading": "かんけい"
     },
     "rubies": [
       {
@@ -12729,9 +12379,8 @@
     "type": "reading",
     "sentence": "今日は寒さが和らぎ、暖かくなるそうだ。",
     "blank": {
-      "kanji": "和",
-      "reading": "やわ",
-      "okurigana": "らぎ"
+      "kanji": "和らぎ",
+      "reading": "やわらぎ"
     },
     "rubies": [
       {
@@ -12754,9 +12403,8 @@
     "type": "reading",
     "sentence": "この音楽をきくと気が和む。",
     "blank": {
-      "kanji": "和",
-      "reading": "なご",
-      "okurigana": "む"
+      "kanji": "和む",
+      "reading": "なごむ"
     },
     "rubies": [
       {
@@ -12776,8 +12424,7 @@
     "sentence": "料理の中でも和食が一番好きだ。",
     "blank": {
       "kanji": "和食",
-      "reading": "わしょく",
-      "okurigana": ""
+      "reading": "わしょく"
     },
     "rubies": [
       {
@@ -12804,9 +12451,8 @@
     "type": "reading",
     "sentence": "ワイシャツのそでにインクが付く。",
     "blank": {
-      "kanji": "付",
-      "reading": "つ",
-      "okurigana": "く"
+      "kanji": "付く",
+      "reading": "つく"
     },
     "rubies": []
   },
@@ -12817,8 +12463,7 @@
     "sentence": "この付近には、くまが出るらしい。",
     "blank": {
       "kanji": "付近",
-      "reading": "ふきん",
-      "okurigana": ""
+      "reading": "ふきん"
     },
     "rubies": [
       {
@@ -13010,8 +12655,7 @@
     "sentence": "木村さんには娘が三人いる。",
     "blank": {
       "kanji": "娘",
-      "reading": "むすめ",
-      "okurigana": ""
+      "reading": "むすめ"
     },
     "rubies": [
       {
@@ -13034,9 +12678,8 @@
     "type": "reading",
     "sentence": "人はだれでも老いていく。",
     "blank": {
-      "kanji": "老",
-      "reading": "お",
-      "okurigana": "いていく"
+      "kanji": "老いていく",
+      "reading": "おいていく"
     },
     "rubies": [
       {
@@ -13051,9 +12694,8 @@
     "type": "reading",
     "sentence": "彼は年よりずっと若く見えて、老けていない。",
     "blank": {
-      "kanji": "老",
-      "reading": "ふ",
-      "okurigana": "け"
+      "kanji": "老け",
+      "reading": "ふけ"
     },
     "rubies": [
       {
@@ -13081,8 +12723,7 @@
     "sentence": "敬老の日のお祝いをする。",
     "blank": {
       "kanji": "敬老",
-      "reading": "けいろう",
-      "okurigana": ""
+      "reading": "けいろう"
     },
     "rubies": [
       {
@@ -13102,8 +12743,7 @@
     "sentence": "夫婦でスキーを楽しむ。",
     "blank": {
       "kanji": "夫婦",
-      "reading": "ふうふ",
-      "okurigana": ""
+      "reading": "ふうふ"
     },
     "rubies": [
       {
@@ -13119,8 +12759,7 @@
     "sentence": "婦人服売り場は3階です。",
     "blank": {
       "kanji": "婦人服",
-      "reading": "ふじんふく",
-      "okurigana": ""
+      "reading": "ふじんふく"
     },
     "rubies": [
       {
@@ -13140,8 +12779,7 @@
     "sentence": "この仕事は主婦に人気がある。",
     "blank": {
       "kanji": "主婦",
-      "reading": "しゅふ",
-      "okurigana": ""
+      "reading": "しゅふ"
     },
     "rubies": [
       {
@@ -13161,8 +12799,7 @@
     "sentence": "新婦のドレスはとてもきれいだった。",
     "blank": {
       "kanji": "新婦",
-      "reading": "しんぷ",
-      "okurigana": ""
+      "reading": "しんぷ"
     },
     "rubies": []
   },
@@ -13173,8 +12810,7 @@
     "sentence": "結婚して姓が変わった。",
     "blank": {
       "kanji": "姓",
-      "reading": "せい",
-      "okurigana": ""
+      "reading": "せい"
     },
     "rubies": [
       {
@@ -13194,8 +12830,7 @@
     "sentence": "同姓同名の人がいておどろいた。",
     "blank": {
       "kanji": "同姓同名",
-      "reading": "どうせいどうめい",
-      "okurigana": ""
+      "reading": "どうせいどうめい"
     },
     "rubies": [
       {
@@ -13382,9 +13017,8 @@
     "type": "reading",
     "sentence": "二人は犬の仲良しだ。",
     "blank": {
-      "kanji": "仲良",
-      "reading": "なかよ",
-      "okurigana": "し"
+      "kanji": "仲良し",
+      "reading": "なかよし"
     },
     "rubies": [
       {
@@ -13408,8 +13042,7 @@
     "sentence": "友達のけんかの仲裁をする。",
     "blank": {
       "kanji": "仲裁",
-      "reading": "ちゅうさい",
-      "okurigana": ""
+      "reading": "ちゅうさい"
     },
     "rubies": [
       {
@@ -13425,8 +13058,7 @@
     "sentence": "この仕事は君に任せたよ。",
     "blank": {
       "kanji": "君",
-      "reading": "きみ",
-      "okurigana": ""
+      "reading": "きみ"
     },
     "rubies": [
       {
@@ -13446,8 +13078,7 @@
     "sentence": "細川君にチョコをあげた。",
     "blank": {
       "kanji": "君",
-      "reading": "くん",
-      "okurigana": ""
+      "reading": "くん"
     },
     "rubies": [
       {
@@ -13463,8 +13094,7 @@
     "sentence": "彼はまじめでやさしい青年だ。",
     "blank": {
       "kanji": "彼",
-      "reading": "かれ",
-      "okurigana": ""
+      "reading": "かれ"
     },
     "rubies": [
       {
@@ -13480,8 +13110,7 @@
     "sentence": "彼女をデートに誘って、断られた。",
     "blank": {
       "kanji": "彼女",
-      "reading": "かのじょ",
-      "okurigana": ""
+      "reading": "かのじょ"
     },
     "rubies": [
       {
@@ -13501,8 +13130,7 @@
     "sentence": "お彼岸に、はかまいりをする。",
     "blank": {
       "kanji": "彼岸",
-      "reading": "ひがん",
-      "okurigana": ""
+      "reading": "ひがん"
     },
     "rubies": []
   },
@@ -13513,8 +13141,7 @@
     "sentence": "他に意見はありませんか。",
     "blank": {
       "kanji": "他",
-      "reading": "ほか",
-      "okurigana": ""
+      "reading": "ほか"
     },
     "rubies": [
       {
@@ -13530,8 +13157,7 @@
     "sentence": "彼は他人に気づかいがない。",
     "blank": {
       "kanji": "他人",
-      "reading": "たにん",
-      "okurigana": ""
+      "reading": "たにん"
     },
     "rubies": [
       {
@@ -13670,9 +13296,8 @@
     "type": "reading",
     "sentence": "父と母のなれ初めを聞く。",
     "blank": {
-      "kanji": "初",
-      "reading": "はじ",
-      "okurigana": "め"
+      "kanji": "初め",
+      "reading": "はじめ"
     },
     "rubies": [
       {
@@ -13695,9 +13320,8 @@
     "type": "reading",
     "sentence": "書き初めに「日の出」と書いた。",
     "blank": {
-      "kanji": "書き初",
-      "reading": "かきぞ",
-      "okurigana": "め"
+      "kanji": "書き初め",
+      "reading": "かきぞめ"
     },
     "rubies": [
       {
@@ -13716,9 +13340,8 @@
     "type": "reading",
     "sentence": "新入社員のスーツがたが初々しい。",
     "blank": {
-      "kanji": "初々",
-      "reading": "ういうい",
-      "okurigana": "しい"
+      "kanji": "初々しい",
+      "reading": "ういういしい"
     },
     "rubies": [
       {
@@ -13738,8 +13361,7 @@
     "sentence": "この映画は今日が公開初日だ。",
     "blank": {
       "kanji": "初日",
-      "reading": "しょにち",
-      "okurigana": ""
+      "reading": "しょにち"
     },
     "rubies": [
       {
@@ -13762,9 +13384,8 @@
     "type": "reading",
     "sentence": "再びトラブルが起きてしまった。",
     "blank": {
-      "kanji": "再",
-      "reading": "ふたた",
-      "okurigana": "び"
+      "kanji": "再び",
+      "reading": "ふたたび"
     },
     "rubies": [
       {
@@ -13780,8 +13401,7 @@
     "sentence": "成績が悪く、再試験を受ける。",
     "blank": {
       "kanji": "再試験",
-      "reading": "さいしけん",
-      "okurigana": ""
+      "reading": "さいしけん"
     },
     "rubies": [
       {
@@ -13805,8 +13425,7 @@
     "sentence": "再来月に引っ越す予定で、部屋を探している。",
     "blank": {
       "kanji": "再来月",
-      "reading": "さらいげつ",
-      "okurigana": ""
+      "reading": "さらいげつ"
     },
     "rubies": [
       {
@@ -13833,9 +13452,8 @@
     "type": "reading",
     "sentence": "彼女とは久しく会っていない。",
     "blank": {
-      "kanji": "久",
-      "reading": "ひさ",
-      "okurigana": "しく"
+      "kanji": "久しく",
+      "reading": "ひさしく"
     },
     "rubies": [
       {
@@ -13855,8 +13473,7 @@
     "sentence": "永久に平和が続くことを願う。",
     "blank": {
       "kanji": "永久",
-      "reading": "えいきゅう",
-      "okurigana": ""
+      "reading": "えいきゅう"
     },
     "rubies": [
       {
@@ -13880,8 +13497,7 @@
     "sentence": "子どもは語学の上達が早い。",
     "blank": {
       "kanji": "上達",
-      "reading": "じょうたつ",
-      "okurigana": ""
+      "reading": "じょうたつ"
     },
     "rubies": [
       {
@@ -14073,8 +13689,7 @@
     "sentence": "一個300円のりんごを買う。",
     "blank": {
       "kanji": "一個",
-      "reading": "いっこ",
-      "okurigana": ""
+      "reading": "いっこ"
     },
     "rubies": [
       {
@@ -14094,8 +13709,7 @@
     "sentence": "レストランの個室を予約した。",
     "blank": {
       "kanji": "個室",
-      "reading": "こしつ",
-      "okurigana": ""
+      "reading": "こしつ"
     },
     "rubies": [
       {
@@ -14111,8 +13725,7 @@
     "sentence": "彼のファッションは個性的だ。",
     "blank": {
       "kanji": "個性的",
-      "reading": "こせいてき",
-      "okurigana": ""
+      "reading": "こせいてき"
     },
     "rubies": [
       {
@@ -14128,8 +13741,7 @@
     "sentence": "この紙は光にとけやすい性質を持つ。",
     "blank": {
       "kanji": "性質",
-      "reading": "せいしつ",
-      "okurigana": ""
+      "reading": "せいしつ"
     },
     "rubies": [
       {
@@ -14153,8 +13765,7 @@
     "sentence": "彼女とは相性がよく、気が合う。",
     "blank": {
       "kanji": "相性",
-      "reading": "あいしょう",
-      "okurigana": ""
+      "reading": "あいしょう"
     },
     "rubies": [
       {
@@ -14178,8 +13789,7 @@
     "sentence": "世界各国の人口を調べた。",
     "blank": {
       "kanji": "各国",
-      "reading": "かっこく",
-      "okurigana": ""
+      "reading": "かっこく"
     },
     "rubies": [
       {
@@ -14203,8 +13813,7 @@
     "sentence": "各自、昼食を持って来てください。",
     "blank": {
       "kanji": "各自",
-      "reading": "かくじ",
-      "okurigana": ""
+      "reading": "かくじ"
     },
     "rubies": [
       {
@@ -14228,8 +13837,7 @@
     "sentence": "彼女はグループのリーダー格だ。",
     "blank": {
       "kanji": "格",
-      "reading": "かく",
-      "okurigana": ""
+      "reading": "かく"
     },
     "rubies": [
       {
@@ -14245,8 +13853,7 @@
     "sentence": "仕事のやくに立つ資格をとる。",
     "blank": {
       "kanji": "資格",
-      "reading": "しかく",
-      "okurigana": ""
+      "reading": "しかく"
     },
     "rubies": [
       {
@@ -14266,8 +13873,7 @@
     "sentence": "コースをまちがえて失格になった。",
     "blank": {
       "kanji": "失格",
-      "reading": "しっかく",
-      "okurigana": ""
+      "reading": "しっかく"
     },
     "rubies": []
   },
@@ -14433,9 +14039,8 @@
     "type": "reading",
     "sentence": "幼いころ、病気でよく入院した。",
     "blank": {
-      "kanji": "幼",
-      "reading": "おさな",
-      "okurigana": "い"
+      "kanji": "幼い",
+      "reading": "おさない"
     },
     "rubies": [
       {
@@ -14455,8 +14060,7 @@
     "sentence": "幼稚園から元気な声が聞こえる。",
     "blank": {
       "kanji": "幼稚園",
-      "reading": "ようちえん",
-      "okurigana": ""
+      "reading": "ようちえん"
     },
     "rubies": [
       {
@@ -14480,8 +14084,7 @@
     "sentence": "幼少期は自然の中で遊ぶのがよい。",
     "blank": {
       "kanji": "幼少期",
-      "reading": "ようしょうき",
-      "okurigana": ""
+      "reading": "ようしょうき"
     },
     "rubies": [
       {
@@ -14504,9 +14107,8 @@
     "type": "reading",
     "sentence": "彼は考え方が幼い。",
     "blank": {
-      "kanji": "幼",
-      "reading": "おさな",
-      "okurigana": "い"
+      "kanji": "幼い",
+      "reading": "おさない"
     },
     "rubies": [
       {
@@ -14526,8 +14128,7 @@
     "sentence": "この本は児童が読むのに良い本だ。",
     "blank": {
       "kanji": "児童",
-      "reading": "じどう",
-      "okurigana": ""
+      "reading": "じどう"
     },
     "rubies": [
       {
@@ -14555,8 +14156,7 @@
     "sentence": "乳児のころは急な体調変化が多い。",
     "blank": {
       "kanji": "乳児",
-      "reading": "にゅうじ",
-      "okurigana": ""
+      "reading": "にゅうじ"
     },
     "rubies": [
       {
@@ -14584,8 +14184,7 @@
     "sentence": "弟は来年、小学校に入学する。",
     "blank": {
       "kanji": "小学校",
-      "reading": "しょうがっこう",
-      "okurigana": ""
+      "reading": "しょうがっこう"
     },
     "rubies": [
       {
@@ -14609,8 +14208,7 @@
     "sentence": "「ももたろう」は有名な童話である。",
     "blank": {
       "kanji": "童話",
-      "reading": "どうわ",
-      "okurigana": ""
+      "reading": "どうわ"
     },
     "rubies": [
       {
@@ -14626,8 +14224,7 @@
     "sentence": "祖母に古い童歌を教えてもらった。",
     "blank": {
       "kanji": "童歌",
-      "reading": "わらべうた",
-      "okurigana": ""
+      "reading": "わらべうた"
     },
     "rubies": [
       {
@@ -14651,8 +14248,7 @@
     "sentence": "この中学校には生徒が500人いる。",
     "blank": {
       "kanji": "生徒",
-      "reading": "せいと",
-      "okurigana": ""
+      "reading": "せいと"
     },
     "rubies": [
       {
@@ -14803,9 +14399,8 @@
     "type": "reading",
     "sentence": "重い荷物を担ぐ。",
     "blank": {
-      "kanji": "担",
-      "reading": "かつ",
-      "okurigana": "ぐ"
+      "kanji": "担ぐ",
+      "reading": "かつぐ"
     },
     "rubies": [
       {
@@ -14824,9 +14419,8 @@
     "type": "reading",
     "sentence": "教師は若者の成長の責任を担う。",
     "blank": {
-      "kanji": "担",
-      "reading": "にな",
-      "okurigana": "う"
+      "kanji": "担う",
+      "reading": "になう"
     },
     "rubies": [
       {
@@ -14854,8 +14448,7 @@
     "sentence": "中学校で理科の授業を担当している。",
     "blank": {
       "kanji": "担当",
-      "reading": "たんとう",
-      "okurigana": ""
+      "reading": "たんとう"
     },
     "rubies": [
       {
@@ -14878,9 +14471,8 @@
     "type": "reading",
     "sentence": "レジの仕事をアルバイトに任せる。",
     "blank": {
-      "kanji": "任",
-      "reading": "まか",
-      "okurigana": "せる"
+      "kanji": "任せる",
+      "reading": "まかせる"
     },
     "rubies": [
       {
@@ -14896,8 +14488,7 @@
     "sentence": "親に負担をかけたくない。",
     "blank": {
       "kanji": "負担",
-      "reading": "ふたん",
-      "okurigana": ""
+      "reading": "ふたん"
     },
     "rubies": [
       {
@@ -14913,8 +14504,7 @@
     "sentence": "内科の医師に相談する。",
     "blank": {
       "kanji": "医師",
-      "reading": "いし",
-      "okurigana": ""
+      "reading": "いし"
     },
     "rubies": [
       {
@@ -14933,9 +14523,8 @@
     "type": "reading",
     "sentence": "となりの人と会話練習のペアを組む。",
     "blank": {
-      "kanji": "組",
-      "reading": "く",
-      "okurigana": "む"
+      "kanji": "組む",
+      "reading": "くむ"
     },
     "rubies": [
       {
@@ -14959,8 +14548,7 @@
     "sentence": "同じ組の友達とあそぶ。",
     "blank": {
       "kanji": "組",
-      "reading": "くみ",
-      "okurigana": ""
+      "reading": "くみ"
     },
     "rubies": [
       {
@@ -14979,9 +14567,8 @@
     "type": "reading",
     "sentence": "プラモデルを組み立てる。",
     "blank": {
-      "kanji": "組み立",
-      "reading": "くみた",
-      "okurigana": "てる"
+      "kanji": "組み立てる",
+      "reading": "くみたてる"
     },
     "rubies": []
   },
@@ -14992,8 +14579,7 @@
     "sentence": "学校という組織のトップは校長だ。",
     "blank": {
       "kanji": "組織",
-      "reading": "そしき",
-      "okurigana": ""
+      "reading": "そしき"
     },
     "rubies": [
       {
@@ -15165,8 +14751,7 @@
     "sentence": "机の上に教科書を出す。",
     "blank": {
       "kanji": "机",
-      "reading": "つくえ",
-      "okurigana": ""
+      "reading": "つくえ"
     },
     "rubies": [
       {
@@ -15190,8 +14775,7 @@
     "sentence": "入学祝いに父が机を買ってくれた。",
     "blank": {
       "kanji": "机",
-      "reading": "つくえ",
-      "okurigana": ""
+      "reading": "つくえ"
     },
     "rubies": [
       {
@@ -15218,9 +14802,8 @@
     "type": "reading",
     "sentence": "つかれたのでベンチに座った。",
     "blank": {
-      "kanji": "座",
-      "reading": "すわ",
-      "okurigana": "った"
+      "kanji": "座った",
+      "reading": "すわった"
     },
     "rubies": []
   },
@@ -15231,8 +14814,7 @@
     "sentence": "星座うらないを信じる。",
     "blank": {
       "kanji": "星座",
-      "reading": "せいざ",
-      "okurigana": ""
+      "reading": "せいざ"
     },
     "rubies": [
       {
@@ -15248,8 +14830,7 @@
     "sentence": "木の板を買って、大小棚を作った。",
     "blank": {
       "kanji": "板",
-      "reading": "いた",
-      "okurigana": ""
+      "reading": "いた"
     },
     "rubies": [
       {
@@ -15281,8 +14862,7 @@
     "sentence": "黒板に字を大きく書く。",
     "blank": {
       "kanji": "黒板",
-      "reading": "こくばん",
-      "okurigana": ""
+      "reading": "こくばん"
     },
     "rubies": [
       {
@@ -15306,8 +14886,7 @@
     "sentence": "掲示板で学校のお知らせを見る。",
     "blank": {
       "kanji": "掲示板",
-      "reading": "けいじばん",
-      "okurigana": ""
+      "reading": "けいじばん"
     },
     "rubies": [
       {
@@ -15331,8 +14910,7 @@
     "sentence": "書道で使う筆を買う。",
     "blank": {
       "kanji": "筆",
-      "reading": "ふで",
-      "okurigana": ""
+      "reading": "ふで"
     },
     "rubies": [
       {
@@ -15356,8 +14934,7 @@
     "sentence": "鉛筆を貸してください。",
     "blank": {
       "kanji": "鉛筆",
-      "reading": "えんぴつ",
-      "okurigana": ""
+      "reading": "えんぴつ"
     },
     "rubies": [
       {
@@ -15373,8 +14950,7 @@
     "sentence": "万年筆をプレゼントする。",
     "blank": {
       "kanji": "万年筆",
-      "reading": "まんねんひつ",
-      "okurigana": ""
+      "reading": "まんねんひつ"
     },
     "rubies": []
   },
@@ -15549,8 +15125,7 @@
     "sentence": "国民の政治が良い社会を作る。",
     "blank": {
       "kanji": "政治",
-      "reading": "せいじ",
-      "okurigana": ""
+      "reading": "せいじ"
     },
     "rubies": [
       {
@@ -15578,8 +15153,7 @@
     "sentence": "政府は税金を上げることを発表した。",
     "blank": {
       "kanji": "政府",
-      "reading": "せいふ",
-      "okurigana": ""
+      "reading": "せいふ"
     },
     "rubies": [
       {
@@ -15602,9 +15176,8 @@
     "type": "reading",
     "sentence": "その王は20年も国を治めることに成功した。",
     "blank": {
-      "kanji": "治",
-      "reading": "おさ",
-      "okurigana": "める"
+      "kanji": "治める",
+      "reading": "おさめる"
     },
     "rubies": [
       {
@@ -15631,9 +15204,8 @@
     "type": "reading",
     "sentence": "病気が早く治るように願う。",
     "blank": {
-      "kanji": "治",
-      "reading": "なお",
-      "okurigana": "る"
+      "kanji": "治る",
+      "reading": "なおる"
     },
     "rubies": [
       {
@@ -15656,9 +15228,8 @@
     "type": "reading",
     "sentence": "歯医者に行って出歯を治してもらった。",
     "blank": {
-      "kanji": "治",
-      "reading": "なお",
-      "okurigana": "して"
+      "kanji": "治して",
+      "reading": "なおして"
     },
     "rubies": [
       {
@@ -15681,9 +15252,8 @@
     "type": "reading",
     "sentence": "長い年月を経て町の様子が変わった。",
     "blank": {
-      "kanji": "経",
-      "reading": "へ",
-      "okurigana": "て"
+      "kanji": "経て",
+      "reading": "へて"
     },
     "rubies": [
       {
@@ -15715,8 +15285,7 @@
     "sentence": "経済郵部を卒業して銀行員になった。",
     "blank": {
       "kanji": "経済",
-      "reading": "けいざい",
-      "okurigana": ""
+      "reading": "けいざい"
     },
     "rubies": [
       {
@@ -15744,8 +15313,7 @@
     "sentence": "経験を積んで早く一人前になりたい。",
     "blank": {
       "kanji": "経験",
-      "reading": "けいけん",
-      "okurigana": ""
+      "reading": "けいけん"
     },
     "rubies": [
       {
@@ -15772,9 +15340,8 @@
     "type": "reading",
     "sentence": "漢字の勉強が済んだら文法を復習する。",
     "blank": {
-      "kanji": "済",
-      "reading": "す",
-      "okurigana": "ん"
+      "kanji": "済ん",
+      "reading": "すん"
     },
     "rubies": [
       {
@@ -15801,9 +15368,8 @@
     "type": "reading",
     "sentence": "ゲームをする前に宿題を済ませた。",
     "blank": {
-      "kanji": "済",
-      "reading": "す",
-      "okurigana": "ませた"
+      "kanji": "済ませた",
+      "reading": "すませた"
     },
     "rubies": [
       {
@@ -15991,8 +15557,7 @@
     "sentence": "調理道具をそろえる。",
     "blank": {
       "kanji": "道具",
-      "reading": "どうぐ",
-      "okurigana": ""
+      "reading": "どうぐ"
     },
     "rubies": [
       {
@@ -16008,8 +15573,7 @@
     "sentence": "文具店でノートを買う。",
     "blank": {
       "kanji": "文具店",
-      "reading": "ぶんぐてん",
-      "okurigana": ""
+      "reading": "ぶんぐてん"
     },
     "rubies": [
       {
@@ -16025,8 +15589,7 @@
     "sentence": "具体例を出して説明した。",
     "blank": {
       "kanji": "具体例",
-      "reading": "ぐたいれい",
-      "okurigana": ""
+      "reading": "ぐたいれい"
     },
     "rubies": [
       {
@@ -16046,8 +15609,7 @@
     "sentence": "商品を箱に詰める。",
     "blank": {
       "kanji": "箱",
-      "reading": "はこ",
-      "okurigana": ""
+      "reading": "はこ"
     },
     "rubies": [
       {
@@ -16067,8 +15629,7 @@
     "sentence": "空き箱におもちゃをしまう。",
     "blank": {
       "kanji": "空き箱",
-      "reading": "あきばこ",
-      "okurigana": ""
+      "reading": "あきばこ"
     },
     "rubies": []
   },
@@ -16079,8 +15640,7 @@
     "sentence": "棒を使ってストレッチする。",
     "blank": {
       "kanji": "棒",
-      "reading": "ぼう",
-      "okurigana": ""
+      "reading": "ぼう"
     },
     "rubies": [
       {
@@ -16096,8 +15656,7 @@
     "sentence": "一日中かいて足が棒になった。",
     "blank": {
       "kanji": "棒",
-      "reading": "ぼう",
-      "okurigana": ""
+      "reading": "ぼう"
     },
     "rubies": [
       {
@@ -16124,9 +15683,8 @@
     "type": "reading",
     "sentence": "一年で身長が5センチ伸びた。",
     "blank": {
-      "kanji": "伸",
-      "reading": "の",
-      "okurigana": "びた"
+      "kanji": "伸びた",
+      "reading": "のびた"
     },
     "rubies": [
       {
@@ -16149,9 +15707,8 @@
     "type": "reading",
     "sentence": "敵の手を差し伸べる。",
     "blank": {
-      "kanji": "伸",
-      "reading": "の",
-      "okurigana": "べる"
+      "kanji": "伸べる",
+      "reading": "のべる"
     },
     "rubies": [
       {
@@ -16171,8 +15728,7 @@
     "sentence": "運動の前に準備運動をする。",
     "blank": {
       "kanji": "準備運動",
-      "reading": "じゅんびうんどう",
-      "okurigana": ""
+      "reading": "じゅんびうんどう"
     },
     "rubies": [
       {
@@ -16352,8 +15908,7 @@
     "sentence": "希少動物をほごする。",
     "blank": {
       "kanji": "希少",
-      "reading": "きしょう",
-      "okurigana": ""
+      "reading": "きしょう"
     },
     "rubies": [
       {
@@ -16369,8 +15924,7 @@
     "sentence": "希望の大学に合格した。",
     "blank": {
       "kanji": "希望",
-      "reading": "きぼう",
-      "okurigana": ""
+      "reading": "きぼう"
     },
     "rubies": [
       {
@@ -16390,8 +15944,7 @@
     "sentence": "望遠鏡で星を見る。",
     "blank": {
       "kanji": "望遠鏡",
-      "reading": "ぼうえんきょう",
-      "okurigana": ""
+      "reading": "ぼうえんきょう"
     },
     "rubies": [
       {
@@ -16410,9 +15963,8 @@
     "type": "reading",
     "sentence": "親が望んでいたので落者になった。",
     "blank": {
-      "kanji": "望",
-      "reading": "のぞ",
-      "okurigana": "んで"
+      "kanji": "望んで",
+      "reading": "のぞんで"
     },
     "rubies": [
       {
@@ -16432,8 +15984,7 @@
     "sentence": "夢に好きな人が出てきた。",
     "blank": {
       "kanji": "夢",
-      "reading": "ゆめ",
-      "okurigana": ""
+      "reading": "ゆめ"
     },
     "rubies": [
       {
@@ -16457,8 +16008,7 @@
     "sentence": "子どものころの夢は歌手だった。",
     "blank": {
       "kanji": "夢",
-      "reading": "ゆめ",
-      "okurigana": ""
+      "reading": "ゆめ"
     },
     "rubies": [
       {
@@ -16478,8 +16028,7 @@
     "sentence": "オンラインゲームに夢中になる。",
     "blank": {
       "kanji": "夢中",
-      "reading": "むちゅう",
-      "okurigana": ""
+      "reading": "むちゅう"
     },
     "rubies": []
   },
@@ -16490,8 +16039,7 @@
     "sentence": "彼女のファッションは注目の的だ。",
     "blank": {
       "kanji": "的",
-      "reading": "まと",
-      "okurigana": ""
+      "reading": "まと"
     },
     "rubies": [
       {
@@ -16511,8 +16059,7 @@
     "sentence": "今年は全国的に暑かった。",
     "blank": {
       "kanji": "全国的",
-      "reading": "ぜんこくてき",
-      "okurigana": ""
+      "reading": "ぜんこくてき"
     },
     "rubies": [
       {
@@ -16532,8 +16079,7 @@
     "sentence": "日本に来た目的を聞かれた。",
     "blank": {
       "kanji": "目的",
-      "reading": "もくてき",
-      "okurigana": ""
+      "reading": "もくてき"
     },
     "rubies": [
       {
@@ -16721,8 +16267,7 @@
     "sentence": "可能なかぎりがんばりたい。",
     "blank": {
       "kanji": "可能",
-      "reading": "かのう",
-      "okurigana": ""
+      "reading": "かのう"
     },
     "rubies": []
   },
@@ -16733,8 +16278,7 @@
     "sentence": "合格の可能性は50%だ。",
     "blank": {
       "kanji": "可能性",
-      "reading": "かのうせい",
-      "okurigana": ""
+      "reading": "かのうせい"
     },
     "rubies": [
       {
@@ -16750,8 +16294,7 @@
     "sentence": "彼はすばらしい才能を持っている。",
     "blank": {
       "kanji": "才能",
-      "reading": "さいのう",
-      "okurigana": ""
+      "reading": "さいのう"
     },
     "rubies": [
       {
@@ -16771,8 +16314,7 @@
     "sentence": "日本語能力試験を受けた。",
     "blank": {
       "kanji": "能力試験",
-      "reading": "のうりょくしけん",
-      "okurigana": ""
+      "reading": "のうりょくしけん"
     },
     "rubies": [
       {
@@ -16791,9 +16333,8 @@
     "type": "reading",
     "sentence": "出願書類の準備が調った。",
     "blank": {
-      "kanji": "調",
-      "reading": "ととの",
-      "okurigana": "った"
+      "kanji": "調った",
+      "reading": "ととのった"
     },
     "rubies": [
       {
@@ -16816,9 +16357,8 @@
     "type": "reading",
     "sentence": "辞書で言葉の意味を調べる。",
     "blank": {
-      "kanji": "調",
-      "reading": "しら",
-      "okurigana": "べる"
+      "kanji": "調べる",
+      "reading": "しらべる"
     },
     "rubies": [
       {
@@ -16842,8 +16382,7 @@
     "sentence": "運動をやめたら体の調子が良い。",
     "blank": {
       "kanji": "調子",
-      "reading": "ちょうし",
-      "okurigana": ""
+      "reading": "ちょうし"
     },
     "rubies": [
       {
@@ -16867,8 +16406,7 @@
     "sentence": "アンケート調査を行った。",
     "blank": {
       "kanji": "調査",
-      "reading": "ちょうさ",
-      "okurigana": ""
+      "reading": "ちょうさ"
     },
     "rubies": [
       {
@@ -16883,9 +16421,8 @@
     "type": "reading",
     "sentence": "通学を考えて家から近い学校を選ぶ。",
     "blank": {
-      "kanji": "選",
-      "reading": "えら",
-      "okurigana": "ぶ"
+      "kanji": "選ぶ",
+      "reading": "えらぶ"
     },
     "rubies": [
       {
@@ -16917,8 +16454,7 @@
     "sentence": "新しい市長を決める選挙がある。",
     "blank": {
       "kanji": "選挙",
-      "reading": "せんきょ",
-      "okurigana": ""
+      "reading": "せんきょ"
     },
     "rubies": [
       {
@@ -17078,8 +16614,7 @@
     "sentence": "アルバイトの面接を受けた。",
     "blank": {
       "kanji": "面接",
-      "reading": "めんせつ",
-      "okurigana": ""
+      "reading": "めんせつ"
     },
     "rubies": [
       {
@@ -17095,8 +16630,7 @@
     "sentence": "彼女は面が美人だ。",
     "blank": {
       "kanji": "面",
-      "reading": "おもて",
-      "okurigana": ""
+      "reading": "おもて"
     },
     "rubies": [
       {
@@ -17116,8 +16650,7 @@
     "sentence": "面接では外面が良くてもだめだ。",
     "blank": {
       "kanji": "外面",
-      "reading": "がいめん",
-      "okurigana": ""
+      "reading": "がいめん"
     },
     "rubies": [
       {
@@ -17136,9 +16669,8 @@
     "type": "reading",
     "sentence": "私の家の大通りに面している。",
     "blank": {
-      "kanji": "面",
-      "reading": "めん",
-      "okurigana": "している"
+      "kanji": "面している",
+      "reading": "めんしている"
     },
     "rubies": [
       {
@@ -17161,9 +16693,8 @@
     "type": "reading",
     "sentence": "バラの枝を台木に接ぐ。",
     "blank": {
-      "kanji": "接",
-      "reading": "つ",
-      "okurigana": "ぐ"
+      "kanji": "接ぐ",
+      "reading": "つぐ"
     },
     "rubies": [
       {
@@ -17183,8 +16714,7 @@
     "sentence": "近来、大型台風が接近するそうだ。",
     "blank": {
       "kanji": "接近",
-      "reading": "せっきん",
-      "okurigana": ""
+      "reading": "せっきん"
     },
     "rubies": [
       {
@@ -17207,9 +16737,8 @@
     "type": "reading",
     "sentence": "役員のボールを受ける。",
     "blank": {
-      "kanji": "受",
-      "reading": "う",
-      "okurigana": "ける"
+      "kanji": "受ける",
+      "reading": "うける"
     },
     "rubies": [
       {
@@ -17225,8 +16754,7 @@
     "sentence": "受験する予定だ。",
     "blank": {
       "kanji": "受験",
-      "reading": "じゅけん",
-      "okurigana": ""
+      "reading": "じゅけん"
     },
     "rubies": [
       {
@@ -17242,8 +16770,7 @@
     "sentence": "試験を3校、受験する予定だ。",
     "blank": {
       "kanji": "受験",
-      "reading": "じゅけん",
-      "okurigana": ""
+      "reading": "じゅけん"
     },
     "rubies": [
       {
@@ -17266,9 +16793,8 @@
     "type": "reading",
     "sentence": "駅でさいふを落としたようだ。",
     "blank": {
-      "kanji": "落",
-      "reading": "お",
-      "okurigana": "とした"
+      "kanji": "落とした",
+      "reading": "おとした"
     },
     "rubies": [
       {
@@ -17283,9 +16809,8 @@
     "type": "reading",
     "sentence": "近所にかみなりが落ちておどろいた。",
     "blank": {
-      "kanji": "落",
-      "reading": "お",
-      "okurigana": "ちて"
+      "kanji": "落ちて",
+      "reading": "おちて"
     },
     "rubies": [
       {
@@ -17436,8 +16961,7 @@
     "sentence": "受験者数は去年の三倍だそうだ。",
     "blank": {
       "kanji": "三倍",
-      "reading": "さんばい",
-      "okurigana": ""
+      "reading": "さんばい"
     },
     "rubies": [
       {
@@ -17465,8 +16989,7 @@
     "sentence": "この大学は人気があって倍率が高い。",
     "blank": {
       "kanji": "倍率",
-      "reading": "ばいりつ",
-      "okurigana": ""
+      "reading": "ばいりつ"
     },
     "rubies": [
       {
@@ -17490,8 +17013,7 @@
     "sentence": "一倍倍元気よく、質問に答える。",
     "blank": {
       "kanji": "一倍",
-      "reading": "いちばい",
-      "okurigana": ""
+      "reading": "いちばい"
     },
     "rubies": [
       {
@@ -17518,9 +17040,8 @@
     "type": "reading",
     "sentence": "先生が学生を率いて、遠足へ行く。",
     "blank": {
-      "kanji": "率",
-      "reading": "ひき",
-      "okurigana": "いて"
+      "kanji": "率いて",
+      "reading": "ひきいて"
     },
     "rubies": [
       {
@@ -17547,9 +17068,8 @@
     "type": "reading",
     "sentence": "子どもを授かる。",
     "blank": {
-      "kanji": "授",
-      "reading": "さず",
-      "okurigana": "かる"
+      "kanji": "授かる",
+      "reading": "さずかる"
     },
     "rubies": [
       {
@@ -17565,8 +17085,7 @@
     "sentence": "あの外科医の手術は神業だ。",
     "blank": {
       "kanji": "神業",
-      "reading": "かみわざ",
-      "okurigana": ""
+      "reading": "かみわざ"
     },
     "rubies": [
       {
@@ -17590,8 +17109,7 @@
     "sentence": "卒業までに力を入れたことは何ですか。",
     "blank": {
       "kanji": "卒業",
-      "reading": "そつぎょう",
-      "okurigana": ""
+      "reading": "そつぎょう"
     },
     "rubies": [
       {
@@ -17615,8 +17133,7 @@
     "sentence": "日本語の授業を受けている。",
     "blank": {
       "kanji": "授業",
-      "reading": "じゅぎょう",
-      "okurigana": ""
+      "reading": "じゅぎょう"
     },
     "rubies": [
       {
@@ -17636,8 +17153,7 @@
     "sentence": "仕事がいそがしくて2時間も残業した。",
     "blank": {
       "kanji": "残業",
-      "reading": "ざんぎょう",
-      "okurigana": ""
+      "reading": "ざんぎょう"
     },
     "rubies": [
       {
@@ -17657,8 +17173,7 @@
     "sentence": "初級のクラスで勉強する。",
     "blank": {
       "kanji": "初級",
-      "reading": "しょきゅう",
-      "okurigana": ""
+      "reading": "しょきゅう"
     },
     "rubies": [
       {
@@ -17674,8 +17189,7 @@
     "sentence": "高級なレストランで食事をした。",
     "blank": {
       "kanji": "高級",
-      "reading": "こうきゅう",
-      "okurigana": ""
+      "reading": "こうきゅう"
     },
     "rubies": [
       {
@@ -17691,8 +17205,7 @@
     "sentence": "高校時代の同級生に会った。",
     "blank": {
       "kanji": "同級生",
-      "reading": "どうきゅうせい",
-      "okurigana": ""
+      "reading": "どうきゅうせい"
     },
     "rubies": [
       {
@@ -17716,8 +17229,7 @@
     "sentence": "A社は今年、新卒を多い用しない。",
     "blank": {
       "kanji": "新卒",
-      "reading": "しんそつ",
-      "okurigana": ""
+      "reading": "しんそつ"
     },
     "rubies": [
       {
@@ -17745,8 +17257,7 @@
     "sentence": "大学を卒業したら、日本で働きたい。",
     "blank": {
       "kanji": "卒業",
-      "reading": "そつぎょう",
-      "okurigana": ""
+      "reading": "そつぎょう"
     },
     "rubies": [
       {
@@ -17917,9 +17428,8 @@
     "type": "reading",
     "sentence": "茶わんのふちが欠けてしまった。",
     "blank": {
-      "kanji": "欠",
-      "reading": "か",
-      "okurigana": "けて"
+      "kanji": "欠けて",
+      "reading": "かけて"
     },
     "rubies": [
       {
@@ -17934,9 +17444,8 @@
     "type": "reading",
     "sentence": "注意を欠いて、大きなミスをした。",
     "blank": {
-      "kanji": "欠",
-      "reading": "か",
-      "okurigana": "いて"
+      "kanji": "欠いて",
+      "reading": "かいて"
     },
     "rubies": [
       {
@@ -17956,8 +17465,7 @@
     "sentence": "病気で授業を欠席する。",
     "blank": {
       "kanji": "欠席",
-      "reading": "けっせき",
-      "okurigana": ""
+      "reading": "けっせき"
     },
     "rubies": [
       {
@@ -17977,8 +17485,7 @@
     "sentence": "自分の席に着く。",
     "blank": {
       "kanji": "席",
-      "reading": "せき",
-      "okurigana": ""
+      "reading": "せき"
     },
     "rubies": [
       {
@@ -17998,8 +17505,7 @@
     "sentence": "これから出席をとります。",
     "blank": {
       "kanji": "出席",
-      "reading": "しゅっせき",
-      "okurigana": ""
+      "reading": "しゅっせき"
     },
     "rubies": []
   },
@@ -18010,8 +17516,7 @@
     "sentence": "彼の安否を知る由もない。",
     "blank": {
       "kanji": "由",
-      "reading": "よし",
-      "okurigana": ""
+      "reading": "よし"
     },
     "rubies": [
       {
@@ -18035,8 +17540,7 @@
     "sentence": "メキシコ経由でブラジルへ行く。",
     "blank": {
       "kanji": "経由",
-      "reading": "けいゆ",
-      "okurigana": ""
+      "reading": "けいゆ"
     },
     "rubies": [
       {
@@ -18052,8 +17556,7 @@
     "sentence": "遅れた理由は何ですか。",
     "blank": {
       "kanji": "理由",
-      "reading": "りゆう",
-      "okurigana": ""
+      "reading": "りゆう"
     },
     "rubies": [
       {
@@ -18072,9 +17575,8 @@
     "type": "reading",
     "sentence": "この文を英語に訳してください。",
     "blank": {
-      "kanji": "訳",
-      "reading": "やく",
-      "okurigana": "して"
+      "kanji": "訳して",
+      "reading": "やくして"
     },
     "rubies": [
       {
@@ -18094,8 +17596,7 @@
     "sentence": "申し訳ありません。",
     "blank": {
       "kanji": "申し訳",
-      "reading": "もうしわけ",
-      "okurigana": ""
+      "reading": "もうしわけ"
     },
     "rubies": []
   },
@@ -18273,9 +17774,8 @@
     "type": "reading",
     "sentence": "例えば、野球なら野球が好きだ。",
     "blank": {
-      "kanji": "例",
-      "reading": "たと",
-      "okurigana": "えば"
+      "kanji": "例えば",
+      "reading": "たとえば"
     },
     "rubies": [
       {
@@ -18299,8 +17799,7 @@
     "sentence": "運動会は例年通り行われる。",
     "blank": {
       "kanji": "例年",
-      "reading": "れいねん",
-      "okurigana": ""
+      "reading": "れいねん"
     },
     "rubies": [
       {
@@ -18323,9 +17822,8 @@
     "type": "reading",
     "sentence": "易しい言葉で話す。",
     "blank": {
-      "kanji": "易",
-      "reading": "やさ",
-      "okurigana": "しい"
+      "kanji": "易しい",
+      "reading": "やさしい"
     },
     "rubies": [
       {
@@ -18345,8 +17843,7 @@
     "sentence": "漢字を安易に考えてはいけない。",
     "blank": {
       "kanji": "安易",
-      "reading": "あんい",
-      "okurigana": ""
+      "reading": "あんい"
     },
     "rubies": [
       {
@@ -18366,8 +17863,7 @@
     "sentence": "貿易に関係がある仕事がしたい。",
     "blank": {
       "kanji": "貿易",
-      "reading": "ぼうえき",
-      "okurigana": ""
+      "reading": "ぼうえき"
     },
     "rubies": [
       {
@@ -18387,8 +17883,7 @@
     "sentence": "彼女の考え方が理解できない。",
     "blank": {
       "kanji": "理解",
-      "reading": "りかい",
-      "okurigana": ""
+      "reading": "りかい"
     },
     "rubies": [
       {
@@ -18408,8 +17903,7 @@
     "sentence": "解熱剤を飲んだら、熱が下がった。",
     "blank": {
       "kanji": "解熱剤",
-      "reading": "げねつざい",
-      "okurigana": ""
+      "reading": "げねつざい"
     },
     "rubies": [
       {
@@ -18432,9 +17926,8 @@
     "type": "reading",
     "sentence": "数学の問題を解いていた。",
     "blank": {
-      "kanji": "解",
-      "reading": "と",
-      "okurigana": "いて"
+      "kanji": "解いて",
+      "reading": "といて"
     },
     "rubies": [
       {
@@ -18453,9 +17946,8 @@
     "type": "reading",
     "sentence": "社長は社員に会社の理念を説いた。",
     "blank": {
-      "kanji": "説",
-      "reading": "と",
-      "okurigana": "いた"
+      "kanji": "説いた",
+      "reading": "といた"
     },
     "rubies": [
       {
@@ -18483,8 +17975,7 @@
     "sentence": "パソコンの使い方を説明した。",
     "blank": {
       "kanji": "説明",
-      "reading": "せつめい",
-      "okurigana": ""
+      "reading": "せつめい"
     },
     "rubies": [
       {
@@ -18650,9 +18141,8 @@
     "type": "reading",
     "sentence": "漢字を350字覚えた。",
     "blank": {
-      "kanji": "覚",
-      "reading": "おぼ",
-      "okurigana": "えた"
+      "kanji": "覚えた",
+      "reading": "おぼえた"
     },
     "rubies": [
       {
@@ -18671,9 +18161,8 @@
     "type": "reading",
     "sentence": "鳥の声で目を覚ます。",
     "blank": {
-      "kanji": "覚",
-      "reading": "さ",
-      "okurigana": "ます"
+      "kanji": "覚ます",
+      "reading": "さます"
     },
     "rubies": [
       {
@@ -18697,8 +18186,7 @@
     "sentence": "政治家の不正が発覚した。",
     "blank": {
       "kanji": "発覚",
-      "reading": "はっかく",
-      "okurigana": ""
+      "reading": "はっかく"
     },
     "rubies": [
       {
@@ -18722,8 +18210,7 @@
     "sentence": "私は努力不足を自覚している。",
     "blank": {
       "kanji": "自覚",
-      "reading": "じかく",
-      "okurigana": ""
+      "reading": "じかく"
     },
     "rubies": [
       {
@@ -18747,8 +18234,7 @@
     "sentence": "家に忘れ物を取りに帰る。",
     "blank": {
       "kanji": "忘れ物",
-      "reading": "わすれもの",
-      "okurigana": ""
+      "reading": "わすれもの"
     },
     "rubies": [
       {
@@ -18772,8 +18258,7 @@
     "sentence": "忘年会でたくさんお酒を飲んだ。",
     "blank": {
       "kanji": "忘年会",
-      "reading": "ぼうねんかい",
-      "okurigana": ""
+      "reading": "ぼうねんかい"
     },
     "rubies": [
       {
@@ -18792,9 +18277,8 @@
     "type": "reading",
     "sentence": "健康のために毎日早起きを始める。",
     "blank": {
-      "kanji": "早起",
-      "reading": "はやお",
-      "okurigana": "き"
+      "kanji": "早起き",
+      "reading": "はやおき"
     },
     "rubies": [
       {
@@ -18818,8 +18302,7 @@
     "sentence": "林さんは努力家だ。",
     "blank": {
       "kanji": "努力家",
-      "reading": "どりょくか",
-      "okurigana": ""
+      "reading": "どりょくか"
     },
     "rubies": [
       {
@@ -18834,9 +18317,8 @@
     "type": "reading",
     "sentence": "漢字の勉強を毎日続ける。",
     "blank": {
-      "kanji": "続",
-      "reading": "つづ",
-      "okurigana": "ける"
+      "kanji": "続ける",
+      "reading": "つづける"
     },
     "rubies": [
       {
@@ -18860,8 +18342,7 @@
     "sentence": "連続ドラマを毎週見ている。",
     "blank": {
       "kanji": "連続",
-      "reading": "れんぞく",
-      "okurigana": ""
+      "reading": "れんぞく"
     },
     "rubies": [
       {
@@ -19056,9 +18537,8 @@
     "type": "reading",
     "sentence": "この仕事はかなり根気が要る。",
     "blank": {
-      "kanji": "要",
-      "reading": "い",
-      "okurigana": "る"
+      "kanji": "要る",
+      "reading": "いる"
     },
     "rubies": [
       {
@@ -19078,8 +18558,7 @@
     "sentence": "山下選手はチームの要だ。",
     "blank": {
       "kanji": "要",
-      "reading": "かなめ",
-      "okurigana": ""
+      "reading": "かなめ"
     },
     "rubies": [
       {
@@ -19099,8 +18578,7 @@
     "sentence": "旅行に必要な費用を計算する。",
     "blank": {
       "kanji": "必要",
-      "reading": "ひつよう",
-      "okurigana": ""
+      "reading": "ひつよう"
     },
     "rubies": [
       {
@@ -19124,8 +18602,7 @@
     "sentence": "ぶしょうを要約してまとめる。",
     "blank": {
       "kanji": "要約",
-      "reading": "ようやく",
-      "okurigana": ""
+      "reading": "ようやく"
     },
     "rubies": []
   },
@@ -19136,8 +18613,7 @@
     "sentence": "家から学校まで往復3時間かかる。",
     "blank": {
       "kanji": "往復",
-      "reading": "おうふく",
-      "okurigana": ""
+      "reading": "おうふく"
     },
     "rubies": [
       {
@@ -19161,8 +18637,7 @@
     "sentence": "末月から仕事に復帰する。",
     "blank": {
       "kanji": "復帰",
-      "reading": "ふっき",
-      "okurigana": ""
+      "reading": "ふっき"
     },
     "rubies": [
       {
@@ -19185,9 +18660,8 @@
     "type": "reading",
     "sentence": "サプリメントでビタミンを補っている。",
     "blank": {
-      "kanji": "補",
-      "reading": "おぎな",
-      "okurigana": "って"
+      "kanji": "補って",
+      "reading": "おぎなって"
     },
     "rubies": []
   },
@@ -19198,8 +18672,7 @@
     "sentence": "テストの点が悪くて、補習を受けた。",
     "blank": {
       "kanji": "補習",
-      "reading": "ほしゅう",
-      "okurigana": ""
+      "reading": "ほしゅう"
     },
     "rubies": [
       {
@@ -19223,8 +18696,7 @@
     "sentence": "この薬は効き目が早い。",
     "blank": {
       "kanji": "効き目",
-      "reading": "ききめ",
-      "okurigana": ""
+      "reading": "ききめ"
     },
     "rubies": [
       {
@@ -19244,8 +18716,7 @@
     "sentence": "効果的な勉強法を教えてもらう。",
     "blank": {
       "kanji": "効果的",
-      "reading": "こうかてき",
-      "okurigana": ""
+      "reading": "こうかてき"
     },
     "rubies": [
       {
@@ -19416,8 +18887,7 @@
     "sentence": "畑にかぼちゃの種をまいた。",
     "blank": {
       "kanji": "種",
-      "reading": "たね",
-      "okurigana": ""
+      "reading": "たね"
     },
     "rubies": [
       {
@@ -19433,8 +18903,7 @@
     "sentence": "このりんごの品種は寒さに強い。",
     "blank": {
       "kanji": "品種",
-      "reading": "ひんしゅ",
-      "okurigana": ""
+      "reading": "ひんしゅ"
     },
     "rubies": [
       {
@@ -19453,9 +18922,8 @@
     "type": "reading",
     "sentence": "彼は類まれな才能を持っている。",
     "blank": {
-      "kanji": "類",
-      "reading": "たぐい",
-      "okurigana": "まれ"
+      "kanji": "類まれ",
+      "reading": "たぐいまれ"
     },
     "rubies": [
       {
@@ -19479,8 +18947,7 @@
     "sentence": "大学に出願書類を送る。",
     "blank": {
       "kanji": "出願書類",
-      "reading": "しゅつがんしょるい",
-      "okurigana": ""
+      "reading": "しゅつがんしょるい"
     },
     "rubies": [
       {
@@ -19500,8 +18967,7 @@
     "sentence": "この店は花の種類が多い。",
     "blank": {
       "kanji": "種類",
-      "reading": "しゅるい",
-      "okurigana": ""
+      "reading": "しゅるい"
     },
     "rubies": [
       {
@@ -19525,8 +18991,7 @@
     "sentence": "会社を存続させるために努力する。",
     "blank": {
       "kanji": "存続",
-      "reading": "そんぞく",
-      "okurigana": ""
+      "reading": "そんぞく"
     },
     "rubies": [
       {
@@ -19546,8 +19011,7 @@
     "sentence": "米は低温で保存したほうがよい。",
     "blank": {
       "kanji": "保存",
-      "reading": "ほぞん",
-      "okurigana": ""
+      "reading": "ほぞん"
     },
     "rubies": [
       {
@@ -19567,8 +19031,7 @@
     "sentence": "UFOの存在を信じますか。",
     "blank": {
       "kanji": "存在",
-      "reading": "そんざい",
-      "okurigana": ""
+      "reading": "そんざい"
     },
     "rubies": [
       {
@@ -19584,8 +19047,7 @@
     "sentence": "教育の在り方を考える。",
     "blank": {
       "kanji": "在り方",
-      "reading": "ありかた",
-      "okurigana": ""
+      "reading": "ありかた"
     },
     "rubies": [
       {
@@ -19605,8 +19067,7 @@
     "sentence": "在学中はお世話になりました。",
     "blank": {
       "kanji": "在学中",
-      "reading": "ざいがくちゅう",
-      "okurigana": ""
+      "reading": "ざいがくちゅう"
     },
     "rubies": [
       {
@@ -19774,8 +19235,7 @@
     "sentence": "太陽は東からのぼって西にしずむ。",
     "blank": {
       "kanji": "太陽",
-      "reading": "たいよう",
-      "okurigana": ""
+      "reading": "たいよう"
     },
     "rubies": [
       {
@@ -19795,8 +19255,7 @@
     "sentence": "山腹地方を旅行した。",
     "blank": {
       "kanji": "山腹",
-      "reading": "さんぷく",
-      "okurigana": ""
+      "reading": "さんぷく"
     },
     "rubies": [
       {
@@ -19816,8 +19275,7 @@
     "sentence": "田中さんは陽気な人だ。",
     "blank": {
       "kanji": "陽気",
-      "reading": "ようき",
-      "okurigana": ""
+      "reading": "ようき"
     },
     "rubies": [
       {
@@ -19837,8 +19295,7 @@
     "sentence": "巨大なドームを建設している。",
     "blank": {
       "kanji": "巨大",
-      "reading": "きょだい",
-      "okurigana": ""
+      "reading": "きょだい"
     },
     "rubies": [
       {
@@ -19854,8 +19311,7 @@
     "sentence": "かぶで巨万のとみを手に入れた。",
     "blank": {
       "kanji": "巨万",
-      "reading": "きょまん",
-      "okurigana": ""
+      "reading": "きょまん"
     },
     "rubies": [
       {
@@ -19875,8 +19331,7 @@
     "sentence": "気温が氷点下になる。",
     "blank": {
       "kanji": "氷点下",
-      "reading": "ひょうてんか",
-      "okurigana": ""
+      "reading": "ひょうてんか"
     },
     "rubies": [
       {
@@ -19892,8 +19347,7 @@
     "sentence": "広大な河が下った。",
     "blank": {
       "kanji": "河",
-      "reading": "かわ",
-      "okurigana": ""
+      "reading": "かわ"
     },
     "rubies": [
       {
@@ -19913,8 +19367,7 @@
     "sentence": "温暖化で氷河がとけてきている。",
     "blank": {
       "kanji": "氷河",
-      "reading": "ひょうが",
-      "okurigana": ""
+      "reading": "ひょうが"
     },
     "rubies": [
       {
@@ -19934,8 +19387,7 @@
     "sentence": "台風で河川がはんらんした。",
     "blank": {
       "kanji": "河川",
-      "reading": "かせん",
-      "okurigana": ""
+      "reading": "かせん"
     },
     "rubies": [
       {
@@ -19951,8 +19403,7 @@
     "sentence": "船で運河をわたる。",
     "blank": {
       "kanji": "運河",
-      "reading": "うんが",
-      "okurigana": ""
+      "reading": "うんが"
     },
     "rubies": [
       {
@@ -20095,8 +19546,7 @@
     "sentence": "日本には四季がある。",
     "blank": {
       "kanji": "四季",
-      "reading": "しき",
-      "okurigana": ""
+      "reading": "しき"
     },
     "rubies": [
       {
@@ -20111,9 +19561,8 @@
     "type": "reading",
     "sentence": "季節外れの雪が降った。",
     "blank": {
-      "kanji": "季節外",
-      "reading": "きせつはず",
-      "okurigana": "れ"
+      "kanji": "季節外れ",
+      "reading": "きせつはずれ"
     },
     "rubies": [
       {
@@ -20133,8 +19582,7 @@
     "sentence": "地球の気候変動が問題になっている。",
     "blank": {
       "kanji": "気候",
-      "reading": "きこう",
-      "okurigana": ""
+      "reading": "きこう"
     },
     "rubies": [
       {
@@ -20158,8 +19606,7 @@
     "sentence": "天候不順の日が続いている。",
     "blank": {
       "kanji": "天候",
-      "reading": "てんこう",
-      "okurigana": ""
+      "reading": "てんこう"
     },
     "rubies": [
       {
@@ -20182,9 +19629,8 @@
     "type": "reading",
     "sentence": "3月になって暖かくなってきた。",
     "blank": {
-      "kanji": "暖",
-      "reading": "あたた",
-      "okurigana": "かく"
+      "kanji": "暖かく",
+      "reading": "あたたかく"
     },
     "rubies": [
       {
@@ -20199,9 +19645,8 @@
     "type": "reading",
     "sentence": "ここアを飲んで体が温まってきた。",
     "blank": {
-      "kanji": "温",
-      "reading": "あたた",
-      "okurigana": "まって"
+      "kanji": "温まって",
+      "reading": "あたたまって"
     },
     "rubies": [
       {
@@ -20221,8 +19666,7 @@
     "sentence": "地球温暖化が進んでいる。",
     "blank": {
       "kanji": "温暖化",
-      "reading": "おんだんか",
-      "okurigana": ""
+      "reading": "おんだんか"
     },
     "rubies": [
       {
@@ -20241,9 +19685,8 @@
     "type": "reading",
     "sentence": "アマゾン川は南米を流れている。",
     "blank": {
-      "kanji": "流",
-      "reading": "なが",
-      "okurigana": "れて"
+      "kanji": "流れて",
+      "reading": "ながれて"
     },
     "rubies": [
       {
@@ -20262,9 +19705,8 @@
     "type": "reading",
     "sentence": "涙を流しながらあやまった。",
     "blank": {
-      "kanji": "流",
-      "reading": "なが",
-      "okurigana": "し"
+      "kanji": "流し",
+      "reading": "ながし"
     },
     "rubies": [
       {
@@ -20280,8 +19722,7 @@
     "sentence": "インフルエンザが流行している。",
     "blank": {
       "kanji": "流行",
-      "reading": "りゅうこう",
-      "okurigana": ""
+      "reading": "りゅうこう"
     },
     "rubies": []
   },
@@ -20464,8 +19905,7 @@
     "sentence": "星の形をしたブローチを買った。",
     "blank": {
       "kanji": "形",
-      "reading": "かたち",
-      "okurigana": ""
+      "reading": "かたち"
     },
     "rubies": [
       {
@@ -20485,8 +19925,7 @@
     "sentence": "あの女優は目を整形したそうだ。",
     "blank": {
       "kanji": "整形",
-      "reading": "せいけい",
-      "okurigana": ""
+      "reading": "せいけい"
     },
     "rubies": [
       {
@@ -20506,8 +19945,7 @@
     "sentence": "めいに人形をプレゼントする。",
     "blank": {
       "kanji": "人形",
-      "reading": "にんぎょう",
-      "okurigana": ""
+      "reading": "にんぎょう"
     },
     "rubies": []
   },
@@ -20518,8 +19956,7 @@
     "sentence": "水がこれていて川の底が見えない。",
     "blank": {
       "kanji": "底",
-      "reading": "そこ",
-      "okurigana": ""
+      "reading": "そこ"
     },
     "rubies": [
       {
@@ -20543,8 +19980,7 @@
     "sentence": "部署を徹底的にそうじする。",
     "blank": {
       "kanji": "徹底的",
-      "reading": "てっていてき",
-      "okurigana": ""
+      "reading": "てっていてき"
     },
     "rubies": [
       {
@@ -20559,9 +19995,8 @@
     "type": "reading",
     "sentence": "このプールは深さに注意が必要だ。",
     "blank": {
-      "kanji": "深",
-      "reading": "ふか",
-      "okurigana": "さ"
+      "kanji": "深さ",
+      "reading": "ふかさ"
     },
     "rubies": [
       {
@@ -20580,9 +20015,8 @@
     "type": "reading",
     "sentence": "秋が深まり、紅葉が美しい。",
     "blank": {
-      "kanji": "深",
-      "reading": "ふか",
-      "okurigana": "まり"
+      "kanji": "深まり",
+      "reading": "ふかまり"
     },
     "rubies": [
       {
@@ -20606,8 +20040,7 @@
     "sentence": "深海までアルバイトをしている。",
     "blank": {
       "kanji": "深海",
-      "reading": "しんかい",
-      "okurigana": ""
+      "reading": "しんかい"
     },
     "rubies": []
   },
@@ -20617,9 +20050,8 @@
     "type": "reading",
     "sentence": "ねむりが浅くすぐ目が覚める。",
     "blank": {
-      "kanji": "浅",
-      "reading": "あさ",
-      "okurigana": "く"
+      "kanji": "浅く",
+      "reading": "あさく"
     },
     "rubies": [
       {
@@ -20639,8 +20071,7 @@
     "sentence": "浅薄な考えではうまくいかない。",
     "blank": {
       "kanji": "浅薄",
-      "reading": "せんぱく",
-      "okurigana": ""
+      "reading": "せんぱく"
     },
     "rubies": [
       {
@@ -20824,8 +20255,7 @@
     "sentence": "日本は海にかこまれた島国だ。",
     "blank": {
       "kanji": "島国",
-      "reading": "しまぐに",
-      "okurigana": ""
+      "reading": "しまぐに"
     },
     "rubies": [
       {
@@ -20845,8 +20275,7 @@
     "sentence": "日本列島は南北に長い。",
     "blank": {
       "kanji": "列島",
-      "reading": "れっとう",
-      "okurigana": ""
+      "reading": "れっとう"
     },
     "rubies": [
       {
@@ -20870,8 +20299,7 @@
     "sentence": "無人島の探検ツアーにさんかした。",
     "blank": {
       "kanji": "無人島",
-      "reading": "むじんとう",
-      "okurigana": ""
+      "reading": "むじんとう"
     },
     "rubies": [
       {
@@ -20887,8 +20315,7 @@
     "sentence": "9時に飛行機が着陸する予定だ。",
     "blank": {
       "kanji": "着陸",
-      "reading": "ちゃくりく",
-      "okurigana": ""
+      "reading": "ちゃくりく"
     },
     "rubies": [
       {
@@ -20912,8 +20339,7 @@
     "sentence": "台風が九州に上陸した。",
     "blank": {
       "kanji": "上陸",
-      "reading": "じょうりく",
-      "okurigana": ""
+      "reading": "じょうりく"
     },
     "rubies": [
       {
@@ -20933,8 +20359,7 @@
     "sentence": "利根川の岸辺をさんぽする。",
     "blank": {
       "kanji": "岸辺",
-      "reading": "きしべ",
-      "okurigana": ""
+      "reading": "きしべ"
     },
     "rubies": [
       {
@@ -20950,8 +20375,7 @@
     "sentence": "毎朝港をランニングしている。",
     "blank": {
       "kanji": "港",
-      "reading": "みなと",
-      "okurigana": ""
+      "reading": "みなと"
     },
     "rubies": [
       {
@@ -20967,8 +20391,7 @@
     "sentence": "小舟で対岸へわたった。",
     "blank": {
       "kanji": "対岸",
-      "reading": "たいがん",
-      "okurigana": ""
+      "reading": "たいがん"
     },
     "rubies": [
       {
@@ -20984,8 +20407,7 @@
     "sentence": "坂道で転んだ。",
     "blank": {
       "kanji": "坂道",
-      "reading": "さかみち",
-      "okurigana": ""
+      "reading": "さかみち"
     },
     "rubies": [
       {
@@ -21001,8 +20423,7 @@
     "sentence": "この町は坂が多い。",
     "blank": {
       "kanji": "坂",
-      "reading": "さか",
-      "okurigana": ""
+      "reading": "さか"
     },
     "rubies": [
       {
@@ -21181,8 +20602,7 @@
     "sentence": "パーティーの準備を進める。",
     "blank": {
       "kanji": "準備",
-      "reading": "じゅんび",
-      "okurigana": ""
+      "reading": "じゅんび"
     },
     "rubies": [
       {
@@ -21198,8 +20618,7 @@
     "sentence": "下水の設備がととのった。",
     "blank": {
       "kanji": "設備",
-      "reading": "せつび",
-      "okurigana": ""
+      "reading": "せつび"
     },
     "rubies": [
       {
@@ -21215,8 +20634,7 @@
     "sentence": "新幹線は設備が整っている。",
     "blank": {
       "kanji": "設備",
-      "reading": "せつび",
-      "okurigana": ""
+      "reading": "せつび"
     },
     "rubies": [
       {
@@ -21235,9 +20653,8 @@
     "type": "reading",
     "sentence": "万に備えて貯金する。",
     "blank": {
-      "kanji": "備",
-      "reading": "そな",
-      "okurigana": "えて"
+      "kanji": "備えて",
+      "reading": "そなえて"
     },
     "rubies": [
       {
@@ -21256,9 +20673,8 @@
     "type": "reading",
     "sentence": "家族そろって新年を迎える。",
     "blank": {
-      "kanji": "迎",
-      "reading": "むか",
-      "okurigana": "える"
+      "kanji": "迎える",
+      "reading": "むかえる"
     },
     "rubies": [
       {
@@ -21277,9 +20693,8 @@
     "type": "reading",
     "sentence": "温かい出迎えを受けた。",
     "blank": {
-      "kanji": "出迎",
-      "reading": "でむか",
-      "okurigana": "え"
+      "kanji": "出迎え",
+      "reading": "でむかえ"
     },
     "rubies": [
       {
@@ -21299,8 +20714,7 @@
     "sentence": "駅からホテルまでの送迎バスがある。",
     "blank": {
       "kanji": "送迎",
-      "reading": "そうげい",
-      "okurigana": ""
+      "reading": "そうげい"
     },
     "rubies": [
       {
@@ -21315,9 +20729,8 @@
     "type": "reading",
     "sentence": "葉の色が緑から赤に変わる。",
     "blank": {
-      "kanji": "変",
-      "reading": "か",
-      "okurigana": "わる"
+      "kanji": "変わる",
+      "reading": "かわる"
     },
     "rubies": [
       {
@@ -21345,8 +20758,7 @@
     "sentence": "この車は変速にかいする。",
     "blank": {
       "kanji": "変速",
-      "reading": "へんそく",
-      "okurigana": ""
+      "reading": "へんそく"
     },
     "rubies": [
       {
@@ -21362,8 +20774,7 @@
     "sentence": "今年は変化の多い年だった。",
     "blank": {
       "kanji": "変化",
-      "reading": "へんか",
-      "okurigana": ""
+      "reading": "へんか"
     },
     "rubies": [
       {
@@ -21530,9 +20941,8 @@
     "type": "reading",
     "sentence": "鳥が大空を飛ぶ。",
     "blank": {
-      "kanji": "飛",
-      "reading": "と",
-      "okurigana": "ぶ"
+      "kanji": "飛ぶ",
+      "reading": "とぶ"
     },
     "rubies": [
       {
@@ -21552,8 +20962,7 @@
     "sentence": "飛行機のチケットを買う。",
     "blank": {
       "kanji": "飛行機",
-      "reading": "ひこうき",
-      "okurigana": ""
+      "reading": "ひこうき"
     },
     "rubies": [
       {
@@ -21568,9 +20977,8 @@
     "type": "reading",
     "sentence": "結婚して2DKのアパートに移った。",
     "blank": {
-      "kanji": "移",
-      "reading": "うつ",
-      "okurigana": "った"
+      "kanji": "移った",
+      "reading": "うつった"
     },
     "rubies": [
       {
@@ -21585,9 +20993,8 @@
     "type": "reading",
     "sentence": "どこかでかぜを移されたようだ。",
     "blank": {
-      "kanji": "移",
-      "reading": "うつ",
-      "okurigana": "された"
+      "kanji": "移された",
+      "reading": "うつされた"
     },
     "rubies": []
   },
@@ -21598,8 +21005,7 @@
     "sentence": "オーストラリアに登山する。",
     "blank": {
       "kanji": "登山",
-      "reading": "とざん",
-      "okurigana": ""
+      "reading": "とざん"
     },
     "rubies": []
   },
@@ -21609,9 +21015,8 @@
     "type": "reading",
     "sentence": "夏休みに富士山に登る。",
     "blank": {
-      "kanji": "登",
-      "reading": "のぼ",
-      "okurigana": "る"
+      "kanji": "登る",
+      "reading": "のぼる"
     },
     "rubies": [
       {
@@ -21631,8 +21036,7 @@
     "sentence": "けわしい登山道を歩く。",
     "blank": {
       "kanji": "登山道",
-      "reading": "とざんどう",
-      "okurigana": ""
+      "reading": "とざんどう"
     },
     "rubies": [
       {
@@ -21647,9 +21051,8 @@
     "type": "reading",
     "sentence": "港近くのリゾートホテルに泊まる。",
     "blank": {
-      "kanji": "泊",
-      "reading": "と",
-      "okurigana": "まる"
+      "kanji": "泊まる",
+      "reading": "とまる"
     },
     "rubies": [
       {
@@ -21668,9 +21071,8 @@
     "type": "reading",
     "sentence": "友達を部屋に泊める。",
     "blank": {
-      "kanji": "泊",
-      "reading": "と",
-      "okurigana": "める"
+      "kanji": "泊める",
+      "reading": "とめる"
     },
     "rubies": [
       {
@@ -21690,8 +21092,7 @@
     "sentence": "二泊三日の旅行をする。",
     "blank": {
       "kanji": "二泊三日",
-      "reading": "にはくさんにち",
-      "okurigana": ""
+      "reading": "にはくさんにち"
     },
     "rubies": [
       {
@@ -21875,8 +21276,7 @@
     "sentence": "あの宿は団体の利用が多い。",
     "blank": {
       "kanji": "団体",
-      "reading": "だんたい",
-      "okurigana": ""
+      "reading": "だんたい"
     },
     "rubies": [
       {
@@ -21900,8 +21300,7 @@
     "sentence": "このチームは団結力が強い。",
     "blank": {
       "kanji": "団結力",
-      "reading": "だんけつりょく",
-      "okurigana": ""
+      "reading": "だんけつりょく"
     },
     "rubies": [
       {
@@ -21917,8 +21316,7 @@
     "sentence": "地元の小さな楽団に入る。",
     "blank": {
       "kanji": "楽団",
-      "reading": "がくだん",
-      "okurigana": ""
+      "reading": "がくだん"
     },
     "rubies": [
       {
@@ -21942,8 +21340,7 @@
     "sentence": "布団をいて寝る。",
     "blank": {
       "kanji": "布団",
-      "reading": "ふとん",
-      "okurigana": ""
+      "reading": "ふとん"
     },
     "rubies": [
       {
@@ -21959,8 +21356,7 @@
     "sentence": "熟行の日程を決める。",
     "blank": {
       "kanji": "日程",
-      "reading": "にってい",
-      "okurigana": ""
+      "reading": "にってい"
     },
     "rubies": [
       {
@@ -21984,8 +21380,7 @@
     "sentence": "先程、田中さんから電話があったそうだ。",
     "blank": {
       "kanji": "先程",
-      "reading": "さきほど",
-      "okurigana": ""
+      "reading": "さきほど"
     },
     "rubies": [
       {
@@ -22005,8 +21400,7 @@
     "sentence": "あのクラスは欧米の学生が多い。",
     "blank": {
       "kanji": "欧米",
-      "reading": "おうべい",
-      "okurigana": ""
+      "reading": "おうべい"
     },
     "rubies": [
       {
@@ -22026,8 +21420,7 @@
     "sentence": "程度の欧州ツアーを予約する。",
     "blank": {
       "kanji": "欧州",
-      "reading": "おうしゅう",
-      "okurigana": ""
+      "reading": "おうしゅう"
     },
     "rubies": [
       {
@@ -22047,8 +21440,7 @@
     "sentence": "今度の連休に九州を旅行する。",
     "blank": {
       "kanji": "九州",
-      "reading": "きゅうしゅう",
-      "okurigana": ""
+      "reading": "きゅうしゅう"
     },
     "rubies": [
       {
@@ -22072,8 +21464,7 @@
     "sentence": "三角州は川の河口近くにできる。",
     "blank": {
       "kanji": "三角州",
-      "reading": "さんかくす",
-      "okurigana": ""
+      "reading": "さんかくす"
     },
     "rubies": [
       {
@@ -22253,8 +21644,7 @@
     "sentence": "京都は観光地として有名だ。",
     "blank": {
       "kanji": "観光地",
-      "reading": "かんこうち",
-      "okurigana": ""
+      "reading": "かんこうち"
     },
     "rubies": [
       {
@@ -22274,8 +21664,7 @@
     "sentence": "主観的な意見を言う。",
     "blank": {
       "kanji": "主観的",
-      "reading": "しゅかんてき",
-      "okurigana": ""
+      "reading": "しゅかんてき"
     },
     "rubies": [
       {
@@ -22295,8 +21684,7 @@
     "sentence": "多くの観客の前でコンサートを行う。",
     "blank": {
       "kanji": "観客",
-      "reading": "かんきゃく",
-      "okurigana": ""
+      "reading": "かんきゃく"
     },
     "rubies": [
       {
@@ -22320,8 +21708,7 @@
     "sentence": "小舟が岸にとまっている。",
     "blank": {
       "kanji": "小舟",
-      "reading": "こぶね",
-      "okurigana": ""
+      "reading": "こぶね"
     },
     "rubies": [
       {
@@ -22337,8 +21724,7 @@
     "sentence": "旅館の夕食にもりりが出た。",
     "blank": {
       "kanji": "夕食",
-      "reading": "ゆうしょく",
-      "okurigana": ""
+      "reading": "ゆうしょく"
     },
     "rubies": [
       {
@@ -22358,8 +21744,7 @@
     "sentence": "園芸の技術を学び、家業を継ぐ。",
     "blank": {
       "kanji": "家業",
-      "reading": "かぎょう",
-      "okurigana": ""
+      "reading": "かぎょう"
     },
     "rubies": [
       {
@@ -22387,8 +21772,7 @@
     "sentence": "パリは芸術の都と言われる。",
     "blank": {
       "kanji": "芸術",
-      "reading": "げいじゅつ",
-      "okurigana": ""
+      "reading": "げいじゅつ"
     },
     "rubies": [
       {
@@ -22408,8 +21792,7 @@
     "sentence": "芸能界に入って、活かやくしたい。",
     "blank": {
       "kanji": "芸能界",
-      "reading": "げいのうかい",
-      "okurigana": ""
+      "reading": "げいのうかい"
     },
     "rubies": [
       {
@@ -22429,8 +21812,7 @@
     "sentence": "知事の演説を聞く。",
     "blank": {
       "kanji": "演説",
-      "reading": "えんぜつ",
-      "okurigana": ""
+      "reading": "えんぜつ"
     },
     "rubies": [
       {
@@ -22449,9 +21831,8 @@
     "type": "reading",
     "sentence": "ドラマの主役を演じる。",
     "blank": {
-      "kanji": "演",
-      "reading": "えん",
-      "okurigana": "じる"
+      "kanji": "演じる",
+      "reading": "えんじる"
     },
     "rubies": [
       {
@@ -22619,8 +22000,7 @@
     "sentence": "仏様にお供えをする。",
     "blank": {
       "kanji": "仏様",
-      "reading": "ほとけさま",
-      "okurigana": ""
+      "reading": "ほとけさま"
     },
     "rubies": [
       {
@@ -22636,8 +22016,7 @@
     "sentence": "仏心で彼に100万円貸した。",
     "blank": {
       "kanji": "仏心",
-      "reading": "ほとけごころ",
-      "okurigana": ""
+      "reading": "ほとけごころ"
     },
     "rubies": [
       {
@@ -22665,8 +22044,7 @@
     "sentence": "日本一大きい大仏を見に行く。",
     "blank": {
       "kanji": "大仏",
-      "reading": "だいぶつ",
-      "okurigana": ""
+      "reading": "だいぶつ"
     },
     "rubies": [
       {
@@ -22694,8 +22072,7 @@
     "sentence": "神の存在を信じる。",
     "blank": {
       "kanji": "神",
-      "reading": "かみ",
-      "okurigana": ""
+      "reading": "かみ"
     },
     "rubies": [
       {
@@ -22715,8 +22092,7 @@
     "sentence": "神経質な性格を直したい。",
     "blank": {
       "kanji": "神経質",
-      "reading": "しんけいしつ",
-      "okurigana": ""
+      "reading": "しんけいしつ"
     },
     "rubies": [
       {
@@ -22735,9 +22111,8 @@
     "type": "reading",
     "sentence": "亡くなった人を偲ぶ。",
     "blank": {
-      "kanji": "偲",
-      "reading": "しの",
-      "okurigana": "ぶ"
+      "kanji": "偲ぶ",
+      "reading": "しのぶ"
     },
     "rubies": [
       {
@@ -22757,8 +22132,7 @@
     "sentence": "祭りは毎日営業している。",
     "blank": {
       "kanji": "毎日",
-      "reading": "まいにち",
-      "okurigana": ""
+      "reading": "まいにち"
     },
     "rubies": [
       {
@@ -22778,8 +22152,7 @@
     "sentence": "駅前にある教室で油絵を習っている。",
     "blank": {
       "kanji": "油絵",
-      "reading": "あぶらえ",
-      "okurigana": ""
+      "reading": "あぶらえ"
     },
     "rubies": [
       {
@@ -22803,8 +22176,7 @@
     "sentence": "あの店は祭日も営業している。",
     "blank": {
       "kanji": "祭日",
-      "reading": "さいじつ",
-      "okurigana": ""
+      "reading": "さいじつ"
     },
     "rubies": [
       {
@@ -22824,8 +22196,7 @@
     "sentence": "ロビーに絵画をかざる。",
     "blank": {
       "kanji": "絵画",
-      "reading": "かいが",
-      "okurigana": ""
+      "reading": "かいが"
     },
     "rubies": []
   },
@@ -22969,9 +22340,8 @@
     "type": "reading",
     "sentence": "ボタンを押して、係の人を呼ぶ。",
     "blank": {
-      "kanji": "押",
-      "reading": "お",
-      "okurigana": "して"
+      "kanji": "押して",
+      "reading": "おして"
     },
     "rubies": [
       {
@@ -22995,8 +22365,7 @@
     "sentence": "しょうよう品を押収する。",
     "blank": {
       "kanji": "押収",
-      "reading": "おうしゅう",
-      "okurigana": ""
+      "reading": "おうしゅう"
     },
     "rubies": [
       {
@@ -23011,9 +22380,8 @@
     "type": "reading",
     "sentence": "きずぐちをハンカチで押さえた。",
     "blank": {
-      "kanji": "押",
-      "reading": "お",
-      "okurigana": "さえた"
+      "kanji": "押さえた",
+      "reading": "おさえた"
     },
     "rubies": []
   },
@@ -23023,9 +22391,8 @@
     "type": "reading",
     "sentence": "高いところは、こしが引ける。",
     "blank": {
-      "kanji": "引",
-      "reading": "ひ",
-      "okurigana": "ける"
+      "kanji": "引ける",
+      "reading": "ひける"
     },
     "rubies": [
       {
@@ -23041,8 +22408,7 @@
     "sentence": "プロジェクトを強引に進める。",
     "blank": {
       "kanji": "強引",
-      "reading": "ごういん",
-      "okurigana": ""
+      "reading": "ごういん"
     },
     "rubies": [
       {
@@ -23057,9 +22423,8 @@
     "type": "reading",
     "sentence": "投げたボールを取る。",
     "blank": {
-      "kanji": "取",
-      "reading": "と",
-      "okurigana": "る"
+      "kanji": "取る",
+      "reading": "とる"
     },
     "rubies": [
       {
@@ -23075,8 +22440,7 @@
     "sentence": "新聞の取材を受ける。",
     "blank": {
       "kanji": "取材",
-      "reading": "しゅざい",
-      "okurigana": ""
+      "reading": "しゅざい"
     },
     "rubies": [
       {
@@ -23095,9 +22459,8 @@
     "type": "reading",
     "sentence": "ろうそくの火が消える。",
     "blank": {
-      "kanji": "消",
-      "reading": "き",
-      "okurigana": "える"
+      "kanji": "消える",
+      "reading": "きえる"
     },
     "rubies": [
       {
@@ -23112,9 +22475,8 @@
     "type": "reading",
     "sentence": "タバコの火を消す。",
     "blank": {
-      "kanji": "消",
-      "reading": "け",
-      "okurigana": "す"
+      "kanji": "消す",
+      "reading": "けす"
     },
     "rubies": [
       {
@@ -23130,8 +22492,7 @@
     "sentence": "消防車が10台出動した。",
     "blank": {
       "kanji": "消防車",
-      "reading": "しょうぼうしゃ",
-      "okurigana": ""
+      "reading": "しょうぼうしゃ"
     },
     "rubies": [
       {
@@ -23307,8 +22668,7 @@
     "sentence": "風で戸が開まった。",
     "blank": {
       "kanji": "戸",
-      "reading": "と",
-      "okurigana": ""
+      "reading": "と"
     },
     "rubies": [
       {
@@ -23328,8 +22688,7 @@
     "sentence": "食器を戸棚にしまう。",
     "blank": {
       "kanji": "戸棚",
-      "reading": "とだな",
-      "okurigana": ""
+      "reading": "とだな"
     },
     "rubies": [
       {
@@ -23345,8 +22704,7 @@
     "sentence": "窓ガラスをきれいにふく。",
     "blank": {
       "kanji": "窓",
-      "reading": "まど",
-      "okurigana": ""
+      "reading": "まど"
     },
     "rubies": []
   },
@@ -23357,8 +22715,7 @@
     "sentence": "車窓からのながめは最高だった。",
     "blank": {
       "kanji": "車窓",
-      "reading": "しゃそう",
-      "okurigana": ""
+      "reading": "しゃそう"
     },
     "rubies": [
       {
@@ -23374,8 +22731,7 @@
     "sentence": "パソコン売り場は6階です。",
     "blank": {
       "kanji": "階",
-      "reading": "かい",
-      "okurigana": ""
+      "reading": "かい"
     },
     "rubies": [
       {
@@ -23391,8 +22747,7 @@
     "sentence": "ゆっくり階段を下りる。",
     "blank": {
       "kanji": "階段",
-      "reading": "かいだん",
-      "okurigana": ""
+      "reading": "かいだん"
     },
     "rubies": [
       {
@@ -23408,8 +22763,7 @@
     "sentence": "神社の石段を上る。",
     "blank": {
       "kanji": "石段",
-      "reading": "いしだん",
-      "okurigana": ""
+      "reading": "いしだん"
     },
     "rubies": [
       {
@@ -23429,8 +22783,7 @@
     "sentence": "目的のためには手段を選ばない。",
     "blank": {
       "kanji": "手段",
-      "reading": "しゅだん",
-      "okurigana": ""
+      "reading": "しゅだん"
     },
     "rubies": [
       {
@@ -23588,9 +22941,8 @@
     "type": "reading",
     "sentence": "山に木を植える。",
     "blank": {
-      "kanji": "植",
-      "reading": "う",
-      "okurigana": "える"
+      "kanji": "植える",
+      "reading": "うえる"
     },
     "rubies": [
       {
@@ -23610,8 +22962,7 @@
     "sentence": "ベランダで植物を育てる。",
     "blank": {
       "kanji": "植物",
-      "reading": "しょくぶつ",
-      "okurigana": ""
+      "reading": "しょくぶつ"
     },
     "rubies": [
       {
@@ -23627,8 +22978,7 @@
     "sentence": "移植手術を受ける。",
     "blank": {
       "kanji": "移植",
-      "reading": "いしょく",
-      "okurigana": ""
+      "reading": "いしょく"
     },
     "rubies": [
       {
@@ -23648,8 +22998,7 @@
     "sentence": "いちょうの葉が黄色くなる。",
     "blank": {
       "kanji": "葉",
-      "reading": "は",
-      "okurigana": ""
+      "reading": "は"
     },
     "rubies": [
       {
@@ -23665,8 +23014,7 @@
     "sentence": "新しい言葉を覚える。",
     "blank": {
       "kanji": "言葉",
-      "reading": "ことば",
-      "okurigana": ""
+      "reading": "ことば"
     },
     "rubies": [
       {
@@ -23686,8 +23034,7 @@
     "sentence": "落ち葉をほうきで集める。",
     "blank": {
       "kanji": "落ち葉",
-      "reading": "おちば",
-      "okurigana": ""
+      "reading": "おちば"
     },
     "rubies": [
       {
@@ -23703,8 +23050,7 @@
     "sentence": "うめの実をとって、梅酒を作った。",
     "blank": {
       "kanji": "実",
-      "reading": "み",
-      "okurigana": ""
+      "reading": "み"
     },
     "rubies": [
       {
@@ -23724,8 +23070,7 @@
     "sentence": "正月に家族に贈る。",
     "blank": {
       "kanji": "正月",
-      "reading": "しょうがつ",
-      "okurigana": ""
+      "reading": "しょうがつ"
     },
     "rubies": [
       {
@@ -23745,8 +23090,7 @@
     "sentence": "木を根元から切り倒す。",
     "blank": {
       "kanji": "根元",
-      "reading": "ねもと",
-      "okurigana": ""
+      "reading": "ねもと"
     },
     "rubies": [
       {
@@ -23766,8 +23110,7 @@
     "sentence": "チューリップの球根を買った。",
     "blank": {
       "kanji": "球根",
-      "reading": "きゅうこん",
-      "okurigana": ""
+      "reading": "きゅうこん"
     },
     "rubies": [
       {
@@ -23934,9 +23277,8 @@
     "type": "reading",
     "sentence": "家の前にマンションが建つ。",
     "blank": {
-      "kanji": "建",
-      "reading": "た",
-      "okurigana": "つ"
+      "kanji": "建つ",
+      "reading": "たつ"
     },
     "rubies": [
       {
@@ -23956,8 +23298,7 @@
     "sentence": "新しく寺を建立する。",
     "blank": {
       "kanji": "建立",
-      "reading": "こんりゅう",
-      "okurigana": ""
+      "reading": "こんりゅう"
     },
     "rubies": [
       {
@@ -23976,9 +23317,8 @@
     "type": "reading",
     "sentence": "川にていぼうを築く。",
     "blank": {
-      "kanji": "築",
-      "reading": "きず",
-      "okurigana": "く"
+      "kanji": "築く",
+      "reading": "きずく"
     },
     "rubies": [
       {
@@ -23994,8 +23334,7 @@
     "sentence": "新築マンションを買う。",
     "blank": {
       "kanji": "新築",
-      "reading": "しんちく",
-      "okurigana": ""
+      "reading": "しんちく"
     },
     "rubies": [
       {
@@ -24010,9 +23349,8 @@
     "type": "reading",
     "sentence": "一等地に店を構える。",
     "blank": {
-      "kanji": "構",
-      "reading": "かま",
-      "okurigana": "える"
+      "kanji": "構える",
+      "reading": "かまえる"
     },
     "rubies": [
       {
@@ -24036,8 +23374,7 @@
     "sentence": "機械の内部構造を知る。",
     "blank": {
       "kanji": "構造",
-      "reading": "こうぞう",
-      "okurigana": ""
+      "reading": "こうぞう"
     },
     "rubies": [
       {
@@ -24061,8 +23398,7 @@
     "sentence": "この建物は大正時代に建てられた。",
     "blank": {
       "kanji": "建物",
-      "reading": "たてもの",
-      "okurigana": ""
+      "reading": "たてもの"
     },
     "rubies": [
       {
@@ -24085,9 +23421,8 @@
     "type": "reading",
     "sentence": "巨大な船を造る。",
     "blank": {
-      "kanji": "造",
-      "reading": "つく",
-      "okurigana": "る"
+      "kanji": "造る",
+      "reading": "つくる"
     },
     "rubies": [
       {
@@ -24107,8 +23442,7 @@
     "sentence": "木造の家でくらしたい。",
     "blank": {
       "kanji": "木造",
-      "reading": "もくぞう",
-      "okurigana": ""
+      "reading": "もくぞう"
     },
     "rubies": [
       {
@@ -24124,8 +23458,7 @@
     "sentence": "造花のバラをかざる。",
     "blank": {
       "kanji": "造花",
-      "reading": "ぞうか",
-      "okurigana": ""
+      "reading": "ぞうか"
     },
     "rubies": []
   },
@@ -24319,9 +23652,8 @@
     "type": "reading",
     "sentence": "新しいルールを設ける。",
     "blank": {
-      "kanji": "設",
-      "reading": "もう",
-      "okurigana": "ける"
+      "kanji": "設ける",
+      "reading": "もうける"
     },
     "rubies": [
       {
@@ -24337,8 +23669,7 @@
     "sentence": "建設会社で働く。",
     "blank": {
       "kanji": "建設",
-      "reading": "けんせつ",
-      "okurigana": ""
+      "reading": "けんせつ"
     },
     "rubies": [
       {
@@ -24358,8 +23689,7 @@
     "sentence": "パソコンのメールを設定する。",
     "blank": {
       "kanji": "設定",
-      "reading": "せってい",
-      "okurigana": ""
+      "reading": "せってい"
     },
     "rubies": []
   },
@@ -24370,8 +23700,7 @@
     "sentence": "太い柱が屋根を支えている。",
     "blank": {
       "kanji": "柱",
-      "reading": "はしら",
-      "okurigana": ""
+      "reading": "はしら"
     },
     "rubies": [
       {
@@ -24395,8 +23724,7 @@
     "sentence": "電柱に車がぶつかった。",
     "blank": {
       "kanji": "電柱",
-      "reading": "でんちゅう",
-      "okurigana": ""
+      "reading": "でんちゅう"
     },
     "rubies": [
       {
@@ -24412,8 +23740,7 @@
     "sentence": "金庫に現金を入れる。",
     "blank": {
       "kanji": "金庫",
-      "reading": "きんこ",
-      "okurigana": ""
+      "reading": "きんこ"
     },
     "rubies": [
       {
@@ -24432,9 +23759,8 @@
     "type": "reading",
     "sentence": "彼女は下を向いたまま、だまっていた。",
     "blank": {
-      "kanji": "向",
-      "reading": "む",
-      "okurigana": "いた"
+      "kanji": "向いた",
+      "reading": "むいた"
     },
     "rubies": [
       {
@@ -24453,9 +23779,8 @@
     "type": "reading",
     "sentence": "急いでイベント会場へ向かう。",
     "blank": {
-      "kanji": "向",
-      "reading": "む",
-      "okurigana": "かう"
+      "kanji": "向かう",
+      "reading": "むかう"
     },
     "rubies": [
       {
@@ -24474,9 +23799,8 @@
     "type": "reading",
     "sentence": "通りの向こうに人が集まっている。",
     "blank": {
-      "kanji": "向",
-      "reading": "む",
-      "okurigana": "こう"
+      "kanji": "向こう",
+      "reading": "むこう"
     },
     "rubies": [
       {
@@ -24500,8 +23824,7 @@
     "sentence": "船は北方向へ変えた。",
     "blank": {
       "kanji": "方向",
-      "reading": "ほうこう",
-      "okurigana": ""
+      "reading": "ほうこう"
     },
     "rubies": [
       {
@@ -24666,9 +23989,8 @@
     "type": "reading",
     "sentence": "王様に仕える。",
     "blank": {
-      "kanji": "仕",
-      "reading": "つか",
-      "okurigana": "える"
+      "kanji": "仕える",
+      "reading": "つかえる"
     },
     "rubies": [
       {
@@ -24684,8 +24006,7 @@
     "sentence": "力仕事のアルバイトは時給がいい。",
     "blank": {
       "kanji": "力仕事",
-      "reading": "ちからしごと",
-      "okurigana": ""
+      "reading": "ちからしごと"
     },
     "rubies": [
       {
@@ -24701,8 +24022,7 @@
     "sentence": "今年大学を卒業して、就職した。",
     "blank": {
       "kanji": "就職",
-      "reading": "しゅうしょく",
-      "okurigana": ""
+      "reading": "しゅうしょく"
     },
     "rubies": [
       {
@@ -24726,8 +24046,7 @@
     "sentence": "無理な要求を受け入れる。",
     "blank": {
       "kanji": "要求",
-      "reading": "ようきゅう",
-      "okurigana": ""
+      "reading": "ようきゅう"
     },
     "rubies": [
       {
@@ -24746,9 +24065,8 @@
     "type": "reading",
     "sentence": "小さじがないか、ポケットを探る。",
     "blank": {
-      "kanji": "探",
-      "reading": "さぐ",
-      "okurigana": "る"
+      "kanji": "探る",
+      "reading": "さぐる"
     },
     "rubies": [
       {
@@ -24764,8 +24082,7 @@
     "sentence": "今さらあわてても仕方がない。",
     "blank": {
       "kanji": "仕方",
-      "reading": "しかた",
-      "okurigana": ""
+      "reading": "しかた"
     },
     "rubies": [
       {
@@ -24781,8 +24098,7 @@
     "sentence": "会長の職につく。",
     "blank": {
       "kanji": "職",
-      "reading": "しょく",
-      "okurigana": ""
+      "reading": "しょく"
     },
     "rubies": [
       {
@@ -24797,9 +24113,8 @@
     "type": "reading",
     "sentence": "近所の人に助けを求めた。",
     "blank": {
-      "kanji": "求",
-      "reading": "もと",
-      "okurigana": "めた"
+      "kanji": "求めた",
+      "reading": "もとめた"
     },
     "rubies": [
       {
@@ -24823,8 +24138,7 @@
     "sentence": "前の仕事を辞めて、今は求職中だ。",
     "blank": {
       "kanji": "求職",
-      "reading": "きゅうしょく",
-      "okurigana": ""
+      "reading": "きゅうしょく"
     },
     "rubies": [
       {
@@ -24855,9 +24169,8 @@
     "type": "reading",
     "sentence": "ゆびわをなくして部屋中探した。",
     "blank": {
-      "kanji": "探",
-      "reading": "さが",
-      "okurigana": "した"
+      "kanji": "探した",
+      "reading": "さがした"
     },
     "rubies": [
       {
@@ -25018,9 +24331,8 @@
     "type": "reading",
     "sentence": "彼女は常に笑顔を絶やさない。",
     "blank": {
-      "kanji": "常",
-      "reading": "つね",
-      "okurigana": "に"
+      "kanji": "常に",
+      "reading": "つねに"
     },
     "rubies": [
       {
@@ -25044,8 +24356,7 @@
     "sentence": "年末年始も常連通りに表示する。",
     "blank": {
       "kanji": "常連",
-      "reading": "じょうれん",
-      "okurigana": ""
+      "reading": "じょうれん"
     },
     "rubies": [
       {
@@ -25069,8 +24380,7 @@
     "sentence": "彼は無意識にぴんぽうゆすりをする。",
     "blank": {
       "kanji": "無意識",
-      "reading": "むいしき",
-      "okurigana": ""
+      "reading": "むいしき"
     },
     "rubies": [
       {
@@ -25086,8 +24396,7 @@
     "sentence": "会社が倒した、失業した。",
     "blank": {
       "kanji": "失業",
-      "reading": "しつぎょう",
-      "okurigana": ""
+      "reading": "しつぎょう"
     },
     "rubies": [
       {
@@ -25107,8 +24416,7 @@
     "sentence": "山田さんにお礼のおかしを送った。",
     "blank": {
       "kanji": "お礼",
-      "reading": "おれい",
-      "okurigana": ""
+      "reading": "おれい"
     },
     "rubies": [
       {
@@ -25128,8 +24436,7 @@
     "sentence": "ハワイは常夏の島だ。",
     "blank": {
       "kanji": "常夏",
-      "reading": "とこなつ",
-      "okurigana": ""
+      "reading": "とこなつ"
     },
     "rubies": [
       {
@@ -25145,8 +24452,7 @@
     "sentence": "彼は世間知らずで、常識がない。",
     "blank": {
       "kanji": "常識",
-      "reading": "じょうしき",
-      "okurigana": ""
+      "reading": "じょうしき"
     },
     "rubies": [
       {
@@ -25169,9 +24475,8 @@
     "type": "reading",
     "sentence": "火事で家を失ってしまった。",
     "blank": {
-      "kanji": "失",
-      "reading": "うしな",
-      "okurigana": "って"
+      "kanji": "失って",
+      "reading": "うしなって"
     },
     "rubies": [
       {
@@ -25191,8 +24496,7 @@
     "sentence": "面接試験で失敗してしまった。",
     "blank": {
       "kanji": "失敗",
-      "reading": "しっぱい",
-      "okurigana": ""
+      "reading": "しっぱい"
     },
     "rubies": [
       {
@@ -25212,8 +24516,7 @@
     "sentence": "彼は礼儀正しく、まじめな学生だ。",
     "blank": {
       "kanji": "礼儀",
-      "reading": "れいぎ",
-      "okurigana": ""
+      "reading": "れいぎ"
     },
     "rubies": [
       {
@@ -25389,8 +24692,7 @@
     "sentence": "彼女は若いころから苦労している。",
     "blank": {
       "kanji": "苦労",
-      "reading": "くろう",
-      "okurigana": ""
+      "reading": "くろう"
     },
     "rubies": [
       {
@@ -25410,8 +24712,7 @@
     "sentence": "社員食堂で昼食をとる。",
     "blank": {
       "kanji": "社員",
-      "reading": "しゃいん",
-      "okurigana": ""
+      "reading": "しゃいん"
     },
     "rubies": [
       {
@@ -25431,8 +24732,7 @@
     "sentence": "ジムの会員になり、毎日通っている。",
     "blank": {
       "kanji": "会員",
-      "reading": "かいいん",
-      "okurigana": ""
+      "reading": "かいいん"
     },
     "rubies": [
       {
@@ -25452,8 +24752,7 @@
     "sentence": "検査で消化器官にがんが見つかった。",
     "blank": {
       "kanji": "器官",
-      "reading": "きかん",
-      "okurigana": ""
+      "reading": "きかん"
     },
     "rubies": [
       {
@@ -25477,8 +24776,7 @@
     "sentence": "郵便局へ手紙を出しにいく。",
     "blank": {
       "kanji": "郵便局",
-      "reading": "ゆうびんきょく",
-      "okurigana": ""
+      "reading": "ゆうびんきょく"
     },
     "rubies": [
       {
@@ -25498,8 +24796,7 @@
     "sentence": "疲労がたまって倒れてしまった。",
     "blank": {
       "kanji": "疲労",
-      "reading": "ひろう",
-      "okurigana": ""
+      "reading": "ひろう"
     },
     "rubies": [
       {
@@ -25515,8 +24812,7 @@
     "sentence": "店員に声をかける。",
     "blank": {
       "kanji": "店員",
-      "reading": "てんいん",
-      "okurigana": ""
+      "reading": "てんいん"
     },
     "rubies": [
       {
@@ -25532,8 +24828,7 @@
     "sentence": "親友の田中君は警察官になった。",
     "blank": {
       "kanji": "警察官",
-      "reading": "けいさつかん",
-      "okurigana": ""
+      "reading": "けいさつかん"
     },
     "rubies": [
       {
@@ -25557,8 +24852,7 @@
     "sentence": "官民一体となって新薬開発に取り組む。",
     "blank": {
       "kanji": "官民",
-      "reading": "かんみん",
-      "okurigana": ""
+      "reading": "かんみん"
     },
     "rubies": [
       {
@@ -25586,8 +24880,7 @@
     "sentence": "今日は局地的に大雨になるそうだ。",
     "blank": {
       "kanji": "局地的",
-      "reading": "きょくちてき",
-      "okurigana": ""
+      "reading": "きょくちてき"
     },
     "rubies": [
       {
@@ -25750,9 +25043,8 @@
     "type": "reading",
     "sentence": "来月会社を辞めることになった。",
     "blank": {
-      "kanji": "辞",
-      "reading": "や",
-      "okurigana": "める"
+      "kanji": "辞める",
+      "reading": "やめる"
     },
     "rubies": [
       {
@@ -25772,8 +25064,7 @@
     "sentence": "家業をつくって、内定を辞退した。",
     "blank": {
       "kanji": "辞退",
-      "reading": "じたい",
-      "okurigana": ""
+      "reading": "じたい"
     },
     "rubies": [
       {
@@ -25793,8 +25084,7 @@
     "sentence": "退屈などはいつも本を読む。",
     "blank": {
       "kanji": "退屈",
-      "reading": "たいくつ",
-      "okurigana": ""
+      "reading": "たいくつ"
     },
     "rubies": [
       {
@@ -25813,9 +25103,8 @@
     "type": "reading",
     "sentence": "雪が積もって、真っ白になる。",
     "blank": {
-      "kanji": "積",
-      "reading": "つ",
-      "okurigana": "もって"
+      "kanji": "積もって",
+      "reading": "つもって"
     },
     "rubies": [
       {
@@ -25835,8 +25124,7 @@
     "sentence": "会議で積極的に発言する。",
     "blank": {
       "kanji": "積極的",
-      "reading": "せっきょくてき",
-      "okurigana": ""
+      "reading": "せっきょくてき"
     },
     "rubies": [
       {
@@ -25856,8 +25144,7 @@
     "sentence": "辞書を使って意味を調べる。",
     "blank": {
       "kanji": "辞書",
-      "reading": "じしょ",
-      "okurigana": ""
+      "reading": "じしょ"
     },
     "rubies": [
       {
@@ -25880,9 +25167,8 @@
     "type": "reading",
     "sentence": "体調をくずして社長職を退いた。",
     "blank": {
-      "kanji": "退",
-      "reading": "しりぞ",
-      "okurigana": "いた"
+      "kanji": "退いた",
+      "reading": "しりぞいた"
     },
     "rubies": [
       {
@@ -25906,8 +25192,7 @@
     "sentence": "経済的な理由で高校を退学した。",
     "blank": {
       "kanji": "退学",
-      "reading": "たいがく",
-      "okurigana": ""
+      "reading": "たいがく"
     },
     "rubies": [
       {
@@ -25934,9 +25219,8 @@
     "type": "reading",
     "sentence": "日本の会社で経験を積みたい。",
     "blank": {
-      "kanji": "積",
-      "reading": "つ",
-      "okurigana": "みたい"
+      "kanji": "積みたい",
+      "reading": "つみたい"
     },
     "rubies": [
       {
@@ -25960,8 +25244,7 @@
     "sentence": "土地の面積を計算する。",
     "blank": {
       "kanji": "面積",
-      "reading": "めんせき",
-      "okurigana": ""
+      "reading": "めんせき"
     },
     "rubies": [
       {
@@ -26133,8 +25416,7 @@
     "sentence": "給料日に欲しかった服を買った。",
     "blank": {
       "kanji": "給料",
-      "reading": "きゅうりょう",
-      "okurigana": ""
+      "reading": "きゅうりょう"
     },
     "rubies": [
       {
@@ -26161,9 +25443,8 @@
     "type": "reading",
     "sentence": "うつくしい景色を写真に収める。",
     "blank": {
-      "kanji": "収",
-      "reading": "おさ",
-      "okurigana": "める"
+      "kanji": "収める",
+      "reading": "おさめる"
     },
     "rubies": [
       {
@@ -26183,8 +25464,7 @@
     "sentence": "好きなアニメのグッズを収集している。",
     "blank": {
       "kanji": "収集",
-      "reading": "しゅうしゅう",
-      "okurigana": ""
+      "reading": "しゅうしゅう"
     },
     "rubies": [
       {
@@ -26199,9 +25479,8 @@
     "type": "reading",
     "sentence": "父が病気なので私が家族を支えている。",
     "blank": {
-      "kanji": "支",
-      "reading": "ささ",
-      "okurigana": "えている"
+      "kanji": "支えている",
+      "reading": "ささえている"
     },
     "rubies": [
       {
@@ -26228,9 +25507,8 @@
     "type": "reading",
     "sentence": "食パンを厚く切ってトーストにした。",
     "blank": {
-      "kanji": "厚",
-      "reading": "あつ",
-      "okurigana": "く"
+      "kanji": "厚く",
+      "reading": "あつく"
     },
     "rubies": [
       {
@@ -26250,8 +25528,7 @@
     "sentence": "時給2,000円のアルバイトを見つけた。",
     "blank": {
       "kanji": "時給",
-      "reading": "じきゅう",
-      "okurigana": ""
+      "reading": "じきゅう"
     },
     "rubies": [
       {
@@ -26270,9 +25547,8 @@
     "type": "reading",
     "sentence": "注文の品をそう厚に収めた。",
     "blank": {
-      "kanji": "収",
-      "reading": "おさ",
-      "okurigana": "めた"
+      "kanji": "収めた",
+      "reading": "おさめた"
     },
     "rubies": [
       {
@@ -26296,8 +25572,7 @@
     "sentence": "このシャツは汗をよく吸収する。",
     "blank": {
       "kanji": "吸収",
-      "reading": "きゅうしゅう",
-      "okurigana": ""
+      "reading": "きゅうしゅう"
     },
     "rubies": [
       {
@@ -26313,8 +25588,7 @@
     "sentence": "兄はホテルの支配人をしている。",
     "blank": {
       "kanji": "支配人",
-      "reading": "しはいにん",
-      "okurigana": ""
+      "reading": "しはいにん"
     },
     "rubies": [
       {
@@ -26330,8 +25604,7 @@
     "sentence": "彼は温厚な性格でみんなに好かれている。",
     "blank": {
       "kanji": "温厚",
-      "reading": "おんこう",
-      "okurigana": ""
+      "reading": "おんこう"
     },
     "rubies": [
       {
@@ -26502,8 +25775,7 @@
     "sentence": "会議に出席する。",
     "blank": {
       "kanji": "出席",
-      "reading": "しゅっせき",
-      "okurigana": ""
+      "reading": "しゅっせき"
     },
     "rubies": [
       {
@@ -26519,8 +25791,7 @@
     "sentence": "彼者の意見に賛成する。",
     "blank": {
       "kanji": "賛成",
-      "reading": "さんせい",
-      "okurigana": ""
+      "reading": "さんせい"
     },
     "rubies": [
       {
@@ -26544,8 +25815,7 @@
     "sentence": "議席に戻って座る。",
     "blank": {
       "kanji": "議席",
-      "reading": "ぎせき",
-      "okurigana": ""
+      "reading": "ぎせき"
     },
     "rubies": [
       {
@@ -26565,8 +25835,7 @@
     "sentence": "交通違反をして、お金をはらう。",
     "blank": {
       "kanji": "違反",
-      "reading": "いはん",
-      "okurigana": ""
+      "reading": "いはん"
     },
     "rubies": [
       {
@@ -26586,8 +25855,7 @@
     "sentence": "絶対に今年は合格したい。",
     "blank": {
       "kanji": "絶対",
-      "reading": "ぜったい",
-      "okurigana": ""
+      "reading": "ぜったい"
     },
     "rubies": [
       {
@@ -26607,8 +25875,7 @@
     "sentence": "議事題を作成する。",
     "blank": {
       "kanji": "議事",
-      "reading": "ぎじ",
-      "okurigana": ""
+      "reading": "ぎじ"
     },
     "rubies": [
       {
@@ -26628,8 +25895,7 @@
     "sentence": "まわりの関係を考える。",
     "blank": {
       "kanji": "関係",
-      "reading": "かんけい",
-      "okurigana": ""
+      "reading": "かんけい"
     },
     "rubies": [
       {
@@ -26645,8 +25911,7 @@
     "sentence": "この行いを反省する。",
     "blank": {
       "kanji": "反省",
-      "reading": "はんせい",
-      "okurigana": ""
+      "reading": "はんせい"
     },
     "rubies": [
       {
@@ -26662,8 +25927,7 @@
     "sentence": "親が子どもの結婚に反対する。",
     "blank": {
       "kanji": "反対",
-      "reading": "はんたい",
-      "okurigana": ""
+      "reading": "はんたい"
     },
     "rubies": [
       {
@@ -26687,8 +25951,7 @@
     "sentence": "このこま犬は左右を対になっている。",
     "blank": {
       "kanji": "対",
-      "reading": "つい",
-      "okurigana": ""
+      "reading": "つい"
     },
     "rubies": [
       {
@@ -26831,8 +26094,7 @@
     "sentence": "肯定的な考え方をする。",
     "blank": {
       "kanji": "肯定的",
-      "reading": "こうていてき",
-      "okurigana": ""
+      "reading": "こうていてき"
     },
     "rubies": [
       {
@@ -26848,8 +26110,7 @@
     "sentence": "広まっているうわさを否定する。",
     "blank": {
       "kanji": "否定",
-      "reading": "ひてい",
-      "okurigana": ""
+      "reading": "ひてい"
     },
     "rubies": [
       {
@@ -26864,9 +26125,8 @@
     "type": "reading",
     "sentence": "室温を同じ温度に保つ。",
     "blank": {
-      "kanji": "保",
-      "reading": "たも",
-      "okurigana": "つ"
+      "kanji": "保つ",
+      "reading": "たもつ"
     },
     "rubies": [
       {
@@ -26889,9 +26149,8 @@
     "type": "reading",
     "sentence": "紙が薄くてマグネットで留まらない。",
     "blank": {
-      "kanji": "留",
-      "reading": "と",
-      "okurigana": "まらない"
+      "kanji": "留まらない",
+      "reading": "とまらない"
     },
     "rubies": [
       {
@@ -26911,8 +26170,7 @@
     "sentence": "問題を保留にする。",
     "blank": {
       "kanji": "保留",
-      "reading": "ほりゅう",
-      "okurigana": ""
+      "reading": "ほりゅう"
     },
     "rubies": [
       {
@@ -26927,9 +26185,8 @@
     "type": "reading",
     "sentence": "話を聞くや否や、家を飛び出した。",
     "blank": {
-      "kanji": "否",
-      "reading": "いな",
-      "okurigana": "や"
+      "kanji": "否や",
+      "reading": "いなや"
     },
     "rubies": [
       {
@@ -26957,8 +26214,7 @@
     "sentence": "出席者に賛否を問う。",
     "blank": {
       "kanji": "賛否",
-      "reading": "さんぴ",
-      "okurigana": ""
+      "reading": "さんぴ"
     },
     "rubies": [
       {
@@ -26982,8 +26238,7 @@
     "sentence": "牛乳を冷凍庫で保存する。",
     "blank": {
       "kanji": "保存",
-      "reading": "ほぞん",
-      "okurigana": ""
+      "reading": "ほぞん"
     },
     "rubies": [
       {
@@ -27002,9 +26257,8 @@
     "type": "reading",
     "sentence": "大切な書類を留めて話す。",
     "blank": {
-      "kanji": "留",
-      "reading": "と",
-      "okurigana": "めて"
+      "kanji": "留めて",
+      "reading": "とめて"
     },
     "rubies": [
       {
@@ -27028,8 +26282,7 @@
     "sentence": "社長はただ今、留守にしております。",
     "blank": {
       "kanji": "留守",
-      "reading": "るす",
-      "okurigana": ""
+      "reading": "るす"
     },
     "rubies": [
       {
@@ -27204,8 +26457,7 @@
     "sentence": "裁判で有罪判決を受けた。",
     "blank": {
       "kanji": "判決",
-      "reading": "はんけつ",
-      "okurigana": ""
+      "reading": "はんけつ"
     },
     "rubies": [
       {
@@ -27229,8 +26481,7 @@
     "sentence": "ここは値がいいと評判の店だ。",
     "blank": {
       "kanji": "評判",
-      "reading": "ひょうばん",
-      "okurigana": ""
+      "reading": "ひょうばん"
     },
     "rubies": [
       {
@@ -27250,8 +26501,7 @@
     "sentence": "彼が無実だと断定するのはまだ早い。",
     "blank": {
       "kanji": "断定",
-      "reading": "だんてい",
-      "okurigana": ""
+      "reading": "だんてい"
     },
     "rubies": [
       {
@@ -27274,9 +26524,8 @@
     "type": "reading",
     "sentence": "確かな資料はこの中にあったはずだ。",
     "blank": {
-      "kanji": "確",
-      "reading": "たし",
-      "okurigana": "かな"
+      "kanji": "確かな",
+      "reading": "たしかな"
     },
     "rubies": [
       {
@@ -27295,9 +26544,8 @@
     "type": "reading",
     "sentence": "社長が皆力を認めてくれた。",
     "blank": {
-      "kanji": "認",
-      "reading": "みと",
-      "okurigana": "めて"
+      "kanji": "認めて",
+      "reading": "みとめて"
     },
     "rubies": [
       {
@@ -27321,8 +26569,7 @@
     "sentence": "各者を判定する。",
     "blank": {
       "kanji": "判定",
-      "reading": "はんてい",
-      "okurigana": ""
+      "reading": "はんてい"
     },
     "rubies": [
       {
@@ -27341,9 +26588,8 @@
     "type": "reading",
     "sentence": "医者にお酒を断つように言われた。",
     "blank": {
-      "kanji": "断",
-      "reading": "た",
-      "okurigana": "つ"
+      "kanji": "断つ",
+      "reading": "たつ"
     },
     "rubies": [
       {
@@ -27366,9 +26612,8 @@
     "type": "reading",
     "sentence": "書類に不備がないかどうかを確かめる。",
     "blank": {
-      "kanji": "確",
-      "reading": "たし",
-      "okurigana": "かめる"
+      "kanji": "確かめる",
+      "reading": "たしかめる"
     },
     "rubies": [
       {
@@ -27388,8 +26633,7 @@
     "sentence": "今日の降水確率は50%だそうだ。",
     "blank": {
       "kanji": "確率",
-      "reading": "かくりつ",
-      "okurigana": ""
+      "reading": "かくりつ"
     },
     "rubies": [
       {
@@ -27409,8 +26653,7 @@
     "sentence": "社会人としての認識が不足している。",
     "blank": {
       "kanji": "認識",
-      "reading": "にんしき",
-      "okurigana": ""
+      "reading": "にんしき"
     },
     "rubies": [
       {
@@ -27573,9 +26816,8 @@
     "type": "reading",
     "sentence": "両親のおんに報いるために努力する。",
     "blank": {
-      "kanji": "報",
-      "reading": "むく",
-      "okurigana": "いる"
+      "kanji": "報いる",
+      "reading": "むくいる"
     },
     "rubies": [
       {
@@ -27595,8 +26837,7 @@
     "sentence": "プレゼンのための情報を集める。",
     "blank": {
       "kanji": "情報",
-      "reading": "じょうほう",
-      "okurigana": ""
+      "reading": "じょうほう"
     },
     "rubies": [
       {
@@ -27611,9 +26852,8 @@
     "type": "reading",
     "sentence": "医者がかん者に病名を告げる。",
     "blank": {
-      "kanji": "告",
-      "reading": "つ",
-      "okurigana": "げる"
+      "kanji": "告げる",
+      "reading": "つげる"
     },
     "rubies": [
       {
@@ -27637,8 +26877,7 @@
     "sentence": "友人にメールで結婚を報告する。",
     "blank": {
       "kanji": "報告",
-      "reading": "ほうこく",
-      "okurigana": ""
+      "reading": "ほうこく"
     },
     "rubies": [
       {
@@ -27657,9 +26896,8 @@
     "type": "reading",
     "sentence": "部長が部下を連れて飲みに行く。",
     "blank": {
-      "kanji": "連",
-      "reading": "つ",
-      "okurigana": "れて"
+      "kanji": "連れて",
+      "reading": "つれて"
     },
     "rubies": [
       {
@@ -27687,8 +26925,7 @@
     "sentence": "かぜで３日間連続して休んでしまった。",
     "blank": {
       "kanji": "連続",
-      "reading": "れんぞく",
-      "okurigana": ""
+      "reading": "れんぞく"
     },
     "rubies": [
       {
@@ -27707,9 +26944,8 @@
     "type": "reading",
     "sentence": "コードがぐちゃぐちゃに絡まっている。",
     "blank": {
-      "kanji": "絡",
-      "reading": "から",
-      "okurigana": "まっている"
+      "kanji": "絡まっている",
+      "reading": "からまっている"
     },
     "rubies": []
   },
@@ -27720,8 +26956,7 @@
     "sentence": "ここは山の中なのでで連絡手段がない。",
     "blank": {
       "kanji": "連絡",
-      "reading": "れんらく",
-      "okurigana": ""
+      "reading": "れんらく"
     },
     "rubies": [
       {
@@ -27904,8 +27139,7 @@
     "sentence": "相手にわかるようにゆっくり話す。",
     "blank": {
       "kanji": "相手",
-      "reading": "あいて",
-      "okurigana": ""
+      "reading": "あいて"
     },
     "rubies": [
       {
@@ -27921,8 +27155,7 @@
     "sentence": "事件の真相はまだわからない。",
     "blank": {
       "kanji": "真相",
-      "reading": "しんそう",
-      "okurigana": ""
+      "reading": "しんそう"
     },
     "rubies": [
       {
@@ -27938,8 +27171,7 @@
     "sentence": "冗談を言って人を笑わせる。",
     "blank": {
       "kanji": "冗談",
-      "reading": "じょうだん",
-      "okurigana": ""
+      "reading": "じょうだん"
     },
     "rubies": [
       {
@@ -27962,9 +27194,8 @@
     "type": "reading",
     "sentence": "先生が学生を指して答えを求める。",
     "blank": {
-      "kanji": "指",
-      "reading": "さ",
-      "okurigana": "して"
+      "kanji": "指して",
+      "reading": "さして"
     },
     "rubies": [
       {
@@ -27991,9 +27222,8 @@
     "type": "reading",
     "sentence": "数字を示して説明する。",
     "blank": {
-      "kanji": "示",
-      "reading": "しめ",
-      "okurigana": "して"
+      "kanji": "示して",
+      "reading": "しめして"
     },
     "rubies": [
       {
@@ -28013,8 +27243,7 @@
     "sentence": "彼は上と相性がよいようだ。",
     "blank": {
       "kanji": "相性",
-      "reading": "あいしょう",
-      "okurigana": ""
+      "reading": "あいしょう"
     },
     "rubies": [
       {
@@ -28034,8 +27263,7 @@
     "sentence": "真相が記者会見を行う。",
     "blank": {
       "kanji": "記者会見",
-      "reading": "きしゃかいけん",
-      "okurigana": ""
+      "reading": "きしゃかいけん"
     },
     "rubies": [
       {
@@ -28055,8 +27283,7 @@
     "sentence": "観覧にとげがさってしまった。",
     "blank": {
       "kanji": "観覧",
-      "reading": "かんらん",
-      "okurigana": ""
+      "reading": "かんらん"
     },
     "rubies": []
   },
@@ -28067,8 +27294,7 @@
     "sentence": "時間通りに指定された場所へ行く。",
     "blank": {
       "kanji": "指定",
-      "reading": "してい",
-      "okurigana": ""
+      "reading": "してい"
     },
     "rubies": [
       {
@@ -28096,8 +27322,7 @@
     "sentence": "きっと会格するという暗示をかける。",
     "blank": {
       "kanji": "暗示",
-      "reading": "あんじ",
-      "okurigana": ""
+      "reading": "あんじ"
     },
     "rubies": [
       {
@@ -28244,8 +27469,7 @@
     "sentence": "カスピ海は世界最大の湖だ。",
     "blank": {
       "kanji": "最大",
-      "reading": "さいだい",
-      "okurigana": ""
+      "reading": "さいだい"
     },
     "rubies": [
       {
@@ -28269,8 +27493,7 @@
     "sentence": "この会社の副社長は社長の弟だ。",
     "blank": {
       "kanji": "副社長",
-      "reading": "ふくしゃちょう",
-      "okurigana": ""
+      "reading": "ふくしゃちょう"
     },
     "rubies": [
       {
@@ -28294,8 +27517,7 @@
     "sentence": "地震で水道管がはかれてしまった。",
     "blank": {
       "kanji": "水道管",
-      "reading": "すいどうかん",
-      "okurigana": ""
+      "reading": "すいどうかん"
     },
     "rubies": [
       {
@@ -28311,8 +27533,7 @@
     "sentence": "点滴の管を腕につないだ。",
     "blank": {
       "kanji": "管",
-      "reading": "くだ",
-      "okurigana": ""
+      "reading": "くだ"
     },
     "rubies": [
       {
@@ -28332,8 +27553,7 @@
     "sentence": "経営者は判断力と行動力が必要だ。",
     "blank": {
       "kanji": "経営者",
-      "reading": "けいえいしゃ",
-      "okurigana": ""
+      "reading": "けいえいしゃ"
     },
     "rubies": [
       {
@@ -28365,8 +27585,7 @@
     "sentence": "この道が駅までの最短のコースだ。",
     "blank": {
       "kanji": "最短",
-      "reading": "さいたん",
-      "okurigana": ""
+      "reading": "さいたん"
     },
     "rubies": [
       {
@@ -28386,8 +27605,7 @@
     "sentence": "賞ようと副賞の記念品をもらった。",
     "blank": {
       "kanji": "副賞",
-      "reading": "ふくしょう",
-      "okurigana": ""
+      "reading": "ふくしょう"
     },
     "rubies": [
       {
@@ -28411,8 +27629,7 @@
     "sentence": "管理職の試験に合格した。",
     "blank": {
       "kanji": "管理職",
-      "reading": "かんりしょく",
-      "okurigana": ""
+      "reading": "かんりしょく"
     },
     "rubies": [
       {
@@ -28432,8 +27649,7 @@
     "sentence": "田中さんはクラスの人気者だ。",
     "blank": {
       "kanji": "人気者",
-      "reading": "にんきもの",
-      "okurigana": ""
+      "reading": "にんきもの"
     },
     "rubies": [
       {
@@ -28449,8 +27665,7 @@
     "sentence": "社長が記者のインタービューを受けた。",
     "blank": {
       "kanji": "記者",
-      "reading": "きしゃ",
-      "okurigana": ""
+      "reading": "きしゃ"
     },
     "rubies": [
       {
@@ -28645,9 +27860,8 @@
     "type": "reading",
     "sentence": "彼は入社後すぐえ異常の才能を現した。",
     "blank": {
-      "kanji": "現",
-      "reading": "あらわ",
-      "okurigana": "した"
+      "kanji": "現した",
+      "reading": "あらわした"
     },
     "rubies": [
       {
@@ -28679,8 +27893,7 @@
     "sentence": "夢を実現させて社長になった。",
     "blank": {
       "kanji": "実現",
-      "reading": "じつげん",
-      "okurigana": ""
+      "reading": "じつげん"
     },
     "rubies": [
       {
@@ -28700,8 +27913,7 @@
     "sentence": "この家は100年続く旧家だ。",
     "blank": {
       "kanji": "旧家",
-      "reading": "きゅうか",
-      "okurigana": ""
+      "reading": "きゅうか"
     },
     "rubies": [
       {
@@ -28725,8 +27937,7 @@
     "sentence": "次回の会議は来週の金曜日だ。",
     "blank": {
       "kanji": "次回",
-      "reading": "じかい",
-      "okurigana": ""
+      "reading": "じかい"
     },
     "rubies": [
       {
@@ -28750,8 +27961,7 @@
     "sentence": "会社にもどり次第連絡してください。",
     "blank": {
       "kanji": "次第",
-      "reading": "しだい",
-      "okurigana": ""
+      "reading": "しだい"
     },
     "rubies": [
       {
@@ -28770,9 +27980,8 @@
     "type": "reading",
     "sentence": "１週間でダイエットの効果が現れた。",
     "blank": {
-      "kanji": "現",
-      "reading": "あらわ",
-      "okurigana": "れた"
+      "kanji": "現れた",
+      "reading": "あらわれた"
     },
     "rubies": [
       {
@@ -28792,8 +28001,7 @@
     "sentence": "田村さんの旧姓は田中だ。",
     "blank": {
       "kanji": "旧姓",
-      "reading": "きゅうせい",
-      "okurigana": ""
+      "reading": "きゅうせい"
     },
     "rubies": [
       {
@@ -28813,8 +28021,7 @@
     "sentence": "そのほうの地方方言の話を聞いた。",
     "blank": {
       "kanji": "地方",
-      "reading": "ちほう",
-      "okurigana": ""
+      "reading": "ちほう"
     },
     "rubies": [
       {
@@ -28837,9 +28044,8 @@
     "type": "reading",
     "sentence": "私は英語に次いで数学が得意だ。",
     "blank": {
-      "kanji": "次",
-      "reading": "つ",
-      "okurigana": "いで"
+      "kanji": "次いで",
+      "reading": "ついで"
     },
     "rubies": [
       {
@@ -28867,8 +28073,7 @@
     "sentence": "席次表を見て座ってください。",
     "blank": {
       "kanji": "席次表",
-      "reading": "せきじひょう",
-      "okurigana": ""
+      "reading": "せきじひょう"
     },
     "rubies": [
       {
@@ -29024,8 +28229,7 @@
     "sentence": "病気で入院して費用を貯めた。",
     "blank": {
       "kanji": "費用",
-      "reading": "ひよう",
-      "okurigana": ""
+      "reading": "ひよう"
     },
     "rubies": [
       {
@@ -29049,8 +28253,7 @@
     "sentence": "生活のために費用を節約する。",
     "blank": {
       "kanji": "節約",
-      "reading": "せつやく",
-      "okurigana": ""
+      "reading": "せつやく"
     },
     "rubies": [
       {
@@ -29070,8 +28273,7 @@
     "sentence": "大学院で消費者行動を研究する。",
     "blank": {
       "kanji": "消費者",
-      "reading": "しょうひしゃ",
-      "okurigana": ""
+      "reading": "しょうひしゃ"
     },
     "rubies": [
       {
@@ -29095,8 +28297,7 @@
     "sentence": "社長のお供で京都へ行った。",
     "blank": {
       "kanji": "お供",
-      "reading": "おとも",
-      "okurigana": ""
+      "reading": "おとも"
     },
     "rubies": [
       {
@@ -29120,8 +28321,7 @@
     "sentence": "このガムは消費税を入れて440円だ。",
     "blank": {
       "kanji": "消費税",
-      "reading": "しょうひぜい",
-      "okurigana": ""
+      "reading": "しょうひぜい"
     },
     "rubies": [
       {
@@ -29141,8 +28341,7 @@
     "sentence": "親に学費を送ってもらった。",
     "blank": {
       "kanji": "学費",
-      "reading": "がくひ",
-      "okurigana": ""
+      "reading": "がくひ"
     },
     "rubies": [
       {
@@ -29162,8 +28361,7 @@
     "sentence": "パーティーの会費をはらう。",
     "blank": {
       "kanji": "会費",
-      "reading": "かいひ",
-      "okurigana": ""
+      "reading": "かいひ"
     },
     "rubies": []
   },
@@ -29174,8 +28372,7 @@
     "sentence": "夏季オリンピックで入賞した。",
     "blank": {
       "kanji": "入賞",
-      "reading": "にゅうしょう",
-      "okurigana": ""
+      "reading": "にゅうしょう"
     },
     "rubies": [
       {
@@ -29191,8 +28388,7 @@
     "sentence": "来週、手術を受けることにした。",
     "blank": {
       "kanji": "手術",
-      "reading": "しゅじゅつ",
-      "okurigana": ""
+      "reading": "しゅじゅつ"
     },
     "rubies": [
       {
@@ -29212,8 +28408,7 @@
     "sentence": "税関で荷物を調べられた。",
     "blank": {
       "kanji": "税関",
-      "reading": "ぜいかん",
-      "okurigana": ""
+      "reading": "ぜいかん"
     },
     "rubies": [
       {
@@ -29397,8 +28592,7 @@
     "sentence": "新しい機械で車の部品を作る。",
     "blank": {
       "kanji": "機械",
-      "reading": "きかい",
-      "okurigana": ""
+      "reading": "きかい"
     },
     "rubies": [
       {
@@ -29426,8 +28620,7 @@
     "sentence": "東京は交通機関が発達している。",
     "blank": {
       "kanji": "交通機関",
-      "reading": "こうつうきかん",
-      "okurigana": ""
+      "reading": "こうつうきかん"
     },
     "rubies": [
       {
@@ -29446,9 +28639,8 @@
     "type": "reading",
     "sentence": "頭がせまい上上人が多く危ない。",
     "blank": {
-      "kanji": "危",
-      "reading": "あぶ",
-      "okurigana": "ない"
+      "kanji": "危ない",
+      "reading": "あぶない"
     },
     "rubies": [
       {
@@ -29475,9 +28667,8 @@
     "type": "reading",
     "sentence": "お客がへって経営が危ぶまれる。",
     "blank": {
-      "kanji": "危",
-      "reading": "あや",
-      "okurigana": "ぶまれる"
+      "kanji": "危ぶまれる",
+      "reading": "あやぶまれる"
     },
     "rubies": [
       {
@@ -29497,8 +28688,7 @@
     "sentence": "SNSは、はんざいの危険性がある。",
     "blank": {
       "kanji": "危険性",
-      "reading": "きけんせい",
-      "okurigana": ""
+      "reading": "きけんせい"
     },
     "rubies": []
   },
@@ -29509,8 +28699,7 @@
     "sentence": "機会があったらまた会いましょう。",
     "blank": {
       "kanji": "機会",
-      "reading": "きかい",
-      "okurigana": ""
+      "reading": "きかい"
     },
     "rubies": [
       {
@@ -29526,8 +28715,7 @@
     "sentence": "となりの部屋から機械の動く音がする。",
     "blank": {
       "kanji": "機械",
-      "reading": "きかい",
-      "okurigana": ""
+      "reading": "きかい"
     },
     "rubies": [
       {
@@ -29550,9 +28738,8 @@
     "type": "reading",
     "sentence": "急な階段で危うく落ちるところだった。",
     "blank": {
-      "kanji": "危",
-      "reading": "あや",
-      "okurigana": "うく"
+      "kanji": "危うく",
+      "reading": "あやうく"
     },
     "rubies": [
       {
@@ -29576,8 +28763,7 @@
     "sentence": "パンダは絶滅の危機にある。",
     "blank": {
       "kanji": "危機",
-      "reading": "きき",
-      "okurigana": ""
+      "reading": "きき"
     },
     "rubies": [
       {
@@ -29592,9 +28778,8 @@
     "type": "reading",
     "sentence": "険しい山道を登る。",
     "blank": {
-      "kanji": "険",
-      "reading": "けわ",
-      "okurigana": "しい"
+      "kanji": "険しい",
+      "reading": "けわしい"
     },
     "rubies": [
       {
@@ -29794,8 +28979,7 @@
     "sentence": "柔道の技があざやかに決まる。",
     "blank": {
       "kanji": "技",
-      "reading": "わざ",
-      "okurigana": ""
+      "reading": "わざ"
     },
     "rubies": [
       {
@@ -29815,8 +28999,7 @@
     "sentence": "女優になるために演技を勉強する。",
     "blank": {
       "kanji": "演技",
-      "reading": "えんぎ",
-      "okurigana": ""
+      "reading": "えんぎ"
     },
     "rubies": [
       {
@@ -29836,8 +29019,7 @@
     "sentence": "美術館で有名な画家の絵を見る。",
     "blank": {
       "kanji": "美術館",
-      "reading": "びじゅつかん",
-      "okurigana": ""
+      "reading": "びじゅつかん"
     },
     "rubies": [
       {
@@ -29865,8 +29047,7 @@
     "sentence": "大学卒業後は貿易会社で働きたい。",
     "blank": {
       "kanji": "貿易",
-      "reading": "ぼうえき",
-      "okurigana": ""
+      "reading": "ぼうえき"
     },
     "rubies": [
       {
@@ -29898,8 +29079,7 @@
     "sentence": "この通りは商店が多く活気がある。",
     "blank": {
       "kanji": "商店",
-      "reading": "しょうてん",
-      "okurigana": ""
+      "reading": "しょうてん"
     },
     "rubies": [
       {
@@ -29923,8 +29103,7 @@
     "sentence": "筆記と実技の試験を受ける。",
     "blank": {
       "kanji": "実技",
-      "reading": "じつぎ",
-      "okurigana": ""
+      "reading": "じつぎ"
     },
     "rubies": [
       {
@@ -29948,8 +29127,7 @@
     "sentence": "新しい技術で車を開発した。",
     "blank": {
       "kanji": "技術",
-      "reading": "ぎじゅつ",
-      "okurigana": ""
+      "reading": "ぎじゅつ"
     },
     "rubies": [
       {
@@ -29972,9 +29150,8 @@
     "type": "reading",
     "sentence": "ブランド品を商う仕事を始める。",
     "blank": {
-      "kanji": "商",
-      "reading": "あきな",
-      "okurigana": "う"
+      "kanji": "商う",
+      "reading": "あきなう"
     },
     "rubies": [
       {
@@ -29998,8 +29175,7 @@
     "sentence": "新しくできた商業ビルで買い物をする。",
     "blank": {
       "kanji": "商業",
-      "reading": "しょうぎょう",
-      "okurigana": ""
+      "reading": "しょうぎょう"
     },
     "rubies": [
       {
@@ -30182,8 +29358,7 @@
     "sentence": "彼は単独で行動することが多い。",
     "blank": {
       "kanji": "単独",
-      "reading": "たんどく",
-      "okurigana": ""
+      "reading": "たんどく"
     },
     "rubies": [
       {
@@ -30207,8 +29382,7 @@
     "sentence": "この事件は複数の人間が関係している。",
     "blank": {
       "kanji": "複数",
-      "reading": "ふくすう",
-      "okurigana": ""
+      "reading": "ふくすう"
     },
     "rubies": [
       {
@@ -30231,9 +29405,8 @@
     "type": "reading",
     "sentence": "今日のことは全く覚えていない。",
     "blank": {
-      "kanji": "全",
-      "reading": "まった",
-      "okurigana": "く"
+      "kanji": "全く",
+      "reading": "まったく"
     },
     "rubies": [
       {
@@ -30253,8 +29426,7 @@
     "sentence": "出された料理を全部食べてしまった。",
     "blank": {
       "kanji": "全部",
-      "reading": "ぜんぶ",
-      "okurigana": ""
+      "reading": "ぜんぶ"
     },
     "rubies": [
       {
@@ -30278,8 +29450,7 @@
     "sentence": "明治以後、日本の近代化が進んだ。",
     "blank": {
       "kanji": "以後",
-      "reading": "いご",
-      "okurigana": ""
+      "reading": "いご"
     },
     "rubies": [
       {
@@ -30311,8 +29482,7 @@
     "sentence": "言うのは簡単だが、やるのは難しい。",
     "blank": {
       "kanji": "簡単",
-      "reading": "かんたん",
-      "okurigana": ""
+      "reading": "かんたん"
     },
     "rubies": [
       {
@@ -30332,8 +29502,7 @@
     "sentence": "セミナーに重複して申し込んだ。",
     "blank": {
       "kanji": "重複",
-      "reading": "ちょうふく",
-      "okurigana": ""
+      "reading": "ちょうふく"
     },
     "rubies": [
       {
@@ -30349,8 +29518,7 @@
     "sentence": "今日のテストは全然できなかった。",
     "blank": {
       "kanji": "全然",
-      "reading": "ぜんぜん",
-      "okurigana": ""
+      "reading": "ぜんぜん"
     },
     "rubies": [
       {
@@ -30366,8 +29534,7 @@
     "sentence": "テストの点が平均以下だった。",
     "blank": {
       "kanji": "以下",
-      "reading": "いか",
-      "okurigana": ""
+      "reading": "いか"
     },
     "rubies": [
       {
@@ -30535,8 +29702,7 @@
     "sentence": "夫婦で子どもの未来について話す。",
     "blank": {
       "kanji": "未来",
-      "reading": "みらい",
-      "okurigana": ""
+      "reading": "みらい"
     },
     "rubies": [
       {
@@ -30559,9 +29725,8 @@
     "type": "reading",
     "sentence": "コンサート会場は熱気に満ちていた。",
     "blank": {
-      "kanji": "満",
-      "reading": "み",
-      "okurigana": "ちていた"
+      "kanji": "満ちていた",
+      "reading": "みちていた"
     },
     "rubies": [
       {
@@ -30581,8 +29746,7 @@
     "sentence": "彼はいつも仕事の不満を言っている。",
     "blank": {
       "kanji": "不満",
-      "reading": "ふまん",
-      "okurigana": ""
+      "reading": "ふまん"
     },
     "rubies": [
       {
@@ -30605,9 +29769,8 @@
     "type": "reading",
     "sentence": "しめきりまで、あと5日しか無い。",
     "blank": {
-      "kanji": "無",
-      "reading": "な",
-      "okurigana": "い"
+      "kanji": "無い",
+      "reading": "ない"
     },
     "rubies": [
       {
@@ -30622,9 +29785,8 @@
     "type": "reading",
     "sentence": "無事に目的地にたどり着した。",
     "blank": {
-      "kanji": "無事",
-      "reading": "ぶじ",
-      "okurigana": "に"
+      "kanji": "無事に",
+      "reading": "ぶじに"
     },
     "rubies": [
       {
@@ -30648,8 +29810,7 @@
     "sentence": "10さい未満の子どもは乗れません。",
     "blank": {
       "kanji": "未満",
-      "reading": "みまん",
-      "okurigana": ""
+      "reading": "みまん"
     },
     "rubies": [
       {
@@ -30668,9 +29829,8 @@
     "type": "reading",
     "sentence": "おかしで、おなかを満たした。",
     "blank": {
-      "kanji": "満",
-      "reading": "み",
-      "okurigana": "たした"
+      "kanji": "満たした",
+      "reading": "みたした"
     },
     "rubies": []
   },
@@ -30681,8 +29841,7 @@
     "sentence": "今の生活に満足している。",
     "blank": {
       "kanji": "満足",
-      "reading": "まんぞく",
-      "okurigana": ""
+      "reading": "まんぞく"
     },
     "rubies": [
       {
@@ -30702,8 +29861,7 @@
     "sentence": "この店は非常に便だ。",
     "blank": {
       "kanji": "非常",
-      "reading": "ひじょう",
-      "okurigana": ""
+      "reading": "ひじょう"
     },
     "rubies": [
       {
@@ -30723,8 +29881,7 @@
     "sentence": "公共の場で大声を出すのは非常識だ。",
     "blank": {
       "kanji": "非常識",
-      "reading": "ひじょうしき",
-      "okurigana": ""
+      "reading": "ひじょうしき"
     },
     "rubies": [
       {
@@ -30912,8 +30069,7 @@
     "sentence": "1950年代に日本の人口は１億をこえた。",
     "blank": {
       "kanji": "１億",
-      "reading": "いちおく",
-      "okurigana": ""
+      "reading": "いちおく"
     },
     "rubies": [
       {
@@ -30937,8 +30093,7 @@
     "sentence": "このマンションは３億円はする。",
     "blank": {
       "kanji": "億円",
-      "reading": "おくえん",
-      "okurigana": ""
+      "reading": "おくえん"
     },
     "rubies": []
   },
@@ -30949,8 +30104,7 @@
     "sentence": "彼は土地を買って億万長者になった。",
     "blank": {
       "kanji": "億万長者",
-      "reading": "おくまんちょうじゃ",
-      "okurigana": ""
+      "reading": "おくまんちょうじゃ"
     },
     "rubies": [
       {
@@ -30973,9 +30127,8 @@
     "type": "reading",
     "sentence": "空に春の気配が兆す。",
     "blank": {
-      "kanji": "兆",
-      "reading": "きざ",
-      "okurigana": "す"
+      "kanji": "兆す",
+      "reading": "きざす"
     },
     "rubies": [
       {
@@ -30998,9 +30151,8 @@
     "type": "reading",
     "sentence": "けい気回復の兆しが見られる。",
     "blank": {
-      "kanji": "兆",
-      "reading": "きざ",
-      "okurigana": "し"
+      "kanji": "兆し",
+      "reading": "きざし"
     },
     "rubies": [
       {
@@ -31024,8 +30176,7 @@
     "sentence": "A社の１年間の売り上げは１兆円だ。",
     "blank": {
       "kanji": "１兆円",
-      "reading": "いちちょうえん",
-      "okurigana": ""
+      "reading": "いちちょうえん"
     },
     "rubies": [
       {

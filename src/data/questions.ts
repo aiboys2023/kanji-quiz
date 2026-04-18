@@ -9,6 +9,7 @@ export interface Ruby {
 export interface QuestionBlank {
   kanji: string;
   reading: string;
+  okurigana?: string;
 }
 
 export interface Question {
@@ -22,7 +23,7 @@ export interface Question {
 
 /** 同一問題の安定キー（id なしデータ用） */
 export function questionKey(q: Question): string {
-  return `${q.chapter}\0${q.sentence}\0${q.blank.kanji}\0${q.blank.reading}`;
+  return `${q.chapter}\0${q.sentence}\0${q.blank.kanji}\0${q.blank.reading}\0${q.blank.okurigana ?? ""}`;
 }
 
 export const ALL_QUESTIONS = rawQuestions as Question[];

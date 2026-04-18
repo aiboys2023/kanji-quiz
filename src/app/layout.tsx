@@ -5,7 +5,7 @@ import "./globals.css";
 const notoSansJP = Noto_Sans_JP({
   variable: "--font-noto-sans-jp",
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
+  weight: ["400", "500", "700", "800", "900"],
   display: "swap",
 });
 
@@ -20,7 +20,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   viewportFit: "cover",
-  themeColor: "#fff5e1",
+  themeColor: "#ffb7cf",
 };
 
 export default function RootLayout({

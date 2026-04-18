@@ -11,7 +11,7 @@ interface StickerDecoProps {
 }
 
 /**
- * ランダム配置の SVG 装飾（星・ハート・スマイリー）
+ * ランダム配置の SVG 装飾（Pop パレット）
  */
 export default function StickerDeco({
   count = 14,
@@ -20,7 +20,13 @@ export default function StickerDeco({
 }: StickerDecoProps) {
   const n = density ?? count;
   const items = useMemo(() => {
-    const palette = ["#FF6B9D", "#FFD93D", "#6BCB77", "#4D96FF", "#FF8C42"];
+    const palette = [
+      "var(--pop-pink)",
+      "var(--pop-streak)",
+      "var(--pop-correct)",
+      "var(--pop-sky)",
+      "var(--pop-accent)",
+    ];
     return Array.from({ length: n }, (_, i) => {
       const seed = (i * 9301 + 49297) % 233280;
       return {
@@ -41,7 +47,7 @@ export default function StickerDeco({
       aria-hidden
     >
       <svg
-        className="w-full h-full opacity-30"
+        className="h-full w-full opacity-35"
         viewBox="0 0 100 100"
         preserveAspectRatio="none"
       >
@@ -54,7 +60,7 @@ export default function StickerDeco({
               <polygon
                 points="0,-10 3,-3 10,-3 4,4 6,12 0,8 -6,12 -4,4 -10,-3 -3,-3"
                 fill={it.fill}
-                stroke="#1a1a2e"
+                stroke="#000"
                 strokeWidth="1.2"
                 strokeLinejoin="round"
               />
@@ -63,20 +69,27 @@ export default function StickerDeco({
               <path
                 d="M0,2 C-4,-3 -10,-2 -10,4 C-10,9 -2,14 0,18 C2,14 10,9 10,4 C10,-2 4,-3 0,2Z"
                 fill={it.fill}
-                stroke="#1a1a2e"
+                stroke="#000"
                 strokeWidth="1.2"
                 strokeLinejoin="round"
               />
             )}
             {it.kind === 2 && (
               <g>
-                <circle r="12" cx="0" cy="0" fill="#FFD93D" stroke="#1a1a2e" strokeWidth="1.5" />
-                <circle cx="-4" cy="-2" r="2" fill="#1a1a2e" />
-                <circle cx="4" cy="-2" r="2" fill="#1a1a2e" />
+                <circle
+                  r="12"
+                  cx="0"
+                  cy="0"
+                  fill="var(--pop-streak)"
+                  stroke="#000"
+                  strokeWidth="1.5"
+                />
+                <circle cx="-4" cy="-2" r="2" fill="#000" />
+                <circle cx="4" cy="-2" r="2" fill="#000" />
                 <path
                   d="M-6,6 Q0,11 6,6"
                   fill="none"
-                  stroke="#1a1a2e"
+                  stroke="#000"
                   strokeWidth="1.5"
                   strokeLinecap="round"
                 />

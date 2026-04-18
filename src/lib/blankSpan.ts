@@ -1,5 +1,30 @@
 import type { Question, Ruby } from "@/data/questions";
 
+export function consumeRubiesInRange(
+  sentence: string,
+  rubies: Ruby[],
+  rubyIndex: number,
+  start: number,
+  end: number
+): number {
+  let cursor = start;
+  let r = rubyIndex;
+  while (cursor < end && r < rubies.length) {
+    const text = rubies[r]?.text ?? "";
+    if (
+      text.length > 0 &&
+      sentence.startsWith(text, cursor) &&
+      cursor + text.length <= end
+    ) {
+      cursor += text.length;
+      r++;
+      continue;
+    }
+    cursor++;
+  }
+  return r;
+}
+
 export function verifyBlankSpan(
   sentence: string,
   rubies: Ruby[],
@@ -11,6 +36,7 @@ export function verifyBlankSpan(
   const len = sentence.length;
   while (cursor < len) {
     if (cursor === blankStart) {
+      r = consumeRubiesInRange(sentence, rubies, r, blankStart, blankEnd);
       cursor = blankEnd;
       continue;
     }
@@ -34,28 +60,25 @@ function enumerateBlankCandidates(question: Question): { start: number; end: num
     seen.add(k);
     out.push({ start, end });
   };
+  const addMatches = (needle: string, endLength: number = needle.length) => {
+    if (!needle) return;
+    for (let i = 0; i < sentence.length; i++) {
+      if (sentence.startsWith(needle, i)) {
+        push(i, i + endLength);
+      }
+    }
+  };
+
   if (type === "reading") {
-    for (let i = 0; i < sentence.length; i++) {
-      if (sentence.startsWith(blank.kanji, i)) {
-        push(i, i + blank.kanji.length);
-      }
+    const okurigana = blank.okurigana ?? "";
+    if (okurigana) {
+      // 送り仮名つき表層で位置を特定しつつ、blank範囲は漢字部分だけにする。
+      addMatches(`${blank.kanji}${okurigana}`, blank.kanji.length);
     }
-    for (let i = 0; i < sentence.length; i++) {
-      if (sentence.startsWith(blank.reading, i)) {
-        push(i, i + blank.reading.length);
-      }
-    }
+    addMatches(blank.kanji);
   } else {
-    for (let i = 0; i < sentence.length; i++) {
-      if (sentence.startsWith(blank.reading, i)) {
-        push(i, i + blank.reading.length);
-      }
-    }
-    for (let i = 0; i < sentence.length; i++) {
-      if (sentence.startsWith(blank.kanji, i)) {
-        push(i, i + blank.kanji.length);
-      }
-    }
+    addMatches(blank.reading);
+    addMatches(blank.kanji);
   }
   return out;
 }
