@@ -62,7 +62,7 @@
     "chapter": 1,
     "topic": "生活1",
     "type": "reading",
-    "sentence": "部屋の電気を消して寝てしまった。",
+    "sentence": "寝室の電気を消して寝てしまった。",
     "blank": {
       "kanji": "寝",
       "reading": "ね",
@@ -375,13 +375,21 @@
     "chapter": 1,
     "topic": "生活2",
     "type": "reading",
-    "sentence": "洗濯のしかたを教えてください。",
+    "sentence": "洗濯機の使い方を教えてください。",
     "blank": {
       "kanji": "洗濯",
       "reading": "せんたく",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "機",
+        "ruby": "き"
+      },
+      {
+        "text": "使い方",
+        "ruby": "つかいかた"
+      },
       {
         "text": "教え",
         "ruby": "おしえ"
@@ -450,13 +458,17 @@
     "chapter": 1,
     "topic": "生活2",
     "type": "reading",
-    "sentence": "アルバイトで生活するためのお金を稼ぐ。",
+    "sentence": "アルバイトで生活費を稼ぐ。",
     "blank": {
       "kanji": "生活",
       "reading": "せいかつ",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "費",
+        "ruby": "ひ"
+      },
       {
         "text": "稼ぐ",
         "ruby": "かせぐ"
@@ -774,7 +786,7 @@
     "chapter": 1,
     "topic": "ゴミ",
     "type": "reading",
-    "sentence": "雨にぬれて袋がやぶれそうだ。",
+    "sentence": "雨にぬれて紙袋がやぶれそうだ。",
     "blank": {
       "kanji": "袋",
       "reading": "ふくろ",
@@ -1053,7 +1065,7 @@
     "chapter": 1,
     "topic": "カレンダー1",
     "type": "reading",
-    "sentence": "毎週の水曜日が休みだ。",
+    "sentence": "毎週水曜日が休みだ。",
     "blank": {
       "kanji": "水曜日",
       "reading": "すいようび",
@@ -1210,8 +1222,8 @@
     "type": "reading",
     "sentence": "3月末までの短期アルバイトをする。",
     "blank": {
-      "kanji": "月末",
-      "reading": "げつまつ",
+      "kanji": "末",
+      "reading": "まつ",
       "okurigana": ""
     },
     "rubies": [
@@ -1580,13 +1592,17 @@
     "chapter": 1,
     "topic": "カレンダー2",
     "type": "reading",
-    "sentence": "予報を見て、着る服を決める。",
+    "sentence": "天気予報を見て、着る服を決める。",
     "blank": {
       "kanji": "予報",
       "reading": "よほう",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "天気",
+        "ruby": "てんき"
+      },
       {
         "text": "見",
         "ruby": "み"
@@ -2262,13 +2278,26 @@
     "chapter": 2,
     "topic": "作る2",
     "type": "reading",
-    "sentence": "魚を焼いて食べる。",
+    "sentence": "日焼けで体中が真っ赤になった。",
     "blank": {
       "kanji": "焼",
       "reading": "や",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "体",
+        "ruby": "からだ"
+      },
+      {
+        "text": "中",
+        "ruby": "ちゅう"
+      },
+      {
+        "text": "真っ赤",
+        "ruby": "まっか"
+      }
+    ]
   },
   {
     "chapter": 2,
@@ -2324,13 +2353,17 @@
     "chapter": 2,
     "topic": "作る2",
     "type": "reading",
-    "sentence": "この型のスマホは高くて買えない。",
+    "sentence": "最新型のスマホは高くて買えない。",
     "blank": {
       "kanji": "型",
       "reading": "がた",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "最新",
+        "ruby": "さいしん"
+      },
       {
         "text": "高く",
         "ruby": "たかく"
@@ -2393,8 +2426,8 @@
     "type": "reading",
     "sentence": "夕食に使った食器を洗う。",
     "blank": {
-      "kanji": "食器",
-      "reading": "しょっき",
+      "kanji": "器",
+      "reading": "き",
       "okurigana": ""
     },
     "rubies": [
@@ -2912,13 +2945,17 @@
     "chapter": 2,
     "topic": "食材2",
     "type": "reading",
-    "sentence": "野菜をたくさん食べる。",
+    "sentence": "緑黄色野菜をたくさん食べる。",
     "blank": {
       "kanji": "野菜",
       "reading": "やさい",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "緑黄色",
+        "ruby": "りょくおうしょく"
+      },
       {
         "text": "食べる",
         "ruby": "たべる"
@@ -3082,8 +3119,8 @@
     "type": "reading",
     "sentence": "大豆からしょう油やみそが作られる。",
     "blank": {
-      "kanji": "大豆",
-      "reading": "だいず",
+      "kanji": "豆",
+      "reading": "まめ",
       "okurigana": ""
     },
     "rubies": [
@@ -3286,13 +3323,22 @@
     "chapter": 2,
     "topic": "数え方",
     "type": "reading",
-    "sentence": "この杯に飲み物を入れる。",
+    "sentence": "一杯飲んでから帰ることにする。",
     "blank": {
       "kanji": "杯",
       "reading": "はい",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "飲ん",
+        "ruby": "のん"
+      },
+      {
+        "text": "帰る",
+        "ruby": "かえる"
+      }
+    ]
   },
   {
     "chapter": 2,
@@ -3361,7 +3407,7 @@
     "chapter": 2,
     "topic": "数え方",
     "type": "reading",
-    "sentence": "杯を二つ並べる。",
+    "sentence": "カップ二杯の水をなべに入れる。",
     "blank": {
       "kanji": "杯",
       "reading": "はい",
@@ -3371,6 +3417,14 @@
       {
         "text": "二",
         "ruby": "に"
+      },
+      {
+        "text": "水",
+        "ruby": "みず"
+      },
+      {
+        "text": "入れる",
+        "ruby": "いれる"
       }
     ]
   },
@@ -3407,13 +3461,38 @@
     "chapter": 2,
     "topic": "数え方",
     "type": "reading",
-    "sentence": "匹で数える動物は多い。",
+    "sentence": "魚を一匹値付けた料理を作る。",
     "blank": {
       "kanji": "匹",
       "reading": "ひき",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "魚",
+        "ruby": "さかな"
+      },
+      {
+        "text": "一",
+        "ruby": "いち"
+      },
+      {
+        "text": "値",
+        "ruby": "ち"
+      },
+      {
+        "text": "付け",
+        "ruby": "つけ"
+      },
+      {
+        "text": "料理",
+        "ruby": "りょうり"
+      },
+      {
+        "text": "作る",
+        "ruby": "つくる"
+      }
+    ]
   },
   {
     "chapter": 2,
@@ -3682,13 +3761,18 @@
     "chapter": 3,
     "topic": "体（頭・顔・首・鼻）",
     "type": "reading",
-    "sentence": "教頭にあいさつする。",
+    "sentence": "教頭先生にあいさつする。",
     "blank": {
       "kanji": "教頭",
       "reading": "きょうとう",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "先生",
+        "ruby": "せんせい"
+      }
+    ]
   },
   {
     "chapter": 3,
@@ -4415,13 +4499,22 @@
     "chapter": 3,
     "topic": "検査",
     "type": "reading",
-    "sentence": "審査の結果を待っている。",
+    "sentence": "審査員にスピーチを読まれた。",
     "blank": {
       "kanji": "審査",
       "reading": "しんさ",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "員",
+        "ruby": "いん"
+      },
+      {
+        "text": "読ま",
+        "ruby": "よま"
+      }
+    ]
   },
   {
     "chapter": 3,
@@ -4679,13 +4772,17 @@
     "chapter": 3,
     "topic": "けが",
     "type": "reading",
-    "sentence": "血液を調べる検査を受けた。",
+    "sentence": "病院で血液検査を受けた。",
     "blank": {
       "kanji": "血液",
       "reading": "けつえき",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "病院",
+        "ruby": "びょういん"
+      },
       {
         "text": "検査",
         "ruby": "けんさ"
@@ -4712,13 +4809,21 @@
     "chapter": 3,
     "topic": "けが",
     "type": "reading",
-    "sentence": "この一帯に大雨が降った。",
+    "sentence": "東北地方一帯に大雨が降った。",
     "blank": {
       "kanji": "一帯",
       "reading": "いったい",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "東北",
+        "ruby": "とうほく"
+      },
+      {
+        "text": "地方",
+        "ruby": "ちほう"
+      },
       {
         "text": "大雨",
         "ruby": "おおあめ"
@@ -5447,13 +5552,22 @@
     "chapter": 4,
     "topic": "交差点",
     "type": "reading",
-    "sentence": "この路をまっすぐ進む。",
+    "sentence": "この水路は今でも使われている。",
     "blank": {
       "kanji": "路",
       "reading": "ろ",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "今",
+        "ruby": "いま"
+      },
+      {
+        "text": "使わ",
+        "ruby": "つかわ"
+      }
+    ]
   },
   {
     "chapter": 4,
@@ -6429,7 +6543,7 @@
     "chapter": 4,
     "topic": "高速道路1",
     "type": "reading",
-    "sentence": "東京の地下鉄の路線はふくざつだ。",
+    "sentence": "東京の地下鉄の路線図はふくざつだ。",
     "blank": {
       "kanji": "路線",
       "reading": "ろせん",
@@ -6443,6 +6557,10 @@
       {
         "text": "地下鉄",
         "ruby": "ちかてつ"
+      },
+      {
+        "text": "図",
+        "ruby": "ず"
       }
     ]
   },
@@ -8261,13 +8379,17 @@
     "chapter": 5,
     "topic": "記録2",
     "type": "reading",
-    "sentence": "順序を立てて説明する。",
+    "sentence": "数式を順序立て説明する。",
     "blank": {
       "kanji": "順序",
       "reading": "じゅんじょ",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "数式",
+        "ruby": "すうしき"
+      },
       {
         "text": "立て",
         "ruby": "だて"
@@ -8568,7 +8690,7 @@
     "chapter": 5,
     "topic": "野球",
     "type": "reading",
-    "sentence": "球技はなかでもとくいだ。",
+    "sentence": "打球技はなかでもとくいだ。",
     "blank": {
       "kanji": "球技",
       "reading": "きゅうぎ",
@@ -8601,7 +8723,7 @@
     "chapter": 5,
     "topic": "野球",
     "type": "reading",
-    "sentence": "選手がホームランを打った。",
+    "sentence": "代打の選手がホームランを打った。",
     "blank": {
       "kanji": "打",
       "reading": "う",
@@ -8924,13 +9046,17 @@
     "chapter": 6,
     "topic": "恋愛1",
     "type": "reading",
-    "sentence": "感情で話してはいけない。",
+    "sentence": "感情的に話してはいけない。",
     "blank": {
       "kanji": "感情",
       "reading": "かんじょう",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "的",
+        "ruby": "てき"
+      },
       {
         "text": "話し",
         "ruby": "はなし"
@@ -9676,7 +9802,7 @@
     "chapter": 6,
     "topic": "悩み",
     "type": "reading",
-    "sentence": "重い病気で長いあいだ、苦しんでいる。",
+    "sentence": "重い病気で長い間苦しんでいる。",
     "blank": {
       "kanji": "苦",
       "reading": "くる",
@@ -9694,6 +9820,10 @@
       {
         "text": "長い",
         "ruby": "ながい"
+      },
+      {
+        "text": "間",
+        "ruby": "ま"
       }
     ]
   },
@@ -10599,7 +10729,7 @@
     "chapter": 6,
     "topic": "気持ちの表れ2",
     "type": "reading",
-    "sentence": "話の途中で、突然、涙が出た。",
+    "sentence": "話の途中で突然涙が出た。",
     "blank": {
       "kanji": "涙",
       "reading": "なみだ",
@@ -10871,7 +11001,7 @@
     "chapter": 7,
     "topic": "結婚",
     "type": "reading",
-    "sentence": "来年、結婚することになった。",
+    "sentence": "来年結婚することになった。",
     "blank": {
       "kanji": "結婚",
       "reading": "けっこん",
@@ -11914,7 +12044,7 @@
     "chapter": 7,
     "topic": "結婚式",
     "type": "reading",
-    "sentence": "列島を自転車で旅する。",
+    "sentence": "自転車で日本列島を旅する。",
     "blank": {
       "kanji": "列島",
       "reading": "れっとう",
@@ -11924,6 +12054,10 @@
       {
         "text": "自転車",
         "ruby": "じてんしゃ"
+      },
+      {
+        "text": "日本",
+        "ruby": "にっぽん"
       },
       {
         "text": "旅",
@@ -11964,13 +12098,18 @@
     "chapter": 7,
     "topic": "結婚式",
     "type": "reading",
-    "sentence": "祝賀パーティーにさんかした。",
+    "sentence": "婚姻祝賀パーティーにさんかした。",
     "blank": {
       "kanji": "祝賀",
       "reading": "しゅくが",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "婚姻",
+        "ruby": "こんいん"
+      }
+    ]
   },
   {
     "chapter": 7,
@@ -11993,13 +12132,21 @@
     "chapter": 7,
     "topic": "結婚式",
     "type": "reading",
-    "sentence": "酒に酔い、気持ちが悪い。",
+    "sentence": "三日酔いで気持ちが悪い。",
     "blank": {
       "kanji": "酔",
       "reading": "よ",
       "okurigana": "い"
     },
     "rubies": [
+      {
+        "text": "三",
+        "ruby": "さん"
+      },
+      {
+        "text": "日",
+        "ruby": "にち"
+      },
       {
         "text": "気持ち",
         "ruby": "きもち"
@@ -12242,13 +12389,17 @@
     "chapter": 7,
     "topic": "幸せ",
     "type": "reading",
-    "sentence": "願書をメールで取りよせる。",
+    "sentence": "メールで入学願書を取りよせる。",
     "blank": {
       "kanji": "願書",
       "reading": "がんしょ",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "入学",
+        "ruby": "にゅうがく"
+      },
       {
         "text": "取り",
         "ruby": "とり"
@@ -12321,7 +12472,7 @@
     "chapter": 7,
     "topic": "幸せ",
     "type": "reading",
-    "sentence": "笑う門には福が来る。",
+    "sentence": "笑う門には福来る。",
     "blank": {
       "kanji": "福",
       "reading": "ふく",
@@ -12481,13 +12632,17 @@
     "chapter": 8,
     "topic": "人間関係",
     "type": "reading",
-    "sentence": "友だちとの関係で悩んだときは、先生に相談する。",
+    "sentence": "人間関係で悩んだときは、先生に相談する。",
     "blank": {
       "kanji": "関係",
       "reading": "かんけい",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "人間",
+        "ruby": "にんげん"
+      },
       {
         "text": "悩ん",
         "ruby": "なやん"
@@ -12961,7 +13116,7 @@
     "chapter": 8,
     "topic": "家族",
     "type": "reading",
-    "sentence": "婦人服の売り場は3階です。",
+    "sentence": "婦人服売り場は3階です。",
     "blank": {
       "kanji": "婦人服",
       "reading": "ふじんふく",
@@ -13288,13 +13443,18 @@
     "chapter": 8,
     "topic": "仲間",
     "type": "reading",
-    "sentence": "君にチョコをあげた。",
+    "sentence": "細川君にチョコをあげた。",
     "blank": {
       "kanji": "君",
       "reading": "くん",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "細川",
+        "ruby": "ほそかわ"
+      }
+    ]
   },
   {
     "chapter": 8,
@@ -13575,7 +13735,7 @@
     "chapter": 8,
     "topic": "友達",
     "type": "reading",
-    "sentence": "この映画は今日が初日だ。",
+    "sentence": "この映画は今日が公開初日だ。",
     "blank": {
       "kanji": "初日",
       "reading": "しょにち",
@@ -13589,6 +13749,10 @@
       {
         "text": "今日",
         "ruby": "きょう"
+      },
+      {
+        "text": "公開",
+        "ruby": "こうかい"
       }
     ]
   },
@@ -14011,13 +14175,17 @@
     "chapter": 8,
     "topic": "個性",
     "type": "reading",
-    "sentence": "各国の人口を調べた。",
+    "sentence": "世界各国の人口を調べた。",
     "blank": {
       "kanji": "各国",
       "reading": "かっこく",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "世界",
+        "ruby": "せかい"
+      },
       {
         "text": "人口",
         "ruby": "じんこう"
@@ -15544,13 +15712,21 @@
     "chapter": 9,
     "topic": "社会科",
     "type": "reading",
-    "sentence": "経済を学んで銀行員になった。",
+    "sentence": "経済郵部を卒業して銀行員になった。",
     "blank": {
       "kanji": "経済",
       "reading": "けいざい",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "郵部",
+        "ruby": "ゆうぶ"
+      },
+      {
+        "text": "卒業",
+        "ruby": "そつぎょう"
+      },
       {
         "text": "銀行",
         "ruby": "ぎんこう"
@@ -15812,13 +15988,18 @@
     "chapter": 9,
     "topic": "体育",
     "type": "reading",
-    "sentence": "道具をそろえる。",
+    "sentence": "調理道具をそろえる。",
     "blank": {
       "kanji": "道具",
       "reading": "どうぐ",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "調理",
+        "ruby": "ちょうり"
+      }
+    ]
   },
   {
     "chapter": 9,
@@ -16168,7 +16349,7 @@
     "chapter": 10,
     "topic": "希望",
     "type": "reading",
-    "sentence": "希少な動物をほごする。",
+    "sentence": "希少動物をほごする。",
     "blank": {
       "kanji": "希少",
       "reading": "きしょう",
@@ -16587,13 +16768,17 @@
     "chapter": 10,
     "topic": "学校探し",
     "type": "reading",
-    "sentence": "能力試験を受けた。",
+    "sentence": "日本語能力試験を受けた。",
     "blank": {
       "kanji": "能力試験",
       "reading": "のうりょくしけん",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "日本語",
+        "ruby": "にほんご"
+      },
       {
         "text": "受け",
         "ruby": "うけ"
@@ -17302,7 +17487,7 @@
     "chapter": 10,
     "topic": "面接2",
     "type": "reading",
-    "sentence": "一倍、元気よく、質問に答える。",
+    "sentence": "一倍倍元気よく、質問に答える。",
     "blank": {
       "kanji": "一倍",
       "reading": "いちばい",
@@ -18111,7 +18296,7 @@
     "chapter": 11,
     "topic": "授業",
     "type": "reading",
-    "sentence": "運動会は例年どおり行われる。",
+    "sentence": "運動会は例年通り行われる。",
     "blank": {
       "kanji": "例年",
       "reading": "れいねん",
@@ -18121,6 +18306,10 @@
       {
         "text": "運動会",
         "ruby": "うんどうかい"
+      },
+      {
+        "text": "通り",
+        "ruby": "どおり"
       },
       {
         "text": "行わ",
@@ -18459,7 +18648,7 @@
     "chapter": 11,
     "topic": "授業",
     "type": "reading",
-    "sentence": "漢字を350字、覚えた。",
+    "sentence": "漢字を350字覚えた。",
     "blank": {
       "kanji": "覚",
       "reading": "おぼ",
@@ -18601,7 +18790,7 @@
     "chapter": 11,
     "topic": "授業",
     "type": "reading",
-    "sentence": "健康のために、早起きを始める。",
+    "sentence": "健康のために毎日早起きを始める。",
     "blank": {
       "kanji": "早起",
       "reading": "はやお",
@@ -18611,6 +18800,10 @@
       {
         "text": "健康",
         "ruby": "けんこう"
+      },
+      {
+        "text": "毎日",
+        "ruby": "まいにち"
       },
       {
         "text": "始める",
@@ -18639,7 +18832,7 @@
     "chapter": 11,
     "topic": "授業",
     "type": "reading",
-    "sentence": "漢字の勉強を、続ける。",
+    "sentence": "漢字の勉強を毎日続ける。",
     "blank": {
       "kanji": "続",
       "reading": "つづ",
@@ -18653,6 +18846,10 @@
       {
         "text": "勉強",
         "ruby": "べんきょう"
+      },
+      {
+        "text": "毎日",
+        "ruby": "まいにち"
       }
     ]
   },
@@ -19595,13 +19792,17 @@
     "chapter": 12,
     "topic": "地球",
     "type": "reading",
-    "sentence": "山腹を旅行した。",
+    "sentence": "山腹地方を旅行した。",
     "blank": {
       "kanji": "山腹",
       "reading": "さんぷく",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "地方",
+        "ruby": "ちほう"
+      },
       {
         "text": "旅行",
         "ruby": "りょこう"
@@ -19929,13 +20130,21 @@
     "chapter": 12,
     "topic": "地球",
     "type": "reading",
-    "sentence": "気候が変わることが問題になっている。",
+    "sentence": "地球の気候変動が問題になっている。",
     "blank": {
       "kanji": "気候",
       "reading": "きこう",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "地球",
+        "ruby": "ちきゅう"
+      },
+      {
+        "text": "変動",
+        "ruby": "へんどう"
+      },
       {
         "text": "問題",
         "ruby": "もんだい"
@@ -19946,7 +20155,7 @@
     "chapter": 12,
     "topic": "地球",
     "type": "reading",
-    "sentence": "天候が不順な日が続いている。",
+    "sentence": "天候不順の日が続いている。",
     "blank": {
       "kanji": "天候",
       "reading": "てんこう",
@@ -20009,13 +20218,17 @@
     "chapter": 12,
     "topic": "地球",
     "type": "reading",
-    "sentence": "温暖化が進んでいる。",
+    "sentence": "地球温暖化が進んでいる。",
     "blank": {
       "kanji": "温暖化",
       "reading": "おんだんか",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "地球",
+        "ruby": "ちきゅう"
+      },
       {
         "text": "進ん",
         "ruby": "すすん"
@@ -20629,13 +20842,17 @@
     "chapter": 12,
     "topic": "地球",
     "type": "reading",
-    "sentence": "列島は南北に長い。",
+    "sentence": "日本列島は南北に長い。",
     "blank": {
       "kanji": "列島",
       "reading": "れっとう",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "日本",
+        "ruby": "にっぽん"
+      },
       {
         "text": "南北",
         "ruby": "なんぼく"
@@ -20730,7 +20947,7 @@
     "chapter": 12,
     "topic": "地球",
     "type": "reading",
-    "sentence": "毎朝、港を走っている。",
+    "sentence": "毎朝港をランニングしている。",
     "blank": {
       "kanji": "港",
       "reading": "みなと",
@@ -22537,13 +22754,17 @@
     "chapter": 13,
     "topic": "旅行",
     "type": "reading",
-    "sentence": "この店は毎日、営業している。",
+    "sentence": "祭りは毎日営業している。",
     "blank": {
       "kanji": "毎日",
       "reading": "まいにち",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "祭り",
+        "ruby": "まつり"
+      },
       {
         "text": "営業",
         "ruby": "えいぎょう"
@@ -23403,7 +23624,7 @@
     "chapter": 14,
     "topic": "家",
     "type": "reading",
-    "sentence": "移植をする手術を受ける。",
+    "sentence": "移植手術を受ける。",
     "blank": {
       "kanji": "移植",
       "reading": "いしょく",
@@ -23812,7 +24033,7 @@
     "chapter": 14,
     "topic": "家",
     "type": "reading",
-    "sentence": "機械の構造を知る。",
+    "sentence": "機械の内部構造を知る。",
     "blank": {
       "kanji": "構造",
       "reading": "こうぞう",
@@ -23822,6 +24043,10 @@
       {
         "text": "機械",
         "ruby": "きかい"
+      },
+      {
+        "text": "内部",
+        "ruby": "ないぶ"
       },
       {
         "text": "知る",
@@ -24109,7 +24334,7 @@
     "chapter": 14,
     "topic": "家",
     "type": "reading",
-    "sentence": "建設の仕事をする会社で働く。",
+    "sentence": "建設会社で働く。",
     "blank": {
       "kanji": "建設",
       "reading": "けんせつ",
@@ -24272,7 +24497,7 @@
     "chapter": 14,
     "topic": "家",
     "type": "reading",
-    "sentence": "船は方向を北へ変えた。",
+    "sentence": "船は北方向へ変えた。",
     "blank": {
       "kanji": "方向",
       "reading": "ほうこう",
@@ -24595,7 +24820,7 @@
     "chapter": 15,
     "topic": "求職",
     "type": "reading",
-    "sentence": "前の仕事を辞めて、今は求職をしている。",
+    "sentence": "前の仕事を辞めて、今は求職中だ。",
     "blank": {
       "kanji": "求職",
       "reading": "きゅうしょく",
@@ -24617,6 +24842,10 @@
       {
         "text": "今",
         "ruby": "いま"
+      },
+      {
+        "text": "中",
+        "ruby": "ちゅう"
       }
     ]
   },
@@ -24624,7 +24853,7 @@
     "chapter": 15,
     "topic": "求職",
     "type": "reading",
-    "sentence": "ゆびわをなくして部屋中を探した。",
+    "sentence": "ゆびわをなくして部屋中探した。",
     "blank": {
       "kanji": "探",
       "reading": "さが",
@@ -24812,13 +25041,26 @@
     "chapter": 15,
     "topic": "マナー",
     "type": "reading",
-    "sentence": "その店の常連として通っている。",
+    "sentence": "年末年始も常連通りに表示する。",
     "blank": {
       "kanji": "常連",
       "reading": "じょうれん",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "年末年始",
+        "ruby": "ねんまつねんし"
+      },
+      {
+        "text": "通り",
+        "ruby": "どおり"
+      },
+      {
+        "text": "表示",
+        "ruby": "ひょうじ"
+      }
+    ]
   },
   {
     "chapter": 15,
@@ -24967,7 +25209,7 @@
     "chapter": 15,
     "topic": "マナー",
     "type": "reading",
-    "sentence": "彼は礼儀が正しく、まじめな学生だ。",
+    "sentence": "彼は礼儀正しく、まじめな学生だ。",
     "blank": {
       "kanji": "礼儀",
       "reading": "れいぎ",
@@ -25165,7 +25407,7 @@
     "chapter": 15,
     "topic": "仕事1",
     "type": "reading",
-    "sentence": "社員が使う食堂で昼食をとる。",
+    "sentence": "社員食堂で昼食をとる。",
     "blank": {
       "kanji": "社員",
       "reading": "しゃいん",
@@ -25207,7 +25449,7 @@
     "chapter": 15,
     "topic": "仕事1",
     "type": "reading",
-    "sentence": "検査で器官にがんが見つかった。",
+    "sentence": "検査で消化器官にがんが見つかった。",
     "blank": {
       "kanji": "器官",
       "reading": "きかん",
@@ -25217,6 +25459,10 @@
       {
         "text": "検査",
         "ruby": "けんさ"
+      },
+      {
+        "text": "消化",
+        "ruby": "しょうか"
       },
       {
         "text": "見つかっ",
@@ -25308,7 +25554,7 @@
     "chapter": 15,
     "topic": "仕事1",
     "type": "reading",
-    "sentence": "官民が一体となって新薬開発に取り組む。",
+    "sentence": "官民一体となって新薬開発に取り組む。",
     "blank": {
       "kanji": "官民",
       "reading": "かんみん",
@@ -25884,7 +26130,7 @@
     "chapter": 15,
     "topic": "給料",
     "type": "reading",
-    "sentence": "給料をもらう日に欲しかった服を買った。",
+    "sentence": "給料日に欲しかった服を買った。",
     "blank": {
       "kanji": "給料",
       "reading": "きゅうりょう",
@@ -26316,13 +26562,17 @@
     "chapter": 16,
     "topic": "会議1",
     "type": "reading",
-    "sentence": "違反をして、お金をはらう。",
+    "sentence": "交通違反をして、お金をはらう。",
     "blank": {
       "kanji": "違反",
       "reading": "いはん",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "交通",
+        "ruby": "こうつう"
+      },
       {
         "text": "お金",
         "ruby": "おかね"
@@ -26354,13 +26604,17 @@
     "chapter": 16,
     "topic": "会議1",
     "type": "reading",
-    "sentence": "会議の議事を作成する。",
+    "sentence": "議事題を作成する。",
     "blank": {
       "kanji": "議事",
       "reading": "ぎじ",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "題",
+        "ruby": "だい"
+      },
       {
         "text": "作成",
         "ruby": "さくせい"
@@ -26947,7 +27201,7 @@
     "chapter": 16,
     "topic": "会議3",
     "type": "reading",
-    "sentence": "裁判で判決を受けた。",
+    "sentence": "裁判で有罪判決を受けた。",
     "blank": {
       "kanji": "判決",
       "reading": "はんけつ",
@@ -26957,6 +27211,10 @@
       {
         "text": "裁判",
         "ruby": "さいばん"
+      },
+      {
+        "text": "有罪",
+        "ruby": "ゆうざい"
       },
       {
         "text": "受け",
@@ -27127,13 +27385,22 @@
     "chapter": 16,
     "topic": "会議3",
     "type": "reading",
-    "sentence": "雨が降る確率は50%だそうだ。",
+    "sentence": "今日の降水確率は50%だそうだ。",
     "blank": {
       "kanji": "確率",
       "reading": "かくりつ",
       "okurigana": ""
     },
-    "rubies": []
+    "rubies": [
+      {
+        "text": "今日",
+        "ruby": "きょう"
+      },
+      {
+        "text": "降水",
+        "ruby": "こうすい"
+      }
+    ]
   },
   {
     "chapter": 16,
@@ -27417,7 +27684,7 @@
     "chapter": 16,
     "topic": "会議4",
     "type": "reading",
-    "sentence": "かぜで３日間、連続して休んでしまった。",
+    "sentence": "かぜで３日間連続して休んでしまった。",
     "blank": {
       "kanji": "連続",
       "reading": "れんぞく",
@@ -27450,7 +27717,7 @@
     "chapter": 16,
     "topic": "会議4",
     "type": "reading",
-    "sentence": "ここは山の中なので連絡の手段がない。",
+    "sentence": "ここは山の中なのでで連絡手段がない。",
     "blank": {
       "kanji": "連絡",
       "reading": "れんらく",
@@ -27974,7 +28241,7 @@
     "chapter": 17,
     "topic": "経営者",
     "type": "reading",
-    "sentence": "カスピ海は最大の湖だ。",
+    "sentence": "カスピ海は世界最大の湖だ。",
     "blank": {
       "kanji": "最大",
       "reading": "さいだい",
@@ -27984,6 +28251,10 @@
       {
         "text": "カスピ海",
         "ruby": "かすぴかい"
+      },
+      {
+        "text": "世界",
+        "ruby": "せかい"
       },
       {
         "text": "湖",
@@ -28476,7 +28747,7 @@
     "chapter": 17,
     "topic": "世代",
     "type": "reading",
-    "sentence": "会社にもどり次第、連絡してください。",
+    "sentence": "会社にもどり次第連絡してください。",
     "blank": {
       "kanji": "次第",
       "reading": "しだい",
@@ -28539,7 +28810,7 @@
     "chapter": 17,
     "topic": "世代",
     "type": "reading",
-    "sentence": "その地方の方言の話を聞いた。",
+    "sentence": "そのほうの地方方言の話を聞いた。",
     "blank": {
       "kanji": "地方",
       "reading": "ちほう",
@@ -28796,7 +29067,7 @@
     "chapter": 17,
     "topic": "予算",
     "type": "reading",
-    "sentence": "大学院で消費者の行動を研究する。",
+    "sentence": "大学院で消費者行動を研究する。",
     "blank": {
       "kanji": "消費者",
       "reading": "しょうひしゃ",
@@ -29591,7 +29862,7 @@
     "chapter": 17,
     "topic": "貿易",
     "type": "reading",
-    "sentence": "大学卒業後は貿易の会社で働きたい。",
+    "sentence": "大学卒業後は貿易会社で働きたい。",
     "blank": {
       "kanji": "貿易",
       "reading": "ぼうえき",
@@ -29979,7 +30250,7 @@
     "chapter": 18,
     "topic": "単位1",
     "type": "reading",
-    "sentence": "出された料理を全部、食べてしまった。",
+    "sentence": "出された料理を全部食べてしまった。",
     "blank": {
       "kanji": "全部",
       "reading": "ぜんぶ",
@@ -30004,13 +30275,17 @@
     "chapter": 18,
     "topic": "単位1",
     "type": "reading",
-    "sentence": "それ以後、日本の近代化が進んだ。",
+    "sentence": "明治以後、日本の近代化が進んだ。",
     "blank": {
       "kanji": "以後",
       "reading": "いご",
       "okurigana": ""
     },
     "rubies": [
+      {
+        "text": "明治",
+        "ruby": "めいじ"
+      },
       {
         "text": "日本",
         "ruby": "にっぽん"
@@ -30088,7 +30363,7 @@
     "chapter": 18,
     "topic": "単位1",
     "type": "reading",
-    "sentence": "テストの点が平均より以下だった。",
+    "sentence": "テストの点が平均以下だった。",
     "blank": {
       "kanji": "以下",
       "reading": "いか",

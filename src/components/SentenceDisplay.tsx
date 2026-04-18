@@ -139,7 +139,7 @@ export default function SentenceDisplay({
             </span>
             <rp>(</rp>
             <rt className="pt-1 text-[11px] font-black text-black">
-              {showReadingReveal ? readingRevealText : "？"}
+              {showReadingReveal ? readingRevealText : ""}
             </rt>
             <rp>)</rp>
           </ruby>
