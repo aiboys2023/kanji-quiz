@@ -36,6 +36,7 @@ export default function ChapterSelect({
               <button
                 type="button"
                 onClick={() => onToggle(ch)}
+                aria-pressed={on}
                 className={`w-full text-left retro-btn rounded-xl px-4 py-3 min-h-12 flex justify-between items-center gap-2 text-[1.05rem] font-bold ${
                   on ? "bg-green text-white" : "bg-white"
                 }`}

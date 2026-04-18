@@ -27,6 +27,12 @@ export default function KanjiChoices({
   const list = choices.slice(0, 4);
   while (list.length < 4) list.push("");
 
+  const liveMsg = revealed
+    ? (selected ?? "") === correctKanji
+      ? "せいかいです"
+      : "ふせいかい。せいかいは表示されています"
+    : "";
+
   return (
     <div
       className={cn(
@@ -36,6 +42,9 @@ export default function KanjiChoices({
       role="group"
       aria-label="漢字の選択肢"
     >
+      <span className="sr-only" aria-live="polite">
+        {liveMsg}
+      </span>
       {list.map((kanji, i) => {
         const isCorrect = kanji === correctKanji;
         const isWrongPick = revealed && selected === kanji && !isCorrect;

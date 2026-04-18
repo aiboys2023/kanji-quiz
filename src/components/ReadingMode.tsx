@@ -1,5 +1,6 @@
 "use client";
 
+/* eslint-disable react-hooks/set-state-in-effect -- reset local state when question/timer changes */
 import { useState, useRef, useEffect } from "react";
 import type { Question } from "@/data/questions";
 import SentenceDisplay from "./SentenceDisplay";
@@ -10,12 +11,15 @@ interface Props {
   onComplete: (correct: number, total: number) => void;
   /** タイムアップのたびに親がインクリメント → 不正解扱い */
   timerPulse?: number;
+  /** 正誤が確定したとき（マスコット演出用） */
+  onFeedback?: (correct: boolean) => void;
 }
 
 export default function ReadingMode({
   question,
   onComplete,
   timerPulse = 0,
+  onFeedback,
 }: Props) {
   const [answer, setAnswer] = useState("");
   const [result, setResult] = useState<boolean | null>(null);
@@ -35,6 +39,10 @@ export default function ReadingMode({
     lastPulseForQuestion.current = timerPulse;
     setResult(false);
   }, [timerPulse, result]);
+
+  useEffect(() => {
+    if (result !== null) onFeedback?.(result);
+  }, [result, onFeedback]);
 
   const handleSubmit = () => {
     setResult(answer.trim() === question.blank.reading);

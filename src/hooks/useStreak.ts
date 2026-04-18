@@ -35,5 +35,10 @@ export function useStreak() {
     setMaxStreak(0);
   }, []);
 
-  return { streak, maxStreak, recordCorrect, recordWrong, reset };
+  const hydrate = useCallback((nextStreak: number, nextMax: number) => {
+    setStreak(nextStreak);
+    setMaxStreak(nextMax);
+  }, []);
+
+  return { streak, maxStreak, recordCorrect, recordWrong, reset, hydrate };
 }

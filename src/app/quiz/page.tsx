@@ -1,5 +1,6 @@
 "use client";
 
+/* eslint-disable react-hooks/set-state-in-effect -- sessionStorage restore & quiz bootstrap */
 import {
   Suspense,
   useCallback,
@@ -10,6 +11,8 @@ import {
 } from "react";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
+import CatMascot, { type CatMood } from "@/components/CatMascot";
+import Confetti from "@/components/Confetti";
 import KanjiMode from "@/components/KanjiMode";
 import ReadingMode from "@/components/ReadingMode";
 import StreakCounter from "@/components/StreakCounter";
@@ -27,7 +30,11 @@ import {
 import {
   LAST_QUIZ_HREF_KEY,
   REVIEW_KEYS_KEY,
+  clearQuizProgress,
+  loadQuizProgress,
+  saveQuizProgress,
   saveQuizResult,
+  type QuizProgressSnapshot,
   type QuizSessionSummary,
 } from "@/lib/quizSession";
 import { shuffle } from "@/lib/shuffle";
@@ -64,6 +71,17 @@ function QuizInner() {
   const [dailyQuestions, setDailyQuestions] = useState<
     typeof ALL_QUESTIONS | null
   >(null);
+
+  const [quizQuestions, setQuizQuestions] = useState<typeof ALL_QUESTIONS | null>(
+    null
+  );
+  const [restoreSnap, setRestoreSnap] = useState<QuizProgressSnapshot | null>(
+    null
+  );
+
+  const [catMood, setCatMood] = useState<CatMood>("thinking");
+  const [confettiBurst, setConfettiBurst] = useState(false);
+  const confettiTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   useEffect(() => {
     if (!isReview) {
@@ -102,19 +120,40 @@ function QuizInner() {
     return nums.length ? nums : Array.from({ length: 18 }, (_, i) => i + 1);
   }, [searchParams]);
 
-  const quizQuestions = useMemo(() => {
+  useEffect(() => {
+    if (isReview && reviewQuestions === null) return;
+    if (isDaily && dailyQuestions === null) return;
+
+    let normal: typeof ALL_QUESTIONS;
     if (isDaily) {
-      if (dailyQuestions === null) return [];
-      return dailyQuestions;
+      normal = dailyQuestions!;
+    } else if (isReview) {
+      normal = reviewQuestions!;
+    } else {
+      let pool = filterByChapters(questionsByMode(mode), selectedChapters);
+      pool = shuffle(pool);
+      const n = count === "all" ? pool.length : Math.min(count, pool.length);
+      normal = pool.slice(0, n);
     }
-    if (isReview) {
-      if (reviewQuestions === null) return [];
-      return reviewQuestions;
+
+    try {
+      const prog = loadQuizProgress();
+      if (prog && prog.spec === spec && prog.questionKeys?.length) {
+        const keyToQ = new Map(ALL_QUESTIONS.map((q) => [questionKey(q), q]));
+        const recon = prog.questionKeys
+          .map((k) => keyToQ.get(k))
+          .filter(Boolean) as typeof ALL_QUESTIONS;
+        if (recon.length === prog.questionKeys.length) {
+          setQuizQuestions(recon);
+          setRestoreSnap(prog);
+          return;
+        }
+      }
+    } catch {
+      /* ignore */
     }
-    let pool = filterByChapters(questionsByMode(mode), selectedChapters);
-    pool = shuffle(pool);
-    const n = count === "all" ? pool.length : Math.min(count, pool.length);
-    return pool.slice(0, n);
+    setQuizQuestions(normal);
+    setRestoreSnap(null);
   }, [
     spec,
     mode,
@@ -126,6 +165,11 @@ function QuizInner() {
     dailyQuestions,
   ]);
 
+  const stableQuestions = useMemo(
+    () => quizQuestions ?? [],
+    [quizQuestions]
+  );
+
   const {
     questions,
     currentIndex,
@@ -136,7 +180,53 @@ function QuizInner() {
     finished,
     byChapter,
     handleAnswer,
-  } = useQuiz(quizQuestions);
+  } = useQuiz(stableQuestions, { restore: restoreSnap });
+
+  useEffect(() => {
+    setCatMood("thinking");
+    setConfettiBurst(false);
+    if (confettiTimerRef.current) {
+      clearTimeout(confettiTimerRef.current);
+      confettiTimerRef.current = null;
+    }
+  }, [currentIndex]);
+
+  useEffect(() => {
+    if (quizQuestions === null || finished || quizQuestions.length === 0) return;
+    saveQuizProgress({
+      spec,
+      questionKeys: questions.map((q) => questionKey(q)),
+      currentIndex,
+      score,
+      results,
+      streak,
+      maxStreak,
+      byChapter,
+    });
+  }, [
+    quizQuestions,
+    finished,
+    spec,
+    questions,
+    currentIndex,
+    score,
+    results,
+    streak,
+    maxStreak,
+    byChapter,
+  ]);
+
+  const handleQuizFeedback = useCallback((correct: boolean) => {
+    setCatMood(correct ? "excited" : "encourage");
+    if (correct) {
+      setConfettiBurst(true);
+      if (confettiTimerRef.current) clearTimeout(confettiTimerRef.current);
+      confettiTimerRef.current = setTimeout(() => {
+        setConfettiBurst(false);
+        confettiTimerRef.current = null;
+      }, 2400);
+    }
+  }, []);
 
   const current = questions[currentIndex];
   const total = questions.length;
@@ -161,6 +251,7 @@ function QuizInner() {
 
   useEffect(() => {
     if (!finished) return;
+    clearQuizProgress();
     const wrongQuestionKeys = questions
       .filter((_, i) => results[i] === false)
       .map((q) => questionKey(q));
@@ -198,7 +289,6 @@ function QuizInner() {
     recordToday,
   ]);
 
-
   const handleExpire = useCallback(() => {
     setTimerPulse((p) => p + 1);
   }, []);
@@ -210,7 +300,7 @@ function QuizInner() {
   });
 
   const onComplete = useCallback(
-    (correct: number, _total: number) => {
+    (correct: number) => {
       if (!current) return;
       const key = `${currentIndex}:${questionKey(current)}`;
       if (answeredRef.current === key) return;
@@ -220,7 +310,7 @@ function QuizInner() {
     [current, currentIndex, handleAnswer]
   );
 
-  if ((isReview && reviewQuestions === null) || (isDaily && dailyQuestions === null)) {
+  if ((isReview && reviewQuestions === null) || (isDaily && dailyQuestions === null) || quizQuestions === null) {
     return (
       <div className="flex min-h-[40vh] items-center justify-center text-[1.1rem] font-bold">
         よみこみ中…
@@ -252,6 +342,11 @@ function QuizInner() {
 
   return (
     <main className="relative mx-auto flex min-h-full w-full max-w-2xl flex-1 flex-col px-4 py-6">
+      <Confetti active={confettiBurst} loop={false} />
+      <div className="pointer-events-none absolute right-2 top-4 z-20 md:right-6">
+        <CatMascot mood={catMood} size={120} className="drop-shadow-md" />
+      </div>
+
       <div className="relative z-10 mb-4 flex flex-wrap items-center gap-2">
         <Link
           href="/"
@@ -297,12 +392,14 @@ function QuizInner() {
           question={current}
           onComplete={onComplete}
           timerPulse={timerOn ? timerPulse : 0}
+          onFeedback={handleQuizFeedback}
         />
       ) : (
         <KanjiMode
           question={current}
           onComplete={onComplete}
           timerPulse={timerOn ? timerPulse : 0}
+          onFeedback={handleQuizFeedback}
         />
       )}
     </main>

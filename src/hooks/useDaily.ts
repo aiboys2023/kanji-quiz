@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { getDailyQuestions } from "@/data/questions";
 
 const STORAGE_KEY = "kanji-quiz-daily";
@@ -44,20 +44,35 @@ export function useDaily() {
   }, []);
 
   const recordToday = useCallback((score: number, total: number) => {
+    if (typeof window === "undefined") return;
     const key = dateKey(new Date());
-    setCalendar((prev) => {
-      const next = {
-        ...prev,
-        [key]: { score, total, at: new Date().toISOString() },
-      };
-      saveCalendar(next);
-      return next;
-    });
+    const prev = loadCalendar();
+    const next = {
+      ...prev,
+      [key]: { score, total, at: new Date().toISOString() },
+    };
+    saveCalendar(next);
+    setCalendar(next);
   }, []);
 
-  const todayKey = useMemo(() => dateKey(new Date()), []);
+  const [todayKey, setTodayKey] = useState(() => dateKey(new Date()));
+
+  useEffect(() => {
+    const tick = () => setTodayKey(dateKey(new Date()));
+    tick();
+    const id = setInterval(tick, 60_000);
+    const onVis = () => {
+      if (document.visibilityState === "visible") tick();
+    };
+    document.addEventListener("visibilitychange", onVis);
+    return () => {
+      clearInterval(id);
+      document.removeEventListener("visibilitychange", onVis);
+    };
+  }, []);
 
   const todaysQuestions = useMemo(() => {
+    void todayKey;
     return getDailyQuestions(new Date());
   }, [todayKey]);
 

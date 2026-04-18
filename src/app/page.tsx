@@ -1,9 +1,13 @@
 import Link from "next/link";
+import CatMascot from "@/components/CatMascot";
 
 export default function HomePage() {
   return (
     <main className="flex min-h-full flex-1 flex-col items-center justify-center px-4 py-10">
       <div className="flex w-full max-w-md flex-col items-center gap-8 text-center">
+        <div className="flex justify-center">
+          <CatMascot mood="wave" size={160} className="drop-shadow-md" />
+        </div>
         <div className="sticker w-full max-w-sm rounded-3xl bg-pink px-6 py-6">
           <h1 className="text-[1.75rem] font-black tracking-wide text-white md:text-[2rem]">
             漢字クイズ N3

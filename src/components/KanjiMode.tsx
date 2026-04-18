@@ -1,5 +1,6 @@
 "use client";
 
+/* eslint-disable react-hooks/set-state-in-effect -- reset local state when question/timer changes */
 import { useState, useEffect, useMemo, useRef } from "react";
 import {
   ALL_QUESTIONS,
@@ -13,12 +14,14 @@ interface Props {
   question: Question;
   onComplete: (correct: number, total: number) => void;
   timerPulse?: number;
+  onFeedback?: (correct: boolean) => void;
 }
 
 export default function KanjiMode({
   question,
   onComplete,
   timerPulse = 0,
+  onFeedback,
 }: Props) {
   const choices = useMemo(
     () => getChoicesForKanjiMode(question, ALL_QUESTIONS),
@@ -41,6 +44,11 @@ export default function KanjiMode({
     setSelected("");
     setRevealed(true);
   }, [timerPulse, revealed]);
+
+  useEffect(() => {
+    if (!revealed) return;
+    onFeedback?.(selected === question.blank.kanji);
+  }, [revealed, selected, onFeedback, question.blank.kanji]);
 
   const handlePick = (kanji: string) => {
     if (revealed) return;

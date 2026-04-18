@@ -1,5 +1,6 @@
 "use client";
 
+/* eslint-disable react-hooks/set-state-in-effect -- countdown timer sync */
 import { useEffect, useRef, useState } from "react";
 
 const DEFAULT_SEC = 15;
@@ -14,7 +15,10 @@ export function useTimer(options: {
   const [remaining, setRemaining] = useState(seconds);
   const expiredRef = useRef(false);
   const cbRef = useRef(onExpire);
-  cbRef.current = onExpire;
+
+  useEffect(() => {
+    cbRef.current = onExpire;
+  }, [onExpire]);
 
   useEffect(() => {
     expiredRef.current = false;

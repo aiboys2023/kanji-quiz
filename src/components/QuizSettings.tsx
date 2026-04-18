@@ -38,6 +38,7 @@ export default function QuizSettings({
             >
               <input
                 type="radio"
+                name="quiz-count"
                 className="sr-only"
                 checked={count === o.value}
                 onChange={() => onCount(o.value)}
@@ -61,6 +62,7 @@ export default function QuizSettings({
           >
             <input
               type="radio"
+              name="quiz-timer"
               className="sr-only"
               checked={timerOn}
               onChange={() => onTimer(true)}
@@ -74,6 +76,7 @@ export default function QuizSettings({
           >
             <input
               type="radio"
+              name="quiz-timer"
               className="sr-only"
               checked={!timerOn}
               onChange={() => onTimer(false)}

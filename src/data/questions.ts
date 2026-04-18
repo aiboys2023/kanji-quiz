@@ -27,6 +27,29 @@ export function questionKey(q: Question): string {
 
 export const ALL_QUESTIONS = rawQuestions as Question[];
 
+/** 4択生成の事前インデックス（章・トピック・読み） */
+const QUESTIONS_BY_CHAPTER = new Map<number, Question[]>();
+const QUESTIONS_BY_TOPIC = new Map<string, Question[]>();
+const QUESTIONS_BY_READING = new Map<string, Question[]>();
+
+for (const q of ALL_QUESTIONS) {
+  if (!QUESTIONS_BY_CHAPTER.has(q.chapter)) {
+    QUESTIONS_BY_CHAPTER.set(q.chapter, []);
+  }
+  QUESTIONS_BY_CHAPTER.get(q.chapter)!.push(q);
+
+  if (!QUESTIONS_BY_TOPIC.has(q.topic)) {
+    QUESTIONS_BY_TOPIC.set(q.topic, []);
+  }
+  QUESTIONS_BY_TOPIC.get(q.topic)!.push(q);
+
+  const rd = q.blank.reading;
+  if (!QUESTIONS_BY_READING.has(rd)) {
+    QUESTIONS_BY_READING.set(rd, []);
+  }
+  QUESTIONS_BY_READING.get(rd)!.push(q);
+}
+
 /** 章番号 → 短い章名（UI用） */
 export const CHAPTER_INFO: { chapter: number; name: string }[] = [
   { chapter: 1, name: "生活" },
@@ -54,16 +77,12 @@ export function getQuestionsByChapter(chapters: number[]): Question[] {
   return ALL_QUESTIONS.filter((q) => set.has(q.chapter));
 }
 
-function distinctWrongKanjiInChapter(
-  question: Question,
-  allQuestions: Question[]
-): string[] {
+function distinctWrongKanjiFromPool(question: Question, pool: Question[]): string[] {
   const correct = question.blank.kanji;
   const selfKey = questionKey(question);
   const out: string[] = [];
   const seen = new Set<string>();
-  for (const q of allQuestions) {
-    if (q.chapter !== question.chapter) continue;
+  for (const q of pool) {
     if (questionKey(q) === selfKey) continue;
     const k = q.blank.kanji;
     if (k === correct) continue;
@@ -74,49 +93,41 @@ function distinctWrongKanjiInChapter(
   return out;
 }
 
+function distinctWrongKanjiInChapter(question: Question): string[] {
+  return distinctWrongKanjiFromPool(
+    question,
+    QUESTIONS_BY_CHAPTER.get(question.chapter) ?? []
+  );
+}
+
+function distinctWrongKanjiInTopic(question: Question): string[] {
+  return distinctWrongKanjiFromPool(
+    question,
+    QUESTIONS_BY_TOPIC.get(question.topic) ?? []
+  );
+}
+
+function distinctWrongKanjiSameReading(question: Question): string[] {
+  return distinctWrongKanjiFromPool(
+    question,
+    QUESTIONS_BY_READING.get(question.blank.reading) ?? []
+  );
+}
+
 /**
- * 紛らわしい漢字を優先した4択生成
- * 優先順: 1) 同じ読みの別漢字 2) 同じトピックの漢字 3) 同じ章の漢字 4) 他章
+ * 紛らわしい漢字を優先した4択生成（SPEC）
+ * 優先順: 1) 同章の他blank.kanjiユニーク 2) 同topic 3) 同reading 4) 全体
  */
 export function getChoicesForKanjiMode(
   question: Question,
-  allQuestions: Question[],
+  _allQuestions: Question[],
   random: () => number = Math.random
 ): string[] {
   const correct = question.blank.kanji;
-  const correctReading = question.blank.reading;
   const seen = new Set<string>([correct]);
   const wrong: string[] = [];
 
-  // Priority 1: 同じ読みの別漢字（最も紛らわしい）
-  const sameReading = allQuestions.filter(
-    (q) => q.blank.reading === correctReading && q.blank.kanji !== correct
-  );
-  for (const q of shuffle(sameReading, random)) {
-    if (wrong.length >= 3) break;
-    if (!seen.has(q.blank.kanji)) {
-      seen.add(q.blank.kanji);
-      wrong.push(q.blank.kanji);
-    }
-  }
-
-  // Priority 2: 同じトピックの漢字
-  if (wrong.length < 3) {
-    const sameTopic = allQuestions.filter(
-      (q) => q.topic === question.topic && q.blank.kanji !== correct
-    );
-    for (const q of shuffle(sameTopic, random)) {
-      if (wrong.length >= 3) break;
-      if (!seen.has(q.blank.kanji)) {
-        seen.add(q.blank.kanji);
-        wrong.push(q.blank.kanji);
-      }
-    }
-  }
-
-  // Priority 3: 同じ章の漢字
-  if (wrong.length < 3) {
-    const pool = distinctWrongKanjiInChapter(question, allQuestions);
+  const addFromPool = (pool: string[]) => {
     for (const k of shuffle(pool, random)) {
       if (wrong.length >= 3) break;
       if (!seen.has(k)) {
@@ -124,11 +135,20 @@ export function getChoicesForKanjiMode(
         wrong.push(k);
       }
     }
+  };
+
+  addFromPool(distinctWrongKanjiInChapter(question));
+
+  if (wrong.length < 3) {
+    addFromPool(distinctWrongKanjiInTopic(question));
   }
 
-  // Priority 4: 他章から補完
   if (wrong.length < 3) {
-    const rest = shuffle(allQuestions, random);
+    addFromPool(distinctWrongKanjiSameReading(question));
+  }
+
+  if (wrong.length < 3) {
+    const rest = shuffle(ALL_QUESTIONS, random);
     for (const q of rest) {
       if (wrong.length >= 3) break;
       const k = q.blank.kanji;
@@ -140,6 +160,7 @@ export function getChoicesForKanjiMode(
   return shuffle([correct, ...wrong.slice(0, 3)], random);
 }
 
+/** 後方互換: sentence 内の出題箇所（簡易検索） */
 export function findBlankPosition(
   sentence: string,
   kanji: string

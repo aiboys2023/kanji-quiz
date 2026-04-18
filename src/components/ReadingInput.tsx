@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useCallback, type KeyboardEvent } from "react";
+import { useCallback, useRef, useState, type KeyboardEvent } from "react";
 import { cn } from "@/lib/cn";
 
 interface ReadingInputProps {
@@ -32,11 +32,14 @@ export default function ReadingInput({
   inputRef: inputRefProp,
 }: ReadingInputProps) {
   const [isComposing, setIsComposing] = useState(false);
+  const ignoreEnterAfterCompositionRef = useRef(false);
 
   const handleKeyDown = useCallback(
     (e: KeyboardEvent<HTMLInputElement>) => {
       if (e.key !== "Enter") return;
+      if ((e as unknown as { keyCode?: number }).keyCode === 229) return;
       if (isComposing || e.nativeEvent.isComposing) return;
+      if (ignoreEnterAfterCompositionRef.current) return;
       e.preventDefault();
       if (!disabled) onSubmit();
     },
@@ -50,6 +53,13 @@ export default function ReadingInput({
         ? "bg-green/20 border-green"
         : "bg-red/20 border-red";
 
+  const liveMessage =
+    result === null
+      ? ""
+      : result
+        ? "せいかいです"
+        : `ふせいかい。せいかいは ${correctReading ?? ""}`;
+
   return (
     <div className={cn("flex flex-wrap items-center gap-2", className)}>
       <input
@@ -61,7 +71,13 @@ export default function ReadingInput({
         value={value}
         onChange={(e) => onChange(e.target.value)}
         onCompositionStart={() => setIsComposing(true)}
-        onCompositionEnd={() => setIsComposing(false)}
+        onCompositionEnd={() => {
+          setIsComposing(false);
+          ignoreEnterAfterCompositionRef.current = true;
+          window.setTimeout(() => {
+            ignoreEnterAfterCompositionRef.current = false;
+          }, 0);
+        }}
         onKeyDown={handleKeyDown}
         disabled={disabled}
         placeholder={placeholder}
@@ -72,6 +88,9 @@ export default function ReadingInput({
           inputClassName
         )}
       />
+      <span className="sr-only" aria-live="polite">
+        {liveMessage}
+      </span>
       {result !== null && !result && correctReading !== undefined && (
         <span className="sticker-sm rounded-lg bg-red px-2 py-1 text-sm font-bold text-white shrink-0">
           {correctReading}

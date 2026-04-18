@@ -1,9 +1,10 @@
 "use client";
 
+/* eslint-disable react-hooks/set-state-in-effect -- sync quiz state from props / restore snapshot */
 import { useCallback, useEffect, useState } from "react";
 import type { Question } from "@/data/questions";
 import { questionKey } from "@/data/questions";
-import type { ChapterStat } from "@/lib/quizSession";
+import type { ChapterStat, QuizProgressSnapshot } from "@/lib/quizSession";
 import { useStreak } from "./useStreak";
 
 function emptyChapterStats(): Record<number, ChapterStat> {
@@ -16,8 +17,12 @@ function emptyChapterStats(): Record<number, ChapterStat> {
 
 export type { ChapterStat };
 
-export function useQuiz(initialQuestions: Question[]) {
-  const [questions, setQuestions] = useState<Question[]>(initialQuestions);
+export function useQuiz(
+  initialQuestions: Question[],
+  opts?: { restore: QuizProgressSnapshot | null }
+) {
+  const { restore } = opts ?? {};
+  const questions = initialQuestions;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [score, setScore] = useState(0);
   const [results, setResults] = useState<boolean[]>([]);
@@ -31,17 +36,41 @@ export function useQuiz(initialQuestions: Question[]) {
     recordCorrect,
     recordWrong,
     reset: resetStreak,
+    hydrate: hydrateStreak,
   } = useStreak();
 
   useEffect(() => {
-    setQuestions(initialQuestions);
-    setCurrentIndex(0);
-    setScore(0);
-    setResults([]);
-    setFinished(false);
-    setByChapter(emptyChapterStats());
-    resetStreak();
-  }, [initialQuestions, resetStreak]);
+    if (initialQuestions.length === 0) {
+      setCurrentIndex(0);
+      setScore(0);
+      setResults([]);
+      setFinished(false);
+      setByChapter(emptyChapterStats());
+      resetStreak();
+      return;
+    }
+
+    if (restore) {
+      setCurrentIndex(
+        Math.min(restore.currentIndex, initialQuestions.length)
+      );
+      setScore(restore.score);
+      setResults(restore.results.slice(0, initialQuestions.length));
+      setByChapter({ ...emptyChapterStats(), ...restore.byChapter });
+      hydrateStreak(restore.streak, restore.maxStreak);
+      const done =
+        restore.currentIndex >= initialQuestions.length &&
+        restore.results.length >= initialQuestions.length;
+      setFinished(done);
+    } else {
+      setCurrentIndex(0);
+      setScore(0);
+      setResults([]);
+      setFinished(false);
+      setByChapter(emptyChapterStats());
+      resetStreak();
+    }
+  }, [initialQuestions, restore, resetStreak, hydrateStreak]);
 
   const handleAnswer = useCallback(
     (correct: boolean) => {
@@ -110,4 +139,3 @@ export function useQuiz(initialQuestions: Question[]) {
     wrongQuestionKeys,
   };
 }
-

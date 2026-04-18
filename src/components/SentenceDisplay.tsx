@@ -1,52 +1,81 @@
 "use client";
 
-import type { Question } from "@/data/questions";
+import type { ReactNode } from "react";
+import type { Question, Ruby } from "@/data/questions";
+import { resolveBlankSpan } from "@/lib/blankSpan";
 
 interface Props {
   question: Question;
   mode: "reading" | "kanji";
 }
 
-function blankSpan(sentence: string, question: Props["question"]) {
-  const { blank, type } = question;
-  if (type === "reading") {
-    let s = sentence.indexOf(blank.kanji);
-    if (s >= 0) return { start: s, end: s + blank.kanji.length };
-    s = sentence.indexOf(blank.reading);
-    if (s >= 0) return { start: s, end: s + blank.reading.length };
-  } else {
-    let s = sentence.indexOf(blank.reading);
-    if (s >= 0) return { start: s, end: s + blank.reading.length };
-    s = sentence.indexOf(blank.kanji);
-    if (s >= 0) return { start: s, end: s + blank.kanji.length };
+function collectRubySegments(
+  sentence: string,
+  rubies: Ruby[],
+  blankStart: number,
+  blankEnd: number
+): { type: "ruby"; text: string; ruby: string; start: number; end: number }[] {
+  const out: {
+    type: "ruby";
+    text: string;
+    ruby: string;
+    start: number;
+    end: number;
+  }[] = [];
+  let cursor = 0;
+  let r = 0;
+  while (cursor < sentence.length) {
+    if (cursor === blankStart) {
+      cursor = blankEnd;
+      continue;
+    }
+    if (r < rubies.length && sentence.startsWith(rubies[r].text, cursor)) {
+      out.push({
+        type: "ruby",
+        text: rubies[r].text,
+        ruby: rubies[r].ruby,
+        start: cursor,
+        end: cursor + rubies[r].text.length,
+      });
+      cursor += rubies[r].text.length;
+      r++;
+      continue;
+    }
+    if (r < rubies.length) {
+      console.warn(
+        `[SentenceDisplay] ruby sequence mismatch at ${cursor}: expected "${rubies[r]?.text}"`,
+        { sentence: sentence.slice(0, 80) }
+      );
+    }
+    cursor++;
   }
-  return { start: -1, end: -1 };
+  if (r !== rubies.length) {
+    console.warn(
+      `[SentenceDisplay] rubies not fully consumed: ${r}/${rubies.length}`
+    );
+  }
+  return out;
 }
+
+type Segment =
+  | { type: "ruby"; text: string; ruby: string; start: number; end: number }
+  | { type: "blank"; start: number; end: number };
 
 export default function SentenceDisplay({ question, mode }: Props) {
   const { sentence, blank, rubies } = question;
 
-  const { start: blankStart, end: blankEnd } = blankSpan(sentence, question);
+  const { start: blankStart, end: blankEnd } = resolveBlankSpan(question);
 
-  type Segment =
-    | { type: "ruby"; text: string; ruby: string; start: number; end: number }
-    | { type: "blank"; start: number; end: number };
-
-  const rubySegs: Segment[] = [];
-  for (const r of rubies) {
-    const pos = sentence.indexOf(r.text);
-    if (pos === -1) continue;
-    const end = pos + r.text.length;
-    if (blankStart >= 0 && pos < blankEnd && end > blankStart) continue;
-    rubySegs.push({ type: "ruby", text: r.text, ruby: r.ruby, start: pos, end });
-  }
+  const rubySegs = collectRubySegments(sentence, rubies, blankStart, blankEnd);
 
   const segments: Segment[] = [
     ...rubySegs,
-    ...(blankStart >= 0 ? [{ type: "blank" as const, start: blankStart, end: blankEnd }] : []),
+    ...(blankStart >= 0
+      ? [{ type: "blank" as const, start: blankStart, end: blankEnd }]
+      : []),
   ].sort((a, b) => a.start - b.start);
 
-  const parts: React.ReactNode[] = [];
+  const parts: ReactNode[] = [];
   let cursor = 0;
 
   for (let i = 0; i < segments.length; i++) {
@@ -64,7 +93,8 @@ export default function SentenceDisplay({ question, mode }: Props) {
         </ruby>
       );
     } else {
-      const highlight = mode === "reading" ? "bg-orange text-white" : "bg-blue text-white";
+      const highlight =
+        mode === "reading" ? "bg-orange text-white" : "bg-blue text-white";
       const label = mode === "reading" ? blank.kanji : blank.reading;
       parts.push(
         <span
