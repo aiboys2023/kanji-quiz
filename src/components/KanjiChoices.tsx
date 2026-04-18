@@ -66,7 +66,7 @@ export default function KanjiChoices({
             disabled={disabled || !kanji}
             onClick={() => kanji && onSelect(kanji)}
             className={cn(
-              "relative min-h-24 rounded-2xl border-[3px] border-black py-5 text-[2.35rem] font-black text-black transition-colors md:min-h-[5.5rem]",
+              "relative min-h-24 rounded-2xl border-[3px] border-black py-5 text-[2.35rem] font-black text-black md:min-h-[5.5rem]",
               !revealed && base,
               showCorrect && "bg-[var(--pop-correct)] text-black",
               showWrong && "bg-[var(--pop-wrong)] text-black",
