@@ -14,9 +14,9 @@ interface KanjiChoicesProps {
 
 const ACCENT_BG = [
   "bg-[var(--pop-pink)]",
-  "bg-[var(--pop-sky)]",
-  "bg-[var(--pop-streak)]",
-  "bg-white",
+  "bg-[var(--pop-pink)]",
+  "bg-[var(--pop-pink)]",
+  "bg-[var(--pop-pink)]",
 ];
 
 /**
