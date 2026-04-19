@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "deny": [
+      "mcp__chatwork__*",
+      "mcp__notion__*",
+      "mcp__google-analytics-el__*",
+      "mcp__google-analytics-tabiken__*",
+      "mcp__meta-ads-el__*",
+      "mcp__meta-ads-tr__*",
+      "mcp__clarity-el__*",
+      "mcp__clarity-tr__*",
+      "mcp__google-search-console__*",
+      "Skill(tf-one-report)",
+      "Skill(tr-morning-report)",
+      "Skill(tf-channel-fix)",
+      "Skill(ryugaku-meeting-agenda)",
+      "Skill(tf-one-meeting-agenda)",
+      "Skill(gc-capacity)",
+      "Skill(el-morning-report)",
+      "Skill(el-meeting-agenda)",
+      "Skill(utm-params)",
+      "Skill(marketing-strategy)",
+      "Skill(channel-strategy)",
+      "Skill(weekly-analytics-report)",
+      "Skill(moro-review)",
+      "Skill(tokuma-review)",
+      "Skill(yomi-report)",
+      "Skill(project-summary)",
+      "Skill(seo-article-writer)",
+      "Skill(seo-optimizer)",
+      "Skill(asp-article-check)",
+      "Skill(asp-check)",
+      "Skill(daily-report)",
+      "Skill(morning-task)",
+      "Skill(morning-check)",
+      "Skill(reel-video)",
+      "Skill(reel-video-michael-kiyo)",
+      "Skill(reel-script)",
+      "Skill(notion-review-cycle)"
+    ]
+  }
+}
