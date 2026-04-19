@@ -36,7 +36,27 @@
       "Skill(reel-video)",
       "Skill(reel-video-michael-kiyo)",
       "Skill(reel-script)",
-      "Skill(notion-review-cycle)"
+      "Skill(notion-review-cycle)",
+
+      "Read(/Users/takehiroichikawa/.claude/projects/-Users-takehiroichikawa--claude/**)",
+      "Write(/Users/takehiroichikawa/.claude/projects/-Users-takehiroichikawa--claude/**)",
+      "Edit(/Users/takehiroichikawa/.claude/projects/-Users-takehiroichikawa--claude/**)",
+      "Write(/Users/takehiroichikawa/.claude/CLAUDE.md)",
+      "Edit(/Users/takehiroichikawa/.claude/CLAUDE.md)",
+      "Write(/Users/takehiroichikawa/.claude/settings.json)",
+      "Edit(/Users/takehiroichikawa/.claude/settings.json)",
+      "Write(/Users/takehiroichikawa/.claude/.mcp.json)",
+      "Edit(/Users/takehiroichikawa/.claude/.mcp.json)",
+      "Write(/Users/takehiroichikawa/morrow-world/**)",
+      "Edit(/Users/takehiroichikawa/morrow-world/**)",
+      "Write(/Users/takehiroichikawa/tf-dashboard/**)",
+      "Edit(/Users/takehiroichikawa/tf-dashboard/**)",
+      "Write(/Users/takehiroichikawa/honki-english/**)",
+      "Edit(/Users/takehiroichikawa/honki-english/**)",
+      "Write(/Users/takehiroichikawa/marketing/**)",
+      "Edit(/Users/takehiroichikawa/marketing/**)",
+      "Write(/Users/takehiroichikawa/article-drafts/**)",
+      "Edit(/Users/takehiroichikawa/article-drafts/**)"
     ]
   }
 }
